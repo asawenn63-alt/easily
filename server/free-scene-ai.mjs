@@ -1260,7 +1260,7 @@ async function applyDesignConflictFeedback(sceneGraph, conflicts, options) {
     const result = await structuredResponse({
       apiKey: String(options.apiKey || "").trim(),
       fetchImpl: options.fetchImpl || fetch,
-      model: String(options.model || "gpt-5.6-luna").trim(),
+      model: String(options.model || "gpt-4o").trim(),
       system: DESIGN_CONFLICT_REVIEW_PROMPT,
       user: "Oföränderlig fri sceneGraph:\n" + JSON.stringify(sceneGraph)
         + "\n\nDetta är en avgränsad grupp. Besluta om exakt vart och ett av dessa nodpar, inga andra:\n"
@@ -1484,7 +1484,7 @@ function mergeGeometryRepair(baseDrafts, fragmentDrafts) {
 async function resolveAndCompileScene(sceneGraph, options) {
   const fetchImpl = options.fetchImpl || fetch;
   const apiKey = String(options.apiKey || "").trim();
-  const model = String(options.model || "gpt-5.6-luna").trim();
+  const model = String(options.model || "gpt-4o").trim();
   let lastGeometryErrors = [];
   let lastGeometryDrafts = [];
   let lastGeometryResponseId = String(options.initialGeometryResponseId || "");
@@ -1692,7 +1692,7 @@ export async function generateFreeSceneSite(creativeBrief, options = {}) {
   if (!apiKey) return { ok: false, error: "openai-not-configured" };
   if (!creativeBrief || typeof creativeBrief !== "object") return { ok: false, error: "invalid-creative-brief" };
   const fetchImpl = options.fetchImpl || fetch;
-  const model = String(options.model || "gpt-5.6-luna").trim();
+  const model = String(options.model || "gpt-4o").trim();
   const generationId = "gen_" + crypto.randomUUID().replaceAll("-", "");
   const createdAt = new Date().toISOString();
   const envelope = {
@@ -1837,7 +1837,7 @@ export async function editFreeSceneSite(input, options = {}) {
   if (!currentValidation.valid) return { ok: false, error: "invalid-current-scene", errors: currentValidation.errors };
 
   const fetchImpl = options.fetchImpl || fetch;
-  const model = String(options.model || "gpt-5.6-luna").trim();
+  const model = String(options.model || "gpt-4o").trim();
   const createdAt = new Date().toISOString();
   let sceneGraph;
   let graphValidation;

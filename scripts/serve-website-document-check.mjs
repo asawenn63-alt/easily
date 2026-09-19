@@ -26,7 +26,7 @@ const routes = createWebsiteDocumentRoutes({
   loadProject: id => id === projectId ? { greenfield: { previewPath: '/greenfield-site/sample/index.html', runId: 'browser-check' } } : null,
   requireWriteAuth: () => true, sendJson,
   proposeEdit: process.env.DOCUMENT_REAL_AI === '1'
-    ? input => proposeDocumentEdit({ ...input, apiKey: process.env.OPENAI_API_KEY, model: process.env.EASILY_OPENAI_MODEL || 'gpt-5.6-luna' })
+    ? input => proposeDocumentEdit({ ...input, apiKey: process.env.OPENAI_API_KEY, model: process.env.EASILY_OPENAI_MODEL || 'gpt-4o' })
     : async () => ({ message: 'Testsektionen är tillagd (simulerat AI-svar).', patches: [{ file: 'index.html', find: '<p>Isolerat testdokument. Ingen kundsida påverkas.</p>', replace: '<p>Isolerat testdokument. Ingen kundsida påverkas.</p><section><h2>Vanliga frågor</h2><p>En testsektion.</p></section>' }] }),
   parseBody: async req => { let body = ''; for await (const chunk of req) body += chunk; return JSON.parse(body || '{}'); },
 });

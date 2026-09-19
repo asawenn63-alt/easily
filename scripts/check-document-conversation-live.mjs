@@ -19,7 +19,7 @@ try {
   // Seed the already completed exchange, then recreate the store as on reload.
   await store.edit(id, { baseRevision: initial.id, requestId: crypto.randomUUID(), instruction: 'Kan jag få en banderoll med present, porslin, textil?' }, async () => ({ message: 'Banderollen med present, porslin och textil finns på sidan.', patches: [] }));
   const reopened = createWebsiteDocumentStore(path.join(temp, 'docs'));
-  const result = await reopened.edit(id, { baseRevision: initial.id, requestId: crypto.randomUUID(), instruction: 'en som rör sig' }, input => proposeDocumentEdit({ ...input, apiKey: process.env.OPENAI_API_KEY, model: process.env.EASILY_OPENAI_MODEL || 'gpt-5.6-luna' }));
+  const result = await reopened.edit(id, { baseRevision: initial.id, requestId: crypto.randomUUID(), instruction: 'en som rör sig' }, input => proposeDocumentEdit({ ...input, apiKey: process.env.OPENAI_API_KEY, model: process.env.EASILY_OPENAI_MODEL || 'gpt-4o' }));
   assert.equal(result.changed, true, 'follow-up must edit the banner, not ask what "en" means');
   const css = reopened.file(id, result.rev, 'styles.css').toString();
   const html = reopened.file(id, result.rev, 'index.html').toString();

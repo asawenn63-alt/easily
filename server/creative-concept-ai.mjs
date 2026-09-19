@@ -569,7 +569,7 @@ export async function generateCreativeConcept(brief, options = {}) {
   if (!apiKey) return { ok: false, error: "openai-not-configured" };
   if (!brief || typeof brief !== "object") return { ok: false, error: "invalid-creative-brief" };
   const fetchImpl = options.fetchImpl || fetch;
-  const model = String(options.model || "gpt-5.6-luna").trim();
+  const model = String(options.model || "gpt-4o").trim();
   const directionResult = await generateCreativeDirection(brief, { apiKey, fetchImpl, model });
   if (!directionResult.ok) return directionResult;
   const direction = directionResult.direction;
