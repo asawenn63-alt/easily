@@ -17,6 +17,26 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
+
+// Ladda .env från projektroten om Node inte redan har variablerna i miljön.
+(function loadEnvFile() {
+  const envPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", ".env");
+  try {
+    const content = fs.readFileSync(envPath, "utf8");
+    for (const line of content.split("\n")) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith("#")) continue;
+      const eq = trimmed.indexOf("=");
+      if (eq === -1) continue;
+      const key = trimmed.slice(0, eq).trim();
+      const val = trimmed.slice(eq + 1).trim();
+      if (key && !(key in process.env)) process.env[key] = val;
+    }
+  } catch {
+    /* .env saknas eller är oläslig — hoppa över */
+  }
+})();
+
 import { createWebsiteDocumentRoutes } from "./website-document.mjs";
 import { proposeDocumentEdit } from "./website-document-ai.mjs";
 import { generateDocumentImage } from "./website-document-image-ai.mjs";
