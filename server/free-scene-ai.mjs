@@ -247,9 +247,15 @@ Du bygger inte en webbsida. Tänk som en erfaren grafisk designer och art direct
 
 Utgå från Creative Brief och besluta en fri sidlång visuell berättelse. Kundens innehåll får påverka kompositionens rytm, kapitel och blickföring, men får aldrig översättas till en färdig sektionsmall eller en förutbestämd sektionsordning.
 
-Varje kandidat måste vara en egen designvärld. Möjliga världar är exempelvis mörk och dramatisk, högteknologisk, lyxig, viktoriansk, retro, editorial/magasin, skandinavisk, brutalistisk, futuristisk, lekfull, monokrom eller cinematisk, men du får även formulera en ny relevant värld. Välj inte automatiskt skandinavisk, beige eller sagegrön bara för att kunden inte har specificerat färg. Standardläget är modigt: välj den starkaste relevanta idén, inte den tryggaste.
+Varje kandidat måste vara en egen designvärld, formulerad som en konkret byggbeskrivning — inte en etikett. För varje kandidat, ange:
+- En dominerande materialitet eller textur (exempelvis borstad metall, grovt papper, polerad sten, siden, rå betong).
+- En ljussättning (exempelvis skarp sidoljus, mjuk diffus dager, backlight-silhuett, varm golden hour, kallt blänk).
+- Ett rumsligt arketypp som kompositionens ryggrad: poster, magasinsuppslag, utställningsvägg, filmstille, produktkatalog, arkitekturenitt, collage, diptik, triptyk, asymmetriskt uppslag. Beskriv den konkreta spatiala arrangementet, inte en adjektiv.
+- En färgdominansstrategi: en dominant färg med minst 50 % täckning, en accentfärg med högst 15 % täckning, och hur förgrund och bakgrund förhåller sig. Undvik trygga neutrala fallbacks (beige, sagegrön) när briefen inte kräver dem. Standardläget är modigt: välj den starkaste relevanta idén, inte den tryggaste.
+- En typografiparering: ange en display-/rubrikfamilj och en brödtextfamilj, en skala mellan rubrik och brödtext på minst 3:1, och en viktkontraststrategi. Acceptera aldrig "oversized serif hero + letter-spaced uppercase eyebrow + italic accent word" som den enda typografiska idén — det är en autopilot-stereotyp, inte en riktning.
+- En bildvärld: ange fotografisk stil (editorial, dokumentär, arkitektonisk, still-life, miljöporträtt, makrodetalj), ljussättning, färgbehandling, och hur bilder relaterar rumsligt till kompositionen (fullblek, infälld, överlappande, beskuren detalj, bakgrundslager, collage).
 
-Kandidaterna måste skilja sig på minst sex konkreta axlar bland komposition, skala, typografi, rytm, densitet, bildspråk, former, materialitet, negativ yta, kontrast, navigationsuttryck och detaljering. En ny palett på samma uppbyggnad räknas inte som en ny riktning. Varje kandidat ska beskriva sin dominantGesture, sin spatialChoreography och de synliga riskCommitments som hör till designidén. Varje riktning ska avvisa den mest väntade branschkonventionen och innehålla minst fyra synliga hantverksdetaljer. Använd aldrig dekorativa ordningsnummer, katalognummer eller stegnummer om kunden inte själv har lämnat sådana uppgifter. Hitta aldrig på affärsfakta.`;
+Kandidaterna måste skilja sig på minst sex konkreta axlar bland komposition, skala, typografi, rytm, densitet, bildspråk, former, materialitet, negativ yta, kontrast, navigationsuttryck och detaljering. En ny palett på samma uppbyggnad räknas inte som en ny riktning. Varje kandidat ska beskriva sin dominantGesture som en konkret spatial handling (exempelvis "asymmetrisk 60/40-delning där bilden överlappar texten", "fullblek poster-hero som övergår i infällt redaktionellt rutnät"), sin spatialChoreography som en blickföringssekvens genom 3–5 brännpunkter, och de synliga riskCommitments som hör till designidén. Varje riktning ska avvisa den mest väntade branschkonventionen och innehålla minst fyra synliga hantverksdetaljer — varje detalj ska vara en konkret, icke-generisk craft-beslut (exempelvis "bildbeskärningar följer 3:4-porträttformat upprepat som rytmiskt motiv", "sektionsövergångar använder en 2px hårlinje i accentfärgen"), inte vagheter som "subtila skuggor" eller "rundade hörn". Använd aldrig dekorativa ordningsnummer, katalognummer eller stegnummer om kunden inte själv har lämnat sådana uppgifter. Hitta aldrig på affärsfakta.`;
 
 const SCENE_PROMPT = `Du är Easilys fria visuella designmotor. Skapa en fullständig V2 sceneGraph från Creative Brief och den valda kreativa riktningen.
 
@@ -1667,7 +1673,7 @@ export async function generateFreeSceneSite(creativeBrief, options = {}) {
     user: "Creative Brief:\n" + JSON.stringify(creativeBrief),
     schema: FREE_CREATIVE_VISION_SCHEMA,
     name: "easily_free_creative_vision",
-    maxOutputTokens: 6000,
+    maxOutputTokens: 10000,
   });
   if (!visionResult.ok) return fail("creative-vision", visionResult);
   diagnostics.push({ stage: "creative-vision", ok: true, responseId: visionResult.responseId || "" });
