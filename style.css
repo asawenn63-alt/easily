@@ -1604,6 +1604,8 @@ body.studio-shell #siteFooter {
   position: relative;
   z-index: 2;
   width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
   /* Egen skala: undvik att hero + sektionspadding blir onödigt hög */
   padding-block: clamp(2.75rem, min(8.5vw, 7vh), 5.75rem);
 }
@@ -1634,6 +1636,7 @@ body.studio-shell #siteFooter {
   display: grid;
   gap: 2rem;
   max-width: none;
+  min-width: 0;
 }
 
 @media (min-width: 900px) {
@@ -7914,7 +7917,7 @@ html.studio-is-generating body.studio-shell--create-active .studio-preview-pane:
 .bp-section__inner { width: min(var(--bp-layout-maxWidth, 1240px), calc(100% - 2 * var(--bp-edge))); margin-inline: auto; display: grid; grid-template-columns: repeat(var(--bp-columns), minmax(0, 1fr)); align-items: center; gap: var(--bp-gap); }
 .bp-section[data-width="full-bleed"] .bp-section__inner,
 .bp-section[data-width="full-width"] .bp-section__inner { width: 100%; max-width: none; padding-inline: var(--bp-edge); }
-.bp-section__copy { position: relative; z-index: 2; max-width: 68ch; }
+.bp-section__copy { position: relative; z-index: 2; max-width: 68ch; min-width: 0; overflow-wrap: break-word; }
 .bp-section__copy h1 { font-size: clamp(3.4rem, 9vw, 8.5rem); line-height: .9; letter-spacing: -.055em; margin: 0 0 1.5rem; }
 .bp-section__copy h2 { font-size: clamp(2.3rem, 5vw, 5.5rem); line-height: .98; letter-spacing: -.04em; margin: 0 0 1.25rem; }
 .bp-section__lead { font-size: clamp(1.15rem, 2vw, 1.55rem); line-height: 1.5; }
@@ -7984,7 +7987,7 @@ html.studio-is-generating body.studio-shell--create-active .studio-preview-pane:
 .bp-section[data-design-spec="3.0"][data-content-align="end"] .bp-section__inner { margin-left: auto; margin-right: 0; }
 .bp-section[data-design-spec="3.0"] .bp-section__inner > * { min-width: 0; box-sizing: border-box; }
 .bp-section[data-design-spec="3.0"] .bp-section__copy {
-  grid-column: var(--bp-copy-column); grid-row: var(--bp-copy-row); max-width: var(--bp-copy-max);
+  grid-column: var(--bp-copy-column); grid-row: var(--bp-copy-row); max-width: var(--bp-copy-max); min-width: 0; overflow-wrap: break-word;
   translate: var(--bp-copy-x) var(--bp-copy-y); z-index: var(--bp-copy-z); text-align: var(--bp-text-align);
 }
 .bp-section[data-design-spec="3.0"] .bp-section__copy h1,
@@ -8207,6 +8210,8 @@ html.studio-is-generating body.studio-shell--create-active .studio-preview-pane:
   grid-column: var(--bp-copy-column);
   grid-row: var(--bp-copy-row);
   max-width: var(--bp-copy-max);
+  min-width: 0;
+  overflow-wrap: break-word;
   translate: var(--bp-copy-x) var(--bp-copy-y);
   z-index: var(--bp-copy-z);
   text-align: var(--bp-text-align);

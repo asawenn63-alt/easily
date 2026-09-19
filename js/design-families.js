@@ -239,38 +239,6 @@
         "cafe",
         "Jag valde Skogsgrön — naturlig grön som passar hantverk och utomhusarbete."
       ),
-      tertiary: cs(
-        "bygg-tegelrod",
-        "Tegelröd",
-        "Tegelröd — robust och hantverksmässig",
-        {
-          bg: "#f8f4f2",
-          surface: "#f0e6e2",
-          text: "#2a1a14",
-          accent: "#a0522d",
-          primary: "#7a3a20",
-          secondary: "#8a6b5a",
-          border: "rgba(160, 82, 45, 0.14)",
-        },
-        "cafe",
-        "Jag valde Tegelröd — varm tegelröd som känns gedigen och hantverksmässig."
-      ),
-      quaternary: cs(
-        "bygg-cyan",
-        "Stålblå",
-        "Stålblå — teknisk och skarp",
-        {
-          bg: "#f0f6f8",
-          surface: "#e0eef2",
-          text: "#0a1e2a",
-          accent: "#0891b2",
-          primary: "#0e4a6b",
-          secondary: "#4a7a92",
-          border: "rgba(8, 145, 178, 0.14)",
-        },
-        "fotograf",
-        "Jag valde Stålblå — teknisk cyan som signalerar precision och modernitet."
-      ),
     },
     elektriker: {
       primary: cs(
@@ -304,38 +272,6 @@
         },
         "fotograf",
         "Jag valde Kontrast & guld — mörk och teknisk känsla som passar ett elföretag."
-      ),
-      tertiary: cs(
-        "el-gron",
-        "Signalgrön",
-        "Signalgrön — elektrisk och tydlig",
-        {
-          bg: "#f2faf4",
-          surface: "#e4f4e8",
-          text: "#0a1e14",
-          accent: "#16a34a",
-          primary: "#14532d",
-          secondary: "#4a7a5a",
-          border: "rgba(22, 163, 74, 0.14)",
-        },
-        "cafe",
-        "Jag valde Signalgrön — elektrisk grön som passar ett elföretag med fokus på energi."
-      ),
-      quaternary: cs(
-        "el-orangeguld",
-        "Orangeguld",
-        "Orangeguld — varm och teknisk",
-        {
-          bg: "#faf6f0",
-          surface: "#f2e8dc",
-          text: "#2a1e10",
-          accent: "#d97706",
-          primary: "#92400e",
-          secondary: "#8a6b4a",
-          border: "rgba(217, 119, 6, 0.14)",
-        },
-        "cafe",
-        "Jag valde Orangeguld — varm teknisk färg som kombinerar energi med hantverk."
       ),
     },
     verksamhet: {
@@ -371,38 +307,6 @@
         "cafe",
         "Jag valde varm sand — välkomnande och jordnär när du vill undvika kalla färger."
       ),
-      tertiary: cs(
-        "verksamhet-emerald",
-        "Smaragdgrön",
-        "Smaragdgrön — fräsch och modern",
-        {
-          bg: "#f0faf4",
-          surface: "#e0f2ea",
-          text: "#0a2a1a",
-          accent: "#059669",
-          primary: "#065f46",
-          secondary: "#4a7a64",
-          border: "rgba(5, 150, 105, 0.12)",
-        },
-        "salon",
-        "Jag valde Smaragdgrön — fräsch grön som känns modern och levande."
-      ),
-      quaternary: cs(
-        "verksamhet-plommon",
-        "Plommon",
-        "Plommon — djup och karaktärsfull",
-        {
-          bg: "#f8f4f6",
-          surface: "#f0e8ec",
-          text: "#2a1a22",
-          accent: "#9d174d",
-          primary: "#831843",
-          secondary: "#7a5a64",
-          border: "rgba(157, 23, 77, 0.12)",
-        },
-        "fotograf",
-        "Jag valde Plommon — djup bärton som ger karaktär utan att kännas stel."
-      ),
     },
     frisor: {
       primary: cs(
@@ -436,38 +340,6 @@
         },
         "cafe",
         "Jag valde Puderrosa — mjukt och personligt uttryck."
-      ),
-      tertiary: cs(
-        "frisor-kobolt",
-        "Koboltblå",
-        "Koboltblå — djärv och modern salong",
-        {
-          bg: "#f0f4fa",
-          surface: "#e2e8f4",
-          text: "#0a1a2a",
-          accent: "#2563eb",
-          primary: "#1e3a8a",
-          secondary: "#4a6a9a",
-          border: "rgba(37, 99, 235, 0.14)",
-        },
-        "fotograf",
-        "Jag valde Koboltblå — djärv blå som ger salongen ett modernt och självsäkert uttryck."
-      ),
-      quaternary: cs(
-        "frisor-grafitguld",
-        "Grafit & guld",
-        "Mörk grafit med guldaccent — exklusiv salong",
-        {
-          bg: "#1a1a1a",
-          surface: "#242424",
-          text: "#f5f0e8",
-          accent: "#d4af37",
-          primary: "#f5f0e8",
-          secondary: "#9a8a7a",
-          border: "rgba(212, 175, 55, 0.22)",
-        },
-        "fotograf",
-        "Jag valde Grafit & guld — exklusiv mörk palett med guldaccent för en premiumsalong."
       ),
     },
     hundsalong: {
@@ -503,38 +375,6 @@
         "salon",
         "Jag valde Salviagrön — lugn grön som signalerar omsorg."
       ),
-      tertiary: cs(
-        "hund-cyan",
-        "Akvamarin",
-        "Akvamarin — fräsch och ren",
-        {
-          bg: "#f0fafc",
-          surface: "#e2f4f6",
-          text: "#0a2228",
-          accent: "#0891b2",
-          primary: "#155e75",
-          secondary: "#4a7a8a",
-          border: "rgba(8, 145, 178, 0.14)",
-        },
-        "fotograf",
-        "Jag valde Akvamarin — fräsch cyan som känns ren och omsorgsfull."
-      ),
-      quaternary: cs(
-        "hund-lavendel",
-        "Lavendel",
-        "Lavendel — mjuk och lugn",
-        {
-          bg: "#f6f4fa",
-          surface: "#ece8f4",
-          text: "#1a142a",
-          accent: "#8b5cf6",
-          primary: "#5b21b6",
-          secondary: "#6a5a8a",
-          border: "rgba(139, 92, 246, 0.14)",
-        },
-        "salon",
-        "Jag valde Lavendel — mjuk lila som känns lugn och trygg för djurägare."
-      ),
     },
     hunddagis: {
       primary: cs(
@@ -568,38 +408,6 @@
         },
         "salon",
         "Jag valde Varm gul — lekfull energi som passar hundar och aktivitet."
-      ),
-      tertiary: cs(
-        "hunddagis-coral",
-        "Korall",
-        "Korall — varm och glädjespridande",
-        {
-          bg: "#fff8f4",
-          surface: "#fceee8",
-          text: "#2a1410",
-          accent: "#f97316",
-          primary: "#c2410c",
-          secondary: "#8a5a4a",
-          border: "rgba(249, 115, 22, 0.16)",
-        },
-        "cafe",
-        "Jag valde Korall — varm orange som sprider glädje och energi."
-      ),
-      quaternary: cs(
-        "hunddagis-havsbla",
-        "Havsblå",
-        "Havsblå — lugn och fräsch",
-        {
-          bg: "#f0f8fa",
-          surface: "#e0f0f4",
-          text: "#0a1e24",
-          accent: "#0ea5e9",
-          primary: "#0369a1",
-          secondary: "#4a7a8a",
-          border: "rgba(14, 165, 233, 0.14)",
-        },
-        "salon",
-        "Jag valde Havsblå — lugn blå som känns fräsch och pålitlig."
       ),
     },
     gym: {
@@ -635,38 +443,6 @@
         "fotograf",
         "Jag valde Mörk röd — intensiv accent som driver energi."
       ),
-      tertiary: cs(
-        "gym-lime",
-        "Limegrön",
-        "Limegrön — explosiv och atletisk",
-        {
-          bg: "#0a0f0a",
-          surface: "#121a12",
-          text: "#e8f5e8",
-          accent: "#84cc16",
-          primary: "#e8f5e8",
-          secondary: "#6a7a5a",
-          border: "rgba(132, 204, 22, 0.28)",
-        },
-        "fotograf",
-        "Jag valde Limegrön — explosiv neon-grön som driver atletisk energi."
-      ),
-      quaternary: cs(
-        "gym-vit",
-        "Vit & blå",
-        "Ljus vit med elektrisk blå — ren och kraftfull",
-        {
-          bg: "#f8fafc",
-          surface: "#eef2f7",
-          text: "#0f172a",
-          accent: "#2563eb",
-          primary: "#0f172a",
-          secondary: "#64748b",
-          border: "rgba(37, 99, 235, 0.16)",
-        },
-        "salon",
-        "Jag valde Vit & blå — ljus och ren med elektrisk blå accent som känns kraftfull."
-      ),
     },
     cafe: {
       primary: cs(
@@ -700,38 +476,6 @@
         },
         "salon",
         "Jag valde Varm beige — ljus och avslappnad caféstämning."
-      ),
-      tertiary: cs(
-        "cafe-matcha",
-        "Matchagrön",
-        "Matchagrön — fräsch och organisk",
-        {
-          bg: "#f4faf5",
-          surface: "#e8f4ec",
-          text: "#1a2a1e",
-          accent: "#65a30d",
-          primary: "#3f6212",
-          secondary: "#5a7a52",
-          border: "rgba(101, 163, 13, 0.14)",
-        },
-        "cafe",
-        "Jag valde Matchagrön — fräsch grön som doftar organiskt kaffe och te."
-      ),
-      quaternary: cs(
-        "cafe-terracotta",
-        "Terrakotta",
-        "Terrakotta — medelhavsvarm och jordnära",
-        {
-          bg: "#faf4f0",
-          surface: "#f4e8e0",
-          text: "#2a1814",
-          accent: "#c2410c",
-          primary: "#7c2d12",
-          secondary: "#8a6b5a",
-          border: "rgba(194, 65, 12, 0.14)",
-        },
-        "cafe",
-        "Jag valde Terrakotta — medelhavsvarm ton som passar bageri och café."
       ),
     },
     restaurang: {
@@ -767,38 +511,6 @@
         "salon",
         "Jag valde Mörk grön — naturlig och sofistikerad restaurangkänsla."
       ),
-      tertiary: cs(
-        "rest-amber",
-        "Bärnsten",
-        "Bärnsten — varm och aptitretande",
-        {
-          bg: "#faf8f4",
-          surface: "#f4ece4",
-          text: "#2a1e10",
-          accent: "#d97706",
-          primary: "#92400e",
-          secondary: "#8a6b4a",
-          border: "rgba(217, 119, 6, 0.14)",
-        },
-        "cafe",
-        "Jag valde Bärnsten — varm guldton som väcker aptit och känns exklusiv."
-      ),
-      quaternary: cs(
-        "rest-charcoal",
-        "Kol & koppar",
-        "Mörk kol med kopparaccent — intimt och elegant",
-        {
-          bg: "#1a1614",
-          surface: "#242020",
-          text: "#f5f0ec",
-          accent: "#b87333",
-          primary: "#f5f0ec",
-          secondary: "#9a8a7a",
-          border: "rgba(184, 115, 51, 0.22)",
-        },
-        "fotograf",
-        "Jag valde Kol & koppar — intimt och elegant med varm kopparaccent."
-      ),
     },
     fotograf: {
       primary: cs(
@@ -832,38 +544,6 @@
         },
         "salon",
         "Jag valde Mörk grafit — rent och neutralt ramverk för fotografier."
-      ),
-      tertiary: cs(
-        "foto-sepia",
-        "Sepia",
-        "Sepia — varm och nostalgisk",
-        {
-          bg: "#f8f4ee",
-          surface: "#f0e8dc",
-          text: "#2a2018",
-          accent: "#8b6914",
-          primary: "#5a4a20",
-          secondary: "#8a7a5a",
-          border: "rgba(139, 105, 20, 0.14)",
-        },
-        "cafe",
-        "Jag valde Sepia — varm sepia som ger fotografierna en nostalgisk och konstnärlig ram."
-      ),
-      quaternary: cs(
-        "foto-midnattsteal",
-        "Midnatts-teal",
-        "Djup teal — dramatisk och modern",
-        {
-          bg: "#0a1a1e",
-          surface: "#122428",
-          text: "#e8f4f4",
-          accent: "#14b8a6",
-          primary: "#e8f4f4",
-          secondary: "#5a8a82",
-          border: "rgba(20, 184, 166, 0.22)",
-        },
-        "fotograf",
-        "Jag valde Midnatts-teal — djup teal som ger en dramatisk modern ram för bilderna."
       ),
     },
     event: {
@@ -899,38 +579,6 @@
         "fotograf",
         "Jag valde Midnattsblå — elegant och stilren för evenemang."
       ),
-      tertiary: cs(
-        "event-magenta",
-        "Magenta",
-        "Magenta — festlig och djärv",
-        {
-          bg: "#1a0a1e",
-          surface: "#241028",
-          text: "#fae8f8",
-          accent: "#e11d48",
-          primary: "#fae8f8",
-          secondary: "#b48a9a",
-          border: "rgba(225, 29, 72, 0.22)",
-        },
-        "fotograf",
-        "Jag valde Magenta — djärv festlig ton som sticker ut och skapar feststämning."
-      ),
-      quaternary: cs(
-        "event-koppar",
-        "Koppar & kreme",
-        "Koppar med kreme — varm och exklusiv",
-        {
-          bg: "#f8f4ee",
-          surface: "#f0e8dc",
-          text: "#2a1e14",
-          accent: "#b87333",
-          primary: "#7c4a1e",
-          secondary: "#8a7a5a",
-          border: "rgba(184, 115, 51, 0.16)",
-        },
-        "cafe",
-        "Jag valde Koppar & kreme — varm exklusiv palett som passar gala och finare event."
-      ),
     },
     butik: {
       primary: cs(
@@ -964,38 +612,6 @@
         },
         "fotograf",
         "Jag valde Svart — elegant kontrast som lyfter produkterna."
-      ),
-      tertiary: cs(
-        "butik-salviagron",
-        "Salviagrön",
-        "Salviagrön — naturlig butik",
-        {
-          bg: "#f4f8f4",
-          surface: "#e8f0e8",
-          text: "#1a2a1c",
-          accent: "#7a9b6e",
-          primary: "#4a6b3e",
-          secondary: "#6a8a5a",
-          border: "rgba(122, 155, 110, 0.14)",
-        },
-        "cafe",
-        "Jag valde Salviagrön — naturlig grön som lyfter ekologiska och hållbara produkter."
-      ),
-      quaternary: cs(
-        "butik-djuprod",
-        "Djup röd",
-        "Djup röd — sensuell och attraktiv butik",
-        {
-          bg: "#faf4f4",
-          surface: "#f4e8e8",
-          text: "#2a1414",
-          accent: "#be123c",
-          primary: "#881337",
-          secondary: "#8a5a5a",
-          border: "rgba(190, 18, 60, 0.14)",
-        },
-        "fotograf",
-        "Jag valde Djup röd — sensuell röd som drar blicken till produkterna."
       ),
     },
     konsult: {
@@ -1031,38 +647,6 @@
         "salon",
         "Jag valde Grafit — neutral och trovärdig utan att kännas kall."
       ),
-      tertiary: cs(
-        "konsult-skog",
-        "Skogsgrön",
-        "Skogsgrön — stabil och organisk",
-        {
-          bg: "#f4f7f5",
-          surface: "#e8efe9",
-          text: "#1a2e24",
-          accent: "#2d6a4f",
-          primary: "#1b4332",
-          secondary: "#52796f",
-          border: "rgba(45, 106, 79, 0.12)",
-        },
-        "cafe",
-        "Jag valde Skogsgrön — stabil grön som signalerar tillväxt och långsiktighet."
-      ),
-      quaternary: cs(
-        "konsult-kobolt",
-        "Koboltblå",
-        "Koboltblå — självsäker och modern",
-        {
-          bg: "#f0f4fa",
-          surface: "#e2e8f4",
-          text: "#0a1a2a",
-          accent: "#1d4ed8",
-          primary: "#1e3a8a",
-          secondary: "#4a6a9a",
-          border: "rgba(29, 78, 216, 0.12)",
-        },
-        "fotograf",
-        "Jag valde Koboltblå — självsäker blå som känns modern och tekniskt driven."
-      ),
     },
     advokat: {
       primary: cs(
@@ -1096,38 +680,6 @@
         },
         "fotograf",
         "Jag valde Mörk vinröd — klassisk och auktoritativ advokatkänsla."
-      ),
-      tertiary: cs(
-        "advokat-skiffer",
-        "Skiffergrön",
-        "Skiffergrön — lugn och beständig",
-        {
-          bg: "#f4f6f4",
-          surface: "#e8eee8",
-          text: "#1a241e",
-          accent: "#3f6212",
-          primary: "#365314",
-          secondary: "#5a7a52",
-          border: "rgba(63, 98, 18, 0.12)",
-        },
-        "salon",
-        "Jag valde Skiffergrön — beständig grön som signalerar trygghet och ordning."
-      ),
-      quaternary: cs(
-        "advokat-blyertsvit",
-        "Blyertsvit",
-        "Ljus blyertsvit — saklig och ren",
-        {
-          bg: "#f8f8f6",
-          surface: "#eeeee8",
-          text: "#1a1a18",
-          accent: "#525252",
-          primary: "#1a1a18",
-          secondary: "#737373",
-          border: "rgba(82, 82, 82, 0.10)",
-        },
-        "salon",
-        "Jag valde Blyertsvit — saklig och ren utan färgstörningar, som ett juridiskt dokument."
       ),
     },
     tarot: {
@@ -1163,38 +715,6 @@
         "cafe",
         "Jag valde Varm sand & lila — mjukt och ceremoniellt utan mörk mystik."
       ),
-      tertiary: cs(
-        "tarot-teal",
-        "Djup teal",
-        "Djup teal — lugn och andlig",
-        {
-          bg: "#0a1a1c",
-          surface: "#122428",
-          text: "#e8f4f4",
-          accent: "#2dd4bf",
-          primary: "#e8f4f4",
-          secondary: "#5a8a82",
-          border: "rgba(45, 212, 191, 0.20)",
-        },
-        "fotograf",
-        "Jag valde Djup teal — lugn andlig ton som känns trygg och meditativ."
-      ),
-      quaternary: cs(
-        "tarot-rosenguld",
-        "Rosenguld",
-        "Rosenguld — varm och ceremoniell",
-        {
-          bg: "#1a1212",
-          surface: "#241a1a",
-          text: "#f8e8e4",
-          accent: "#e879b6",
-          primary: "#f8e8e4",
-          secondary: "#b08a8a",
-          border: "rgba(232, 121, 182, 0.20)",
-        },
-        "fotograf",
-        "Jag valde Rosenguld — varm ceremoniell ton med rosenaccent som känns andlig och exklusiv."
-      ),
     },
     default: {
       primary: cs(
@@ -1228,38 +748,6 @@
         },
         "salon",
         "Jag valde Grafit — neutral och lätt att ta in."
-      ),
-      tertiary: cs(
-        "default-emerald",
-        "Smaragdgrön",
-        "Smaragdgrön — fräsch och levande",
-        {
-          bg: "#f0faf4",
-          surface: "#e0f2ea",
-          text: "#0a2a1a",
-          accent: "#059669",
-          primary: "#065f46",
-          secondary: "#4a7a64",
-          border: "rgba(5, 150, 105, 0.12)",
-        },
-        "cafe",
-        "Jag valde Smaragdgrön — fräsch grön som känns levande och modern."
-      ),
-      quaternary: cs(
-        "default-terracotta",
-        "Terrakotta",
-        "Terrakotta — varm och jordnära",
-        {
-          bg: "#faf4f0",
-          surface: "#f4e8e0",
-          text: "#2a1814",
-          accent: "#c2410c",
-          primary: "#7c2d12",
-          secondary: "#8a6b5a",
-          border: "rgba(194, 65, 12, 0.14)",
-        },
-        "cafe",
-        "Jag valde Terrakotta — varm jordnära ton som känns inbjudande och trygg."
       ),
     },
   };
@@ -1551,8 +1039,6 @@
     const bucket = resolveIndustryColorSets(industry);
     if (bucket.primary && bucket.primary.id === setId) return bucket.primary;
     if (bucket.secondary && bucket.secondary.id === setId) return bucket.secondary;
-    if (bucket.tertiary && bucket.tertiary.id === setId) return bucket.tertiary;
-    if (bucket.quaternary && bucket.quaternary.id === setId) return bucket.quaternary;
     const def = INDUSTRY_COLOR_SETS.default;
     if (def.primary && def.primary.id === setId) return def.primary;
     if (def.secondary && def.secondary.id === setId) return def.secondary;
@@ -1608,8 +1094,6 @@
     if (page.designFamily) {
       if (bucket.primary && bucket.primary.family === page.designFamily) return bucket.primary;
       if (bucket.secondary && bucket.secondary.family === page.designFamily) return bucket.secondary;
-      if (bucket.tertiary && bucket.tertiary.family === page.designFamily) return bucket.tertiary;
-      if (bucket.quaternary && bucket.quaternary.family === page.designFamily) return bucket.quaternary;
     }
     return bucket.primary || INDUSTRY_COLOR_SETS.default.primary;
   }
@@ -1677,7 +1161,7 @@
   function listSetsForIndustry(industry) {
     const bucket = resolveIndustryColorSets(industry);
     const out = [];
-    [bucket.primary, bucket.secondary, bucket.tertiary, bucket.quaternary].forEach(function (set) {
+    [bucket.primary, bucket.secondary].forEach(function (set) {
       if (set && !out.some(function (x) { return x.id === set.id; })) out.push(set);
     });
     return out;
@@ -1779,7 +1263,7 @@
     const out = [];
     Object.keys(INDUSTRY_COLOR_SETS).forEach(function (key) {
       const bucket = INDUSTRY_COLOR_SETS[key];
-      [bucket.primary, bucket.secondary, bucket.tertiary, bucket.quaternary].forEach(function (set) {
+      [bucket.primary, bucket.secondary].forEach(function (set) {
         if (set && !out.some(function (x) {
           return x.id === set.id;
         })) out.push(set);
@@ -1840,7 +1324,7 @@
 
     const ind = String(page.industry || (ctx && ctx.industry) || "verksamhet").toLowerCase();
     const bucket = resolveIndustryColorSets(ind);
-    const local = [bucket.primary, bucket.secondary, bucket.tertiary, bucket.quaternary].filter(Boolean);
+    const local = [bucket.primary, bucket.secondary].filter(Boolean);
     const all = listAllColorSets();
     const pool = local.concat(
       all.filter(function (set) {
@@ -2124,10 +1608,8 @@
         return publicColorSetView(bucket.secondary || bucket.primary || INDUSTRY_COLOR_SETS.default.primary);
       }
       if (styleId === "mork-exklusiv") {
-        const sets = [bucket.primary, bucket.secondary, bucket.tertiary, bucket.quaternary].filter(Boolean);
-        for (let i = 0; i < sets.length; i++) {
-          if (isDarkColorSet(sets[i])) return publicColorSetView(sets[i]);
-        }
+        if (isDarkColorSet(bucket.secondary)) return publicColorSetView(bucket.secondary);
+        if (isDarkColorSet(bucket.primary)) return publicColorSetView(bucket.primary);
       }
       if (styleId === "nordisk-ren") {
         return publicColorSetView(bucket.primary || INDUSTRY_COLOR_SETS.default.primary);
@@ -2135,10 +1617,8 @@
     }
 
     if (/mörk|mork|kontrast|dramatisk|kraft/.test(descLower)) {
-      const sets = [bucket.primary, bucket.secondary, bucket.tertiary, bucket.quaternary].filter(Boolean);
-      for (let i = 0; i < sets.length; i++) {
-        if (isDarkColorSet(sets[i])) return publicColorSetView(sets[i]);
-      }
+      if (isDarkColorSet(bucket.secondary)) return publicColorSetView(bucket.secondary);
+      if (isDarkColorSet(bucket.primary)) return publicColorSetView(bucket.primary);
     }
 
     if (ind === "elektriker" || ind === "byggfirma" || ind === "advokat" || ind === "konsult") {
@@ -2155,16 +1635,12 @@
     const bucket = resolveIndustryColorSets(ind);
     const primary = bucket.primary ? publicColorSetView(bucket.primary) : null;
     const secondary = bucket.secondary ? publicColorSetView(bucket.secondary) : null;
-    const tertiary = bucket.tertiary ? publicColorSetView(bucket.tertiary) : null;
-    const quaternary = bucket.quaternary ? publicColorSetView(bucket.quaternary) : null;
     return {
       industry: ind,
       industryName: INDUSTRY_NAMES[ind] || "din verksamhet",
       primary: primary,
       secondary: secondary,
-      tertiary: tertiary,
-      quaternary: quaternary,
-      ids: [primary && primary.id, secondary && secondary.id, tertiary && tertiary.id, quaternary && quaternary.id].filter(function (id, i, arr) {
+      ids: [primary && primary.id, secondary && secondary.id].filter(function (id, i, arr) {
         return id && arr.indexOf(id) === i;
       }),
     };
