@@ -372,18 +372,18 @@ async function structuredResponse({ apiKey, fetchImpl, model, system, user, sche
       }),
     });
   } catch (error) {
-    return { ok: false, error: "openai-unreachable", detail: error?.message || String(error) };
+    console.warn("[free-scene-ai] openai-unreachable:", error?.message || String(error));
+    return { ok: false, error: "openai-unreachable" };
   }
   if (!upstream.ok) {
     let upstreamError = null;
     try { upstreamError = await upstream.json(); } catch { /* malformed upstream error */ }
+    var _detail = String(upstreamError?.error?.message || "OpenAI rejected the request.");
+    console.warn("[free-scene-ai] openai-error:", _detail, "code:", String(upstreamError?.error?.code || ""));
     return {
       ok: false,
       error: upstream.status === 401 ? "openai-invalid-key" : "openai-error",
       status: upstream.status,
-      detail: String(upstreamError?.error?.message || "OpenAI rejected the request."),
-      upstreamCode: String(upstreamError?.error?.code || ""),
-      upstreamParam: String(upstreamError?.error?.param || ""),
     };
   }
   const payload = await upstream.json();

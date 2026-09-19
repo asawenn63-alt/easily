@@ -10,17 +10,26 @@
     return url.replace(/\/+$/, "");
   }
 
+  function sameOrigin(candidate) {
+    try {
+      return new URL(candidate).origin === global.location.origin;
+    } catch (e) {
+      return false;
+    }
+  }
+
   function getApiBase() {
     try {
       var q = new URLSearchParams(window.location.search);
       var fromQuery = q.get("api");
-      if (fromQuery) return normalizeBase(fromQuery);
+      if (fromQuery && sameOrigin(fromQuery)) return normalizeBase(fromQuery);
     } catch (e) {
       /* ignore */
     }
     try {
       var fromStorage = normalizeBase(global.localStorage.getItem("studioApiBase") || "");
-      if (fromStorage) return fromStorage;
+      if (fromStorage && sameOrigin(fromStorage)) return fromStorage;
+      if (fromStorage) { try { global.localStorage.removeItem("studioApiBase"); } catch (e) {} }
     } catch (e2) {
       /* ignore */
     }

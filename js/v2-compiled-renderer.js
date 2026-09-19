@@ -23,6 +23,23 @@
       })[0] || null;
   }
 
+  function sanitizeHtml(html) {
+    var template = document.createElement("template");
+    template.innerHTML = String(html || "");
+    var forbidden = template.content.querySelectorAll("script, iframe, object, embed");
+    forbidden.forEach(function (el) { el.remove(); });
+    template.content.querySelectorAll("*").forEach(function (el) {
+      Array.from(el.attributes).forEach(function (attr) {
+        var name = attr.name.toLowerCase();
+        if (name.startsWith("on")) el.removeAttribute(attr.name);
+        if ((name === "href" || name === "src") && String(attr.value || "").trim().toLowerCase().startsWith("javascript:")) {
+          el.removeAttribute(attr.name);
+        }
+      });
+    });
+    return template.innerHTML;
+  }
+
   function installCss(css) {
     let style = document.getElementById(STYLE_ID);
     if (!style) {
@@ -79,7 +96,7 @@
       mainEl.dataset.v2GenerationId !== doc.page.v2GenerationId ||
       mainEl.dataset.v2GraphRevision !== graphRevision
     ) {
-      mainEl.innerHTML = String(profile.html || "");
+      mainEl.innerHTML = sanitizeHtml(String(profile.html || ""));
       mainEl.dataset.v2ProfileId = String(profile.profileId || "");
       mainEl.dataset.v2GenerationId = String(doc.page.v2GenerationId || "");
       mainEl.dataset.v2GraphRevision = graphRevision;

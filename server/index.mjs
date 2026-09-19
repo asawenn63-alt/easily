@@ -50,6 +50,7 @@ const DATA = path.join(__dirname, "data");
 const PROJECTS = path.join(DATA, "projects");
 const V2_GENERATION_DIAGNOSTICS = path.join(DATA, "v2-generation-diagnostics.jsonl");
 const PORT = 3847;
+const HOST = "127.0.0.1";
 const API_KEY = (process.env.SITE_STUDIO_API_KEY || "").trim();
 const OPENAI_API_KEY = (process.env.OPENAI_API_KEY || "").trim();
 const EASILY_OPENAI_MODEL = (process.env.EASILY_OPENAI_MODEL || "gpt-4o").trim();
@@ -69,7 +70,8 @@ function ensureDirs() {
 }
 
 function projectPath(id) {
-  return path.join(PROJECTS, `${id}.json`);
+  const clean = String(id || "").replace(/[^0-9a-fA-F-]/g, "");
+  return path.join(PROJECTS, `${clean}.json`);
 }
 
 function readJsonSafe(p) {
@@ -545,12 +547,21 @@ function serveGreenfieldFile(res, slug, relativePath) {
   stream.pipe(res);
 }
 
+const STATIC_EXTENSIONS = new Set([".html", ".css", ".js", ".json", ".svg", ".png", ".jpg", ".jpeg", ".webp", ".ico", ".woff2", ".woff", ".gif", ".map"]);
+const BLOCKED_TOP_DIRS = new Set(["server", "docs", "scripts", "tools", "test", "v2", "greenfield-engine", "node_modules"]);
+
 function serveStatic(req, res) {
   const url = new URL(req.url || "/", `http://${req.headers.host}`);
   let pathname = decodeURIComponent(url.pathname);
   if (pathname === "/") pathname = "/index.html";
+  const segments = pathname.split("/");
+  if (segments.some((s) => s === ".." || (s.length > 0 && s.startsWith(".")))) return send(res, 403, "Forbidden");
+  const topDir = segments.find((s) => s.length > 0);
+  if (topDir && BLOCKED_TOP_DIRS.has(topDir)) return send(res, 403, "Forbidden");
+  const ext = path.extname(pathname).toLowerCase();
+  if (!STATIC_EXTENSIONS.has(ext)) return send(res, 403, "Forbidden");
   const filePath = path.normalize(path.join(ROOT, pathname));
-  if (!filePath.startsWith(ROOT)) return send(res, 403, "Forbidden");
+  if (!filePath.startsWith(ROOT + path.sep) && filePath !== ROOT) return send(res, 403, "Forbidden");
   if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) return send(res, 404, "Not found");
   const stream = fs.createReadStream(filePath);
   res.writeHead(200, { "Content-Type": mimeFor(filePath), "Cache-Control": "no-store" });
@@ -743,17 +754,33 @@ async function handleApi(req, res, url) {
     } catch {
       return send(res, 400, "bad url");
     }
-    const hostOk = /^(images\.unsplash\.com|picsum\.photos|fastly\.picsum\.photos)$/i.test(parsed.hostname);
-    if (!hostOk) return send(res, 403, "host not allowed");
+    if (parsed.protocol !== "https:") return send(res, 403, "https required");
+    const ALLOWED_HOSTS = /^(images\.unsplash\.com|picsum\.photos|fastly\.picsum\.photos)$/i;
+    if (!ALLOWED_HOSTS.test(parsed.hostname)) return send(res, 403, "host not allowed");
     try {
-      const upstream = await fetch(target, {
-        headers: { "User-Agent": "Easily-Studio/1", Accept: "image/*,*/*" },
-        redirect: "follow",
-        signal: AbortSignal.timeout(12000),
-      });
-      if (!upstream.ok) return send(res, upstream.status, "upstream " + upstream.status);
-      const ct = upstream.headers.get("content-type") || "image/jpeg";
-      const buf = Buffer.from(await upstream.arrayBuffer());
+      let currentUrl = target;
+      let resp;
+      for (let hop = 0; hop < 4; hop++) {
+        resp = await fetch(currentUrl, {
+          headers: { "User-Agent": "Easily-Studio/1", Accept: "image/*,*/*" },
+          redirect: "manual",
+          signal: AbortSignal.timeout(12000),
+        });
+        if (resp.status >= 300 && resp.status < 400) {
+          const loc = resp.headers.get("location");
+          if (!loc) break;
+          let nextUrl;
+          try { nextUrl = new URL(loc, currentUrl); } catch { break; }
+          if (nextUrl.protocol !== "https:") return send(res, 403, "https required");
+          if (!ALLOWED_HOSTS.test(nextUrl.hostname)) return send(res, 403, "host not allowed");
+          currentUrl = nextUrl.href;
+          continue;
+        }
+        break;
+      }
+      if (!resp.ok) return send(res, resp.status, "upstream " + resp.status);
+      const ct = resp.headers.get("content-type") || "image/jpeg";
+      const buf = Buffer.from(await resp.arrayBuffer());
       return send(res, 200, buf, { "Content-Type": ct, "Cache-Control": "public, max-age=86400" });
     } catch (e) {
       console.warn("proxy-image", e);
@@ -834,6 +861,7 @@ async function handleApi(req, res, url) {
   const thumbSvg = pathname.match(/^\/api\/projects\/([^/]+)\/thumbnail\.svg$/);
   if (thumbSvg && req.method === "GET") {
     const id = decodeURIComponent(thumbSvg[1]);
+    if (!isUuidLike(id)) return sendJson(res, 400, { ok: false, error: "invalid-id" });
     const rec = loadProject(id);
     if (!rec) return sendJson(res, 404, { ok: false, error: "not-found" });
     const svg = thumbnailSvgForRecord(rec);
@@ -994,6 +1022,17 @@ const server = http.createServer(async (req, res) => {
   try {
     const host = req.headers.host || `localhost:${PORT}`;
     const url = new URL(req.url || "/", `http://${host}`);
+
+    if (["POST", "PUT", "PATCH", "DELETE"].includes(req.method)) {
+      const origin = req.headers.origin;
+      if (origin) {
+        let originHost = null;
+        try { originHost = new URL(origin).hostname; } catch {}
+        if (originHost !== "localhost" && originHost !== "127.0.0.1") {
+          return sendJson(res, 403, { ok: false, error: "cross-origin-forbidden" });
+        }
+      }
+    }
 
     if (await websiteDocuments.handle(req, res, url)) return;
 
