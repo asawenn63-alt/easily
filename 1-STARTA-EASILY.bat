@@ -9,10 +9,10 @@ echo  Lat detta fonster vara oppet.
 echo.
 
 REM Hamta OpenAI-nyckel fran Windows-anvandarprofil
-for /f "usebackq delims=" %%K in (`powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable('OPENAI_API_KEY','User')"`) do set "OPENAI_API_KEY=%%K"
+for /f "usebackq delims=" %K in (`powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable('OPENAI_API_KEY','User')"`) do set "OPENAI_API_KEY=%K"
 
 REM Om nyckel saknas, hamta fran system-miljon
-if "%OPENAI_API_KEY%"=="" for /f "usebackq delims=" %%K in (`powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable('OPENAI_API_KEY','Machine')"`) do set "OPENAI_API_KEY=%%K"
+if "%OPENAI_API_KEY%"=="" for /f "usebackq delims=" %K in (`powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable('OPENAI_API_KEY','Machine')"`) do set "OPENAI_API_KEY=%K"
 
 if "%OPENAI_API_KEY%"=="" (
   echo  VARNING: OpenAI-nyckel saknas!
