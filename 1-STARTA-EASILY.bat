@@ -17,19 +17,20 @@ if errorlevel 1 (
   exit /b 1
 )
 
-REM Installera beroenden om de saknas (server + v2)
-if not exist "server\node_modules" (
-  echo  Installerar server-beroenden (forsta gangen kan ta en stund)...
-  cd /d "%~dp0server"
-  call npm install
-  cd /d "%~dp0"
-)
-if not exist "v2\node_modules" (
-  echo  Installerar v2-beroenden...
-  cd /d "%~dp0v2"
-  call npm install
-  cd /d "%~dp0"
-)
+REM Radera gamla node_modules och installera allt pa nytt
+echo  Raderar gamla node_modules...
+if exist "server\node_modules" rmdir /s /q "server\node_modules"
+if exist "v2\node_modules" rmdir /s /q "v2\node_modules"
+
+echo  Installerar server-beroenden (kan ta en stund)...
+cd /d "%~dp0server"
+call npm install
+cd /d "%~dp0"
+
+echo  Installerar v2-beroenden...
+cd /d "%~dp0v2"
+call npm install
+cd /d "%~dp0"
 
 REM Hamta OpenAI-nyckel fran Windows-anvandarmiljo
 for /f "usebackq delims=" %%K in (`powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable('OPENAI_API_KEY','User')"`) do set "OPENAI_API_KEY=%%K"
