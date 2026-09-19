@@ -1,3 +1,3 @@
 @echo off
-REM Oppnar landningssidan — inte sparad gammal hemsida direkt.
+REM Oppnar landningssidan
 start http://localhost:3847/

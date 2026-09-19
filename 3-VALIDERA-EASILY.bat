@@ -15,7 +15,7 @@ if errorlevel 1 (
 )
 
 echo  Kontrollerar att servern kor...
-powershell -NoProfile -Command "if (-not (Test-NetConnection 127.0.0.1 -Port 3847 -WarningAction SilentlyContinue).TcpTestSucceeded) { Write-Host '  Server saknas — starta 1-STARTA-EASILY.bat forst'; exit 1 } else { exit 0 }"
+powershell -NoProfile -Command "if (-not (Test-NetConnection 127.0.0.1 -Port 3847 -WarningAction SilentlyContinue).TcpTestSucceeded) { Write-Host '  Server saknas - starta 1-STARTA-EASILY.bat forst'; exit 1 } else { exit 0 }"
 if errorlevel 1 (
   echo.
   echo  Kor syntaxkontroll utan browser-scenarier...
@@ -31,7 +31,7 @@ echo.
 if %EXIT%==0 (
   echo  VALIDATION PASS
 ) else (
-  echo  VALIDATION FAIL — se validation-report.txt
+  echo  VALIDATION FAIL - se validation-report.txt
 )
 
 pause
