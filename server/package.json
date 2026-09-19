@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "puppeteer": "^25.4.0"
+  },
+  "dependencies": {
+    "ajv-formats": "^3.0.1"
   }
 }
