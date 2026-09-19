@@ -83,10 +83,20 @@ if defined NPM_CMD (
 REM Hamta OpenAI-nyckel fran Windows-anvandarmiljo
 for /f "usebackq delims=" %%K in (`powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable('OPENAI_API_KEY','User')"`) do set "OPENAI_API_KEY=%%K"
 
+REM Om nyckeln inte finns i Windows-miljon, forsok lasa fran .env-filen
+if "%OPENAI_API_KEY%"=="" (
+  for /f "usebackq tokens=1,* delims==" %%A in (`findstr /b /c:"OPENAI_API_KEY=" "%~dp0.env" 2^>nul`) do (
+    set "OPENAI_API_KEY=%%B"
+  )
+)
+
 if "%OPENAI_API_KEY%"=="" (
   echo VARNING: OpenAI-nyckel saknas!
   echo Konfigurera med 4-KONFIGURERA-OPENAI-NYCKEL.bat forst.
+  echo Eller skriv den direkt i .env-filen: OPENAI_API_KEY=din-nyckel
   echo.
+) else (
+  echo OpenAI-nyckel hittad.
 )
 
 REM Oppna webblasaren efter 5 sekunder i en separat process
