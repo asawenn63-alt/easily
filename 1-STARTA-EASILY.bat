@@ -40,8 +40,8 @@ if "%OPENAI_API_KEY%"=="" (
   echo.
 )
 
-REM Oppna studion automatiskt nar servern svarar
-start "" powershell -NoProfile -WindowStyle Hidden -Command "$url = 'http://localhost:3847/studio.html?new=1' + [char]38 + 'questionEngine=1'; 1..60 | ForEach-Object { try { $ok = (Test-NetConnection 127.0.0.1 -Port 3847 -WarningAction SilentlyContinue).TcpTestSucceeded } catch { $ok = $false }; if ($ok) { Start-Process $url; exit 0 }; Start-Sleep -Seconds 1 }"
+REM Oppna webblasaren efter 5 sekunder i en separat process
+start /b "" cmd /c "timeout /t 5 /nobreak >nul && start "" "http://localhost:3847/studio.html?new=1&questionEngine=1""
 
 cd /d "%~dp0server"
 node index.mjs
