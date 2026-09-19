@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "source": "Easilys fem frågor – låst variationsbrief",
+  "answers": [
+    {
+      "question": "Vilken typ av webbplats vill du skapa?",
+      "answer": "Restaurang / Café"
+    },
+    {
+      "question": "Företagsinformation",
+      "answer": {
+        "companyName": "Korn & Kanna",
+        "location": "Gävle",
+        "description": "Ett litet kafé och kafferosteri som serverar kaffe, frukost och hembakat med fokus på lokala råvaror."
+      }
+    },
+    {
+      "question": "Vilken stil ska sidan ha?",
+      "answer": "Nordisk & ren"
+    },
+    {
+      "question": "Vilka sektioner ska webbplatsen innehålla?",
+      "answer": ["Om oss", "Tjänster", "Galleri", "Kontakt"]
+    },
+    {
+      "question": "Har du redan en webbplats?",
+      "answer": "Nej, skapa allt från grunden."
+    }
+  ],
+  "constraints": {
+    "language": "sv",
+    "factsPolicy": "Använd endast svaren ovan som företagsfakta. Hitta inte på adress, öppettider, priser, produktlager, telefonnummer eller e-postadress.",
+    "creativeFreedom": "AI:n får själv skapa art direction, sidberättelse, komposition, typografi, bildvärld, interaktion och relevant rörelse."
+  }
+}

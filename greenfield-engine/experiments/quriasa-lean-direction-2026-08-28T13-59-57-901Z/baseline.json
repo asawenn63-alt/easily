@@ -1,0 +1,64 @@
+{
+  "runId": "quriasa-opening-20260827-2026-08-27T19-49-44-772Z",
+  "responseId": "resp_051769a208c640b7016a9094da145087d286ddca78ce5e6e67",
+  "plan": {
+    "candidates": [
+      {
+        "id": "direction-a",
+        "name": "Det bebodda vintage­rummet",
+        "rationale": "Besökaren möter QuriAsadesign som ett varmt, ljust rum där småmöbler, textilier, porslin och dekorationer redan samspelar. Det gör sortimentets bredd begriplig innan enskilda produkter presenteras. Synliga kännetecken är mycket vitt, mjuka nötta träytor, lager av textil och spets samt romantiska men användbara stilleben. Shabby chic uttrycks genom miljöns material och föremål, inte genom generell lyxestetik.",
+        "hierarchy": "Först ska besökaren förstå att QuriAsadesign är en webbutik med shabby chic-inredning och presenter. Därefter upptäcks de fyra produktområdena genom detaljer i rummets miljö. Besökaren ska sedan kunna gå vidare till butiken, öppna en produktkategori, läsa om verksamheten, se galleriet eller hitta kontaktvägen.",
+        "typography": "Rubriker sätts i Georgia, 'Times New Roman', serif med mjuka, klassiska former; brödtext och gränssnitt i 'Trebuchet MS', Arial, sans-serif. Huvudrubriken är cirka 3,2 gånger brödtexten på desktop och 2,3 gånger på mobil, sektionsrubriker cirka 1,8 gånger. Normal meningsversalisering används. Betoning sker med Georgias kursiv i korta beskrivande fraser, medan produktnamn och köpvägar förblir raka,",
+        "colorLogic": "Varmt benvitt dominerar väggar och sidytor. Kritvitt används på produktkort och textilier för synlig vit-på-vit-skiktning. Dämpad puderrosa markerar romantiska redaktionella ytor, salviagrått hjälper kategorier och navigering, och mörkt varmgrått ger tydlig textkontrast. Färgerna ska upplevas kalkade snarare än pastellglada. Footern får en sammanhållen salviagrå yta som skiljer praktisk navigation",
+        "composition": "Öppningen bärs av en bred, fotograferad rumsvinjett med flera verkliga produktfamiljer, kompletterad av en kompakt introduktion och fyra tydliga kategorilänkar kopplade till miljön. På desktop upptar rummet ungefär två tredjedelar och introduktionen en tredjedel; kategorierna ligger nära relevanta detaljer utan att låtsas ange lager eller pris. På mobil kommer introduktion och butiksknapp först, följt av en beskuren miljö och separata kategorikort. Fortsättningen växlar mellan sortiment, om Quri",
+        "imageRole": "Fotografi är huvudbärare och ska visa ljusa, trovärdiga interiörer med småmöbler, veckade eller spetskantade textilier, porslin och presentdekorationer. Ljuset är mjukt dagsljus, färgerna lågmättade och ytorna lätt patinerade. Närbilder används för material och detaljer. Ingen frilagd produkt får sväva utan rumslig eller taktil förankring. Spets kan återkomma sparsamt som faktisk textilkant, inte",
+        "copyVoice": "Varm, enkel och inbjudande svenska med konkreta ord om föremål, material och att ge bort. Rubriker kan tala om att hitta något till hemmet eller som present, men ska inte lova unika varor, hantverk, lokalt ursprung eller tillgänglighet. Knappar är raka: ”Till butiken”, ”Se småmöbler”, ”Se textilier”, ”Se porslin” och ”Se dekorationer”.",
+        "navigation": "En lugn toppnavigering med QuriAsadesign som ordmärke, länkarna Butik, Om, Sortiment, Galleri och Kontakt samt sök och varukorg som tydliga funktioner. På mobil samlas innehållslänkarna i en meny medan sök och varukorg förblir lättåtkomliga. Aktiv kategori markeras med en fyllning eller textvikt,",
+        "motion": "En långsam, nästan omärklig inzoomning i öppningsmiljön kan användas om rörelsereducering inte är vald. Kategorimarkörer får mjuk tonväxling vid fokus och hover. Produktkort tonas inte in i onödan; respons vid filtrering och varukorg ska vara omedelbar. Spets, texturer och övrig dekor ska inte par",
+        "avoids": [
+          "Kall, minimalistisk vithet utan textil eller patina",
+          "Mörk industriell eller högblank modern inredningsestetik",
+          "Påhittade priser, lagersaldon eller butiksuppgifter"
+        ]
+      },
+      {
+        "id": "direction-b",
+        "name": "Det romantiska kuriosakabinettet",
+        "rationale": "Besökaren möter först ett ordnat digitalt vitrinskåp där sortimentets typer framträder som samlade fynd: småmöbler, textilier, porslin och dekorationer. Riktningen tolkar butikens vintage och romantik mer katalogmässigt än rumsligt. Synliga kännetecken är vitmålade fack, patinerade etikettkanter, små spetsdetaljer och omsorgsfulla objektbilder. Det ger webbutiken en tydlig handelsstruktur utan att förlora shabby chic-karaktären.",
+        "hierarchy": "Först ska besökaren förstå vad som finns i butiken genom fyra namngivna samlingsfack. Därefter upptäcks enskilda föremål, materialdetaljer och presentmöjligheten. Besökaren ska snabbt kunna öppna en kategori, söka, lägga valda produkter i varukorgen samt nå om-sidan, galleriet och kontaktsektionen.",
+        "typography": "Huvud- och sektionsrubriker sätts i Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif; brödtext och gränssnitt i Verdana, Arial, sans-serif. Huvudrubriken är cirka 2,5 gånger brödtexten, sektionsrubriker 1,55 gånger och kategorinamn 1,15 gånger i halvfet sans-serif. Skalan hålls mer kabinettslik än monumental. Meningsversalisering används; versaler reserveras för korta, informativa fun",
+        "colorLogic": "Kritvitt och varmt elfenben dominerar skåp, kort och bakgrund. Blekt blågrått ger djup i fackens bakstycken, dammig ros används sparsamt för presentrelaterade val och mörk sepia för text och konturer. Patinerade beige toner får finnas i fotograferade material men inte som smutsfilter. Footern blir ett mörkare blågrått kabinettband med grupperna Butik, QuriAsadesign och Hjälp/kontakt,",
+        "composition": "Öppningen byggs som ett digitalt vitrinskåp med fyra olikstora men balanserade fack, ett för varje angiven produktgrupp. Företagsnamn och en kort butiksintroduktion sitter i skåpets överstycke; varje fack har bild, kategorinamn och direktlänk. På desktop kan småmöbler få ett högre fack medan textilier, porslin och dekorationer fördelas runt det. På mobil blir skåpet en lodrät följd av fullständiga fack, inte en nedskalad mosaik. Därefter följer produkturval, om, galleri och kontakt. Footern avsl",
+        "imageRole": "Frilagda eller mjukt miljösatta objektbilder behövs för att skapa känslan av ett samlat kuriosakabinett. Föremålen fotograferas framifrån eller lätt ovanifrån i jämnt, varmt ljus, med synlig porslinsglans, textilväv, spets och sliten färg. En subtil pappers- eller kalkfärgstruktur kan ligga i fackens bakgrund. Illustrerade skuggor får ge djup men ska inte imitera produkter som inte finns.",
+        "copyVoice": "Vänlig och samlande, med korta formuleringar som hjälper besökaren att orientera sig: ”Utforska porslin”, ”Textilier med mjuka detaljer” och ”Dekorationer att ge bort”. Tonen får vara romantisk men inte sirlig eller överdrivet nostalgisk. Produkttexter prioriterar begriplighet framför poetiska uttryck och hävdar inga egenskaper som inte är angivna.",
+        "navigation": "En fast men låg toppmeny fungerar som skåpets innehållsförteckning: Butik, Småmöbler, Textilier, Porslin, Dekorationer, Om och Kontakt. Galleri nås från Butik eller en sekundär meny för att undvika överlastning. Sök och varukorg har textetiketter utöver ikoner. Mobilmenyn grupperar kategorier under ",
+        "motion": "När ett fack fokuseras eller hovras fördjupas dess bakgrundston och objektets skugga ökar svagt, som när blicken stannar vid en hylla. På mobil används ingen hoverberoende information. Filter och kategoribyten sker med en kort korsfade; luckor, lådor eller bokliknande animationer undviks eftersom de",
+        "avoids": [
+          "Rörig loppmarknadskänsla utan kategorihierarki",
+          "Överdriven gulnad eller smutsig vintagebehandling",
+          "Dekorativa etiketter som antyder årtal, ursprung eller fakta som inte finns"
+        ]
+      },
+      {
+        "id": "direction-c",
+        "name": "Presentbordet med spets och porslin",
+        "rationale": "Besökaren möter QuriAsadesign genom handlingen att välja något fint till hemmet eller att ge bort. Öppningen är ett ljust presentbord där porslin, vikt textil, en mindre dekoration och en antydan till småmöbel samlas i en taktil komposition. Det är den mest verksamhetsspecifika riktningen eftersom den förenar samtliga angivna varutyper med briefens uttalade presentidé, mycket vitt, spets, vintage och romantik.",
+        "hierarchy": "Först ska besökaren förstå att QuriAsadesign erbjuder shabby chic-föremål både till hemmet och som presenter. Därefter upptäcks sortimentet genom fyra konkreta delar av ett samlat presentarrangemang och genom ett galleri med inspiration. Besökaren ska kunna börja handla efter produktområde, se fler miljöer, läsa om verksamheten och ta kontakt.",
+        "typography": "Rubriker sätts i Baskerville, 'Baskerville Old Face', 'Times New Roman', serif och brödtext, priser samt gränssnitt i 'Segoe UI', Arial, sans-serif. Huvudrubriken är cirka 2,8 gånger brödtexten på desktop och 2,15 gånger på mobil; sektionsrubriker är 1,65 gånger. Baskervilles tydliga kontrast ger vintagekaraktär utan extra ornament. Meningsversalisering dominerar. Ett eller två ord kan kursiveras",
+        "colorLogic": "Vitt är aktivt huvudmaterial i bakgrund, duk, porslin och kort, separerat genom skuggor och olika temperaturer. Varm gräddvit bär sidytan, puderrosa markerar presentvägen, blekt linnebeige markerar textilier och dov salvia används för köpknappar och fokus. Mörk brungrå text håller upplevelsen varm och läsbar. Footern fortsätter som en djupare linnebeige yta med grupperna Handla, Om QuriAsadesign,",
+        "composition": "Öppningen bärs av ett fotograferat bord sett snett ovanifrån, en kort introduktion och två primära vägar: ”Handla till hemmet” och ”Hitta en present”. Föremålen grupperas så att porslin och dekorationer bildar blickfång, textil och spets binder samman ytan och en vitmålad pall eller bordskant representerar småmöbler. På desktop delar texten och bordet ytan ungefär 40/60 med kategorilänkar längs bordets nederkant. På mobil kommer budskap och val först, följt av en vertikal serie detaljbilder från",
+        "imageRole": "Fotografi och taktila närbilder är avgörande. Bildvärlden ska visa vitt porslin, spetsens mönster, mjuka textilveck, patinerat målat trä och romantiska dekorationer i varmt dagsljus. Kompositionerna ska kännas möjliga att ge bort eller placera i ett hem, utan att påstå färdig presentinslagning. Dekor begränsas till verklig spets, band eller papper i bilderna; inga generiska blomrankor behöver lägg",
+        "copyVoice": "Personlig, varm och hjälpsam med fokus på valglädje: ”Fint till hemmet, fint att ge bort” kan fungera som redaktionell ingång, medan funktionella texter förblir exakta. Knappar uttrycker nästa steg: ”Handla till hemmet”, ”Hitta en present”, ”Se galleriet” och ”Om QuriAsadesign”. Tonen undviker påståenden om handplockat, unikt, lokalt tillverkat eller färdiginslaget.",
+        "navigation": "Toppnavigeringen prioriterar Butik, Presenter, Galleri, Om och Kontakt; under Butik finns Småmöbler, Textilier, Porslin och Dekorationer. Sök och varukorg är synliga med både ikon och tillgänglig etikett. På mobil öppnas kategorierna som en enkel lista och de två huvudsakliga shoppingvägarna återf",
+        "motion": "En kort, mjuk förskjutning kan låta bordets detaljbilder komma samman när sidan laddas, men hela arrangemanget ska omedelbart vara begripligt även utan animation. Vid fokus vecklas kategoriinformation visuellt ut som ett plant kort, inte som en dekorativ överraskning. Lägg-i-varukorg bekräftas med",
+        "avoids": [
+          "Generisk presentbutiksestetik i starka färger",
+          "Överlastade rosetter, hjärtan och påklistrade blomornament",
+          "Påståenden om presentinslagning eller andra tjänster som inte anges i briefen"
+        ]
+      }
+    ],
+    "selectedId": "direction-c",
+    "selectionReason": "”Presentbordet med spets och porslin” knyter tydligast ihop verksamhetens faktiska sortiment med formuleringen att dekorationerna är fina att ge bort. Samtidigt gör den mycket vitt, verklig spets, patinerade vintageytor och romantisk komposition till bärande delar av shoppingupplevelsen. Den blir därför mer specifik för QuriAsadesign än en allmän shabby chic-interiör eller ett kategoribaserat vitrinskåp."
+  }
+}

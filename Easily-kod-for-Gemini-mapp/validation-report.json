@@ -1,0 +1,3252 @@
+{
+  "startedAt": "2026-08-23T19:50:48.990Z",
+  "finishedAt": "2026-08-23T19:51:05.987Z",
+  "durationMs": 16997,
+  "summary": {
+    "pass": 40,
+    "warning": 1,
+    "fail": 0,
+    "total": 161
+  },
+  "library": {
+    "total": 142,
+    "pass": 136,
+    "warning": 0,
+    "fail": 6,
+    "successRate": 0.958,
+    "gate": 0.95
+  },
+  "failedScenarios": [
+    {
+      "id": "U-HI-024",
+      "name": "User: hero foto annat",
+      "category": "hero-image",
+      "reason": "Pipeline ok=false: industry_unchanged"
+    },
+    {
+      "id": "U-AB-003",
+      "name": "User: ändra bilden i om oss",
+      "category": "about-image",
+      "reason": "State unchanged after: ändra bilden i om oss"
+    },
+    {
+      "id": "U-AB-004",
+      "name": "User: ny bild om oss",
+      "category": "about-image",
+      "reason": "State unchanged after: ny bild om oss"
+    },
+    {
+      "id": "IRE-CL-001",
+      "name": "IRE: clarify then confirm hero image",
+      "category": "intent-resolution",
+      "reason": "Step1 expected clarify, got execute (high_confidence_focus:baseline)"
+    },
+    {
+      "id": "IRE-CL-003",
+      "name": "IRE: clarify deny headline means hero image",
+      "category": "intent-resolution",
+      "reason": "Expected execute, got clarify"
+    },
+    {
+      "id": "U-GN-004",
+      "name": "Generate: hero is not raw user brief",
+      "category": "generate",
+      "reason": "Hero title is raw brief paste: Vi är ett litet företag som säljer ekologiska produkter online och vill nå fler kunder i hela Sverige"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "U-HI-001",
+      "name": "User: byt hero-bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 79
+        }
+      ],
+      "checks": [],
+      "durationMs": 79
+    },
+    {
+      "id": "U-HI-002",
+      "name": "User: byt hero bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt hero bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 65
+        }
+      ],
+      "checks": [],
+      "durationMs": 65
+    },
+    {
+      "id": "U-HI-003",
+      "name": "User: kan du byta hero-bilden",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: kan du byta hero-bilden",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 42
+        }
+      ],
+      "checks": [],
+      "durationMs": 42
+    },
+    {
+      "id": "U-HI-004",
+      "name": "User: lägg in en hero-bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: lägg in en hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 71
+        }
+      ],
+      "checks": [],
+      "durationMs": 71
+    },
+    {
+      "id": "U-HI-005",
+      "name": "User: sätt en ny bild i hero",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: sätt en ny bild i hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 57
+        }
+      ],
+      "checks": [],
+      "durationMs": 58
+    },
+    {
+      "id": "U-HI-006",
+      "name": "User: uppdatera hero-bilden",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera hero-bilden",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 34
+        }
+      ],
+      "checks": [],
+      "durationMs": 34
+    },
+    {
+      "id": "U-HI-007",
+      "name": "User: fixa hero-bilden",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: fixa hero-bilden",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 34
+        }
+      ],
+      "checks": [],
+      "durationMs": 34
+    },
+    {
+      "id": "U-HI-008",
+      "name": "User: byt bakgrundsbild i hero",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt bakgrundsbild i hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 35
+        }
+      ],
+      "checks": [],
+      "durationMs": 35
+    },
+    {
+      "id": "U-HI-009",
+      "name": "User: jag vill ha en annan hero-bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: jag vill ha en annan hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 34
+        }
+      ],
+      "checks": [],
+      "durationMs": 34
+    },
+    {
+      "id": "U-HI-010",
+      "name": "User: visa en till hero-bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: visa en till hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 41
+        }
+      ],
+      "checks": [],
+      "durationMs": 41
+    },
+    {
+      "id": "U-HI-011",
+      "name": "User: igen",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: igen",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 34
+        }
+      ],
+      "checks": [],
+      "durationMs": 34
+    },
+    {
+      "id": "U-HI-012",
+      "name": "User: en till bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: en till bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 33
+        }
+      ],
+      "checks": [],
+      "durationMs": 33
+    },
+    {
+      "id": "U-HI-013",
+      "name": "User: gör hero-bilden modernare",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: gör hero-bilden modernare",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 32
+        }
+      ],
+      "checks": [],
+      "durationMs": 33
+    },
+    {
+      "id": "U-HI-014",
+      "name": "User: mer premium hero",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer premium hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 39
+        }
+      ],
+      "checks": [],
+      "durationMs": 39
+    },
+    {
+      "id": "U-HI-015",
+      "name": "User: gör hero mer exklusiv",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: gör hero mer exklusiv",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 48
+        }
+      ],
+      "checks": [],
+      "durationMs": 48
+    },
+    {
+      "id": "U-HI-016",
+      "name": "User: snickare hero bild med trä",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: snickare hero bild med trä",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 48
+        }
+      ],
+      "checks": [],
+      "durationMs": 48
+    },
+    {
+      "id": "U-HI-017",
+      "name": "User: byt hero-bild till snickare med verktyg",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt hero-bild till snickare med verktyg",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 35
+        }
+      ],
+      "checks": [],
+      "durationMs": 35
+    },
+    {
+      "id": "U-HI-018",
+      "name": "User: annan hero-bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: annan hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 33
+        }
+      ],
+      "checks": [],
+      "durationMs": 33
+    },
+    {
+      "id": "U-HI-019",
+      "name": "User: prova en annan bild på hero",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: prova en annan bild på hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 38
+        }
+      ],
+      "checks": [],
+      "durationMs": 38
+    },
+    {
+      "id": "U-HI-020",
+      "name": "User: kan ni byta bilden högst upp",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: kan ni byta bilden högst upp",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 41
+        }
+      ],
+      "checks": [],
+      "durationMs": 41
+    },
+    {
+      "id": "U-HI-021",
+      "name": "User: ändra bilden i första delen",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ändra bilden i första delen",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 41
+        }
+      ],
+      "checks": [],
+      "durationMs": 41
+    },
+    {
+      "id": "U-HI-022",
+      "name": "User: ny bild på startsidan",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ny bild på startsidan",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 39
+        }
+      ],
+      "checks": [],
+      "durationMs": 39
+    },
+    {
+      "id": "U-HI-023",
+      "name": "User: byt toppbilden",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt toppbilden",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 35
+        }
+      ],
+      "checks": [],
+      "durationMs": 35
+    },
+    {
+      "id": "U-HI-024",
+      "name": "User: hero foto annat",
+      "category": "hero-image",
+      "status": "FAIL",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: hero foto annat",
+          "status": "FAIL",
+          "reason": "Pipeline ok=false: industry_unchanged",
+          "durationMs": 4
+        }
+      ],
+      "checks": [],
+      "durationMs": 4
+    },
+    {
+      "id": "U-HI-025",
+      "name": "User: mer nordisk hero-bild",
+      "category": "hero-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer nordisk hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 40
+        }
+      ],
+      "checks": [],
+      "durationMs": 40
+    },
+    {
+      "id": "U-HT-001",
+      "name": "User: skriv om hero-rubriken",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om hero-rubriken",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 241
+        }
+      ],
+      "checks": [],
+      "durationMs": 241
+    },
+    {
+      "id": "U-HT-002",
+      "name": "User: ändra rubriken i hero",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ändra rubriken i hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 31
+        }
+      ],
+      "checks": [],
+      "durationMs": 31
+    },
+    {
+      "id": "U-HT-003",
+      "name": "User: byt texten i hero",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt texten i hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 41
+        }
+      ],
+      "checks": [],
+      "durationMs": 41
+    },
+    {
+      "id": "U-HT-004",
+      "name": "User: skriv om ingressen",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om ingressen",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 261
+        }
+      ],
+      "checks": [],
+      "durationMs": 261
+    },
+    {
+      "id": "U-HT-005",
+      "name": "User: uppdatera hero-texten",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera hero-texten",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 53
+        }
+      ],
+      "checks": [],
+      "durationMs": 53
+    },
+    {
+      "id": "U-HT-006",
+      "name": "User: generera om hero",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: generera om hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 297
+        }
+      ],
+      "checks": [],
+      "durationMs": 297
+    },
+    {
+      "id": "U-HT-007",
+      "name": "User: ny text på hero",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ny text på hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 177
+        }
+      ],
+      "checks": [],
+      "durationMs": 177
+    },
+    {
+      "id": "U-HT-008",
+      "name": "User: skriv om rubriken",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om rubriken",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 241
+        }
+      ],
+      "checks": [],
+      "durationMs": 241
+    },
+    {
+      "id": "U-HT-009",
+      "name": "User: gör texten varmare",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: gör texten varmare",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 6
+        }
+      ],
+      "checks": [],
+      "durationMs": 6
+    },
+    {
+      "id": "U-HT-010",
+      "name": "User: mer professionell hero-text",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer professionell hero-text",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 333
+        }
+      ],
+      "checks": [],
+      "durationMs": 334
+    },
+    {
+      "id": "U-HT-011",
+      "name": "User: mindre sälj i hero",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mindre sälj i hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 278
+        }
+      ],
+      "checks": [],
+      "durationMs": 278
+    },
+    {
+      "id": "U-HT-012",
+      "name": "User: skriv om hero mer premium",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om hero mer premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 286
+        }
+      ],
+      "checks": [],
+      "durationMs": 287
+    },
+    {
+      "id": "U-HT-013",
+      "name": "User: kortare rubrik",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: kortare rubrik",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 210
+        }
+      ],
+      "checks": [],
+      "durationMs": 210
+    },
+    {
+      "id": "U-HT-014",
+      "name": "User: byt rubriken till Nordträ Snickeri",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt rubriken till Nordträ Snickeri",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 45
+        }
+      ],
+      "checks": [],
+      "durationMs": 45
+    },
+    {
+      "id": "U-HT-015",
+      "name": "User: skriv om knappen i hero",
+      "category": "hero-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om knappen i hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 292
+        }
+      ],
+      "checks": [],
+      "durationMs": 292
+    },
+    {
+      "id": "U-AB-001",
+      "name": "User: byt om oss-bild",
+      "category": "about-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt om oss-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 52
+        }
+      ],
+      "checks": [],
+      "durationMs": 52
+    },
+    {
+      "id": "U-AB-002",
+      "name": "User: byt om oss bild",
+      "category": "about-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt om oss bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 58
+        }
+      ],
+      "checks": [],
+      "durationMs": 58
+    },
+    {
+      "id": "U-AB-003",
+      "name": "User: ändra bilden i om oss",
+      "category": "about-image",
+      "status": "FAIL",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ändra bilden i om oss",
+          "status": "FAIL",
+          "reason": "State unchanged after: ändra bilden i om oss",
+          "durationMs": 37
+        }
+      ],
+      "checks": [],
+      "durationMs": 37
+    },
+    {
+      "id": "U-AB-004",
+      "name": "User: ny bild om oss",
+      "category": "about-image",
+      "status": "FAIL",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ny bild om oss",
+          "status": "FAIL",
+          "reason": "State unchanged after: ny bild om oss",
+          "durationMs": 34
+        }
+      ],
+      "checks": [],
+      "durationMs": 34
+    },
+    {
+      "id": "U-AB-005",
+      "name": "User: skriv om om oss",
+      "category": "about-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om om oss",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 220
+        }
+      ],
+      "checks": [],
+      "durationMs": 220
+    },
+    {
+      "id": "U-AB-006",
+      "name": "User: uppdatera texten i om oss",
+      "category": "about-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera texten i om oss",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 205
+        }
+      ],
+      "checks": [],
+      "durationMs": 205
+    },
+    {
+      "id": "U-AB-007",
+      "name": "User: generera om about",
+      "category": "about-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: generera om about",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 166
+        }
+      ],
+      "checks": [],
+      "durationMs": 166
+    },
+    {
+      "id": "U-AB-008",
+      "name": "User: skriv om om oss mer premium",
+      "category": "about-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om om oss mer premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 211
+        }
+      ],
+      "checks": [],
+      "durationMs": 211
+    },
+    {
+      "id": "U-AB-009",
+      "name": "User: gör om oss mer personlig",
+      "category": "about-text",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: gör om oss mer personlig",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 220
+        }
+      ],
+      "checks": [],
+      "durationMs": 220
+    },
+    {
+      "id": "U-AB-010",
+      "name": "User: byt om oss-bild igen",
+      "category": "about-image",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt om oss-bild igen",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 91
+        }
+      ],
+      "checks": [],
+      "durationMs": 91
+    },
+    {
+      "id": "U-GL-001",
+      "name": "User: byt galleribilder",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt galleribilder",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 210
+        }
+      ],
+      "checks": [],
+      "durationMs": 210
+    },
+    {
+      "id": "U-GL-002",
+      "name": "User: ändra galleriet",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ändra galleriet",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 2
+        }
+      ],
+      "checks": [],
+      "durationMs": 2
+    },
+    {
+      "id": "U-GL-003",
+      "name": "User: nya galleribilder",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: nya galleribilder",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 241
+        }
+      ],
+      "checks": [],
+      "durationMs": 241
+    },
+    {
+      "id": "U-GL-004",
+      "name": "User: slumpa galleri",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: slumpa galleri",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 2
+        }
+      ],
+      "checks": [],
+      "durationMs": 2
+    },
+    {
+      "id": "U-GL-005",
+      "name": "User: byt bilder i galleriet",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt bilder i galleriet",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 248
+        }
+      ],
+      "checks": [],
+      "durationMs": 248
+    },
+    {
+      "id": "U-GL-006",
+      "name": "User: kan du byta galleri",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: kan du byta galleri",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 3
+        }
+      ],
+      "checks": [],
+      "durationMs": 3
+    },
+    {
+      "id": "U-GL-007",
+      "name": "User: uppdatera galleribilderna",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera galleribilderna",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 257
+        }
+      ],
+      "checks": [],
+      "durationMs": 257
+    },
+    {
+      "id": "U-GL-008",
+      "name": "User: fler bilder i galleriet",
+      "category": "gallery",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: fler bilder i galleriet",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 59
+        }
+      ],
+      "checks": [],
+      "durationMs": 59
+    },
+    {
+      "id": "U-SV-001",
+      "name": "User: skriv om tjänster",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om tjänster",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 373
+        }
+      ],
+      "checks": [],
+      "durationMs": 374
+    },
+    {
+      "id": "U-SV-002",
+      "name": "User: uppdatera tjänstetexten",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera tjänstetexten",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 331
+        }
+      ],
+      "checks": [],
+      "durationMs": 331
+    },
+    {
+      "id": "U-SV-003",
+      "name": "User: generera om services",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: generera om services",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 304
+        }
+      ],
+      "checks": [],
+      "durationMs": 304
+    },
+    {
+      "id": "U-SV-004",
+      "name": "User: byt tjänstebilder",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt tjänstebilder",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 88
+        }
+      ],
+      "checks": [],
+      "durationMs": 89
+    },
+    {
+      "id": "U-SV-005",
+      "name": "User: ändra tjänstekorten",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ändra tjänstekorten",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-SV-006",
+      "name": "User: skriv om tjänster mer premium",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skriv om tjänster mer premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-SV-007",
+      "name": "User: ny text på tjänster",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ny text på tjänster",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-SV-008",
+      "name": "User: uppdatera services-rubriken",
+      "category": "services",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera services-rubriken",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 342
+        }
+      ],
+      "checks": [],
+      "durationMs": 342
+    },
+    {
+      "id": "U-CL-001",
+      "name": "User: byt färgtema",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt färgtema",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 12
+        }
+      ],
+      "checks": [],
+      "durationMs": 12
+    },
+    {
+      "id": "U-CL-002",
+      "name": "User: ändra färgerna",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ändra färgerna",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 11
+        }
+      ],
+      "checks": [],
+      "durationMs": 11
+    },
+    {
+      "id": "U-CL-003",
+      "name": "User: prova andra färger",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: prova andra färger",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 10
+        }
+      ],
+      "checks": [],
+      "durationMs": 11
+    },
+    {
+      "id": "U-CL-004",
+      "name": "User: ny färgpalett",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ny färgpalett",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 9
+        }
+      ],
+      "checks": [],
+      "durationMs": 9
+    },
+    {
+      "id": "U-CL-005",
+      "name": "User: gör färgerna mörkare",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: gör färgerna mörkare",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 11
+        }
+      ],
+      "checks": [],
+      "durationMs": 11
+    },
+    {
+      "id": "U-CL-006",
+      "name": "User: ljusare färger",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: ljusare färger",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 9
+        }
+      ],
+      "checks": [],
+      "durationMs": 9
+    },
+    {
+      "id": "U-CL-007",
+      "name": "User: byt designfärger",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: byt designfärger",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 11
+        }
+      ],
+      "checks": [],
+      "durationMs": 12
+    },
+    {
+      "id": "U-CL-008",
+      "name": "User: uppdatera färgschemat",
+      "category": "design-color",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: uppdatera färgschemat",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 10
+        }
+      ],
+      "checks": [],
+      "durationMs": 10
+    },
+    {
+      "id": "ire-hero-01",
+      "name": "IRE: byt hero-bild",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: byt hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-02",
+      "name": "IRE: byt hero bild",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: byt hero bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "ire-hero-03",
+      "name": "IRE: visa en till",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: visa en till",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "ire-hero-04",
+      "name": "IRE: gör den yngre",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: gör den yngre",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-05",
+      "name": "IRE: mer premium",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: mer premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-06",
+      "name": "IRE: byt om oss-bild",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: byt om oss-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-07",
+      "name": "IRE: byt galleribild",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: byt galleribild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-08",
+      "name": "IRE: skriv om hero-rubriken",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: skriv om hero-rubriken",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "ire-hero-09",
+      "name": "IRE: byt färgtema",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: byt färgtema",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-10",
+      "name": "IRE: uppdatera logotypen",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: uppdatera logotypen",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "ire-hero-11",
+      "name": "IRE: kan du fixa hero-bilden",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: kan du fixa hero-bilden",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "ire-hero-12",
+      "name": "IRE: snickare bild hero",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: snickare bild hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "IRE-CL-001",
+      "name": "IRE: clarify then confirm hero image",
+      "category": "intent-resolution",
+      "status": "FAIL",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: clarify then confirm hero image",
+          "status": "FAIL",
+          "reason": "Step1 expected clarify, got execute (high_confidence_focus:baseline)",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "IRE-CL-002",
+      "name": "IRE: clarify then pick rubriken explicitly",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: clarify then pick rubriken explicitly",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "IRE-CL-003",
+      "name": "IRE: clarify deny headline means hero image",
+      "category": "intent-resolution",
+      "status": "FAIL",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: clarify deny headline means hero image",
+          "status": "FAIL",
+          "reason": "Expected execute, got clarify",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "IRE-AN-001",
+      "name": "IRE: retry phrases produce another signal",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: retry phrases produce another signal",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "IRE-AN-002",
+      "name": "IRE: ändra en till on hero image focus → retry",
+      "category": "intent-resolution",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IRE: ändra en till on hero image focus → retry",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-SS-006",
+      "name": "Session: byt hero-bild then ändra en till",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: byt hero-bild then ändra en till",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 109
+        }
+      ],
+      "checks": [],
+      "durationMs": 109
+    },
+    {
+      "id": "U-SS-001",
+      "name": "Session: keep after hero image",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: keep after hero image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 77
+        }
+      ],
+      "checks": [],
+      "durationMs": 77
+    },
+    {
+      "id": "U-SS-002",
+      "name": "Session: undo after hero image",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: undo after hero image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 74
+        }
+      ],
+      "checks": [],
+      "durationMs": 74
+    },
+    {
+      "id": "U-SS-003",
+      "name": "Session: another then keep",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: another then keep",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 148
+        }
+      ],
+      "checks": [],
+      "durationMs": 148
+    },
+    {
+      "id": "U-SS-004",
+      "name": "Session: text regen then keep",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: text regen then keep",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 317
+        }
+      ],
+      "checks": [],
+      "durationMs": 317
+    },
+    {
+      "id": "U-SS-005",
+      "name": "Session: pending verification set",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: pending verification set",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 48
+        }
+      ],
+      "checks": [],
+      "durationMs": 48
+    },
+    {
+      "id": "U-SS-006",
+      "name": "Session: reset clears retry",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: reset clears retry",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 7
+        }
+      ],
+      "checks": [],
+      "durationMs": 7
+    },
+    {
+      "id": "U-SS-007",
+      "name": "Session: __keep__ via pipeline",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: __keep__ via pipeline",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 40
+        }
+      ],
+      "checks": [],
+      "durationMs": 40
+    },
+    {
+      "id": "U-SS-008",
+      "name": "Session: __undo__ via pipeline",
+      "category": "session",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Session: __undo__ via pipeline",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 246
+        }
+      ],
+      "checks": [],
+      "durationMs": 246
+    },
+    {
+      "id": "U-EN-001",
+      "name": "IIE: hero selectBest",
+      "category": "image-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IIE: hero selectBest",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 50
+        }
+      ],
+      "checks": [],
+      "durationMs": 50
+    },
+    {
+      "id": "U-EN-002",
+      "name": "IIE: about selectBest",
+      "category": "image-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IIE: about selectBest",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 23
+        }
+      ],
+      "checks": [],
+      "durationMs": 23
+    },
+    {
+      "id": "U-EN-003",
+      "name": "IIE: gallery selectBest",
+      "category": "image-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IIE: gallery selectBest",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 53
+        }
+      ],
+      "checks": [],
+      "durationMs": 53
+    },
+    {
+      "id": "U-EN-004",
+      "name": "IIE: diversity on another",
+      "category": "image-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IIE: diversity on another",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 81
+        }
+      ],
+      "checks": [],
+      "durationMs": 81
+    },
+    {
+      "id": "U-EN-011",
+      "name": "IIE: Jretur hero selects recycling image",
+      "category": "image-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "IIE: Jretur hero selects recycling image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 308
+        }
+      ],
+      "checks": [],
+      "durationMs": 308
+    },
+    {
+      "id": "U-EN-005",
+      "name": "TIE: hero generate",
+      "category": "text-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "TIE: hero generate",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 70
+        }
+      ],
+      "checks": [],
+      "durationMs": 70
+    },
+    {
+      "id": "U-EN-006",
+      "name": "TIE: about generate",
+      "category": "text-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "TIE: about generate",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 88
+        }
+      ],
+      "checks": [],
+      "durationMs": 89
+    },
+    {
+      "id": "U-EN-007",
+      "name": "TIE: tone premium",
+      "category": "text-intelligence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "TIE: tone premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "U-EN-008",
+      "name": "DM: getMemory",
+      "category": "design-memory",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "DM: getMemory",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "U-EN-009",
+      "name": "DM: validate image proposal",
+      "category": "design-memory",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "DM: validate image proposal",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 4
+        }
+      ],
+      "checks": [],
+      "durationMs": 4
+    },
+    {
+      "id": "U-EN-010",
+      "name": "Orchestrator: build plan",
+      "category": "orchestrator",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Orchestrator: build plan",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 4
+        }
+      ],
+      "checks": [],
+      "durationMs": 4
+    },
+    {
+      "id": "U-EN-011",
+      "name": "Orchestrator: consistency score",
+      "category": "orchestrator",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Orchestrator: consistency score",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 6
+        }
+      ],
+      "checks": [],
+      "durationMs": 7
+    },
+    {
+      "id": "U-EN-012",
+      "name": "Pipeline: capture snapshot",
+      "category": "pipeline",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Pipeline: capture snapshot",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-PE-001",
+      "name": "Persistence: save document",
+      "category": "persistence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Persistence: save document",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [],
+      "durationMs": 0
+    },
+    {
+      "id": "U-PE-002",
+      "name": "Persistence: reload roundtrip",
+      "category": "persistence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Persistence: reload roundtrip",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 113
+        }
+      ],
+      "checks": [],
+      "durationMs": 113
+    },
+    {
+      "id": "U-PE-003",
+      "name": "Persistence: hero survives reload",
+      "category": "persistence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Persistence: hero survives reload",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 110
+        }
+      ],
+      "checks": [],
+      "durationMs": 110
+    },
+    {
+      "id": "U-PE-004",
+      "name": "Persistence: design memory meta",
+      "category": "persistence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Persistence: design memory meta",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 115
+        }
+      ],
+      "checks": [],
+      "durationMs": 115
+    },
+    {
+      "id": "U-PE-005",
+      "name": "Persistence: image intelligence meta",
+      "category": "persistence",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Persistence: image intelligence meta",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 114
+        }
+      ],
+      "checks": [],
+      "durationMs": 114
+    },
+    {
+      "id": "U-PR-001",
+      "name": "User: gör hero mer premium",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: gör hero mer premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 100
+        }
+      ],
+      "checks": [],
+      "durationMs": 100
+    },
+    {
+      "id": "U-PR-002",
+      "name": "User: mer exklusiv känsla",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer exklusiv känsla",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 22
+        }
+      ],
+      "checks": [],
+      "durationMs": 23
+    },
+    {
+      "id": "U-PR-003",
+      "name": "User: mer nordisk stil",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer nordisk stil",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 15
+        }
+      ],
+      "checks": [],
+      "durationMs": 15
+    },
+    {
+      "id": "U-PR-004",
+      "name": "User: varmare ton i texterna",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: varmare ton i texterna",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 12
+        }
+      ],
+      "checks": [],
+      "durationMs": 12
+    },
+    {
+      "id": "U-PR-005",
+      "name": "User: mer professionellt",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer professionellt",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-PR-006",
+      "name": "User: mer lekfull design",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer lekfull design",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-PR-007",
+      "name": "User: skandinavisk premium",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: skandinavisk premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 2
+        }
+      ],
+      "checks": [],
+      "durationMs": 2
+    },
+    {
+      "id": "U-PR-008",
+      "name": "User: lyxigare hero",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: lyxigare hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-PR-009",
+      "name": "User: modernare om oss",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: modernare om oss",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-PR-010",
+      "name": "User: mer premium tjänster",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: mer premium tjänster",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1
+        }
+      ],
+      "checks": [],
+      "durationMs": 1
+    },
+    {
+      "id": "U-PR-011",
+      "name": "User: elegant hero-bild",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: elegant hero-bild",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 107
+        }
+      ],
+      "checks": [],
+      "durationMs": 107
+    },
+    {
+      "id": "U-PR-012",
+      "name": "User: minimal nordisk hero",
+      "category": "premium-refine",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "User: minimal nordisk hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 121
+        }
+      ],
+      "checks": [],
+      "durationMs": 121
+    },
+    {
+      "id": "U-GN-001",
+      "name": "Generate: fillSection hero",
+      "category": "generate",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Generate: fillSection hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 249
+        }
+      ],
+      "checks": [],
+      "durationMs": 249
+    },
+    {
+      "id": "U-GN-002",
+      "name": "Generate: fillSection about",
+      "category": "generate",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Generate: fillSection about",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 103
+        }
+      ],
+      "checks": [],
+      "durationMs": 103
+    },
+    {
+      "id": "U-GN-003",
+      "name": "Generate: fillSection all",
+      "category": "generate",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Generate: fillSection all",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 655
+        }
+      ],
+      "checks": [],
+      "durationMs": 655
+    },
+    {
+      "id": "U-GN-004",
+      "name": "Generate: hero is not raw user brief",
+      "category": "generate",
+      "status": "FAIL",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Generate: hero is not raw user brief",
+          "status": "FAIL",
+          "reason": "Hero title is raw brief paste: Vi är ett litet företag som säljer ekologiska produkter online och vill nå fler kunder i hela Sverige",
+          "durationMs": 662
+        }
+      ],
+      "checks": [],
+      "durationMs": 662
+    },
+    {
+      "id": "U-GN-005",
+      "name": "Intent: image chat must not become hero title",
+      "category": "generate",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Intent: image chat must not become hero title",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 5
+        }
+      ],
+      "checks": [],
+      "durationMs": 6
+    },
+    {
+      "id": "U-PV-001",
+      "name": "Preview: DOM sync after hero",
+      "category": "preview",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Preview: DOM sync after hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 67
+        }
+      ],
+      "checks": [],
+      "durationMs": 67
+    },
+    {
+      "id": "U-PV-002",
+      "name": "Preview: verifyChange hero",
+      "category": "preview",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Preview: verifyChange hero",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 59
+        }
+      ],
+      "checks": [],
+      "durationMs": 59
+    },
+    {
+      "id": "U-ISO-001",
+      "name": "Isolation: project B has no state from project A",
+      "category": "isolation",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Isolation: project B has no state from project A",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 57
+        }
+      ],
+      "checks": [],
+      "durationMs": 58
+    },
+    {
+      "id": "U-ISO-002",
+      "name": "Isolation: zero project A DOM during project B generation",
+      "category": "isolation",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Isolation: zero project A DOM during project B generation",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 12
+        }
+      ],
+      "checks": [],
+      "durationMs": 12
+    },
+    {
+      "id": "U-ISO-003",
+      "name": "Isolation: create phase routes to new generation not edit",
+      "category": "isolation",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Isolation: create phase routes to new generation not edit",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 4
+        }
+      ],
+      "checks": [],
+      "durationMs": 4
+    },
+    {
+      "id": "U-ISO-004",
+      "name": "Isolation: plain studio must not resume session project id",
+      "category": "isolation",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Isolation: plain studio must not resume session project id",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 5
+        }
+      ],
+      "checks": [],
+      "durationMs": 5
+    },
+    {
+      "id": "U-PV-003",
+      "name": "Preview: forced remount renders DOM during fresh create",
+      "category": "preview",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "run",
+          "label": "Preview: forced remount renders DOM during fresh create",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 4
+        }
+      ],
+      "checks": [],
+      "durationMs": 4
+    },
+    {
+      "id": "scenario-1",
+      "name": "Create → hero image → reject → another → accept → text → accept → logo → undo → redo → save → reload",
+      "category": "",
+      "status": "WARNING",
+      "steps": [
+        {
+          "id": "1a",
+          "label": "Create website",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 6
+        },
+        {
+          "id": "1b",
+          "label": "Change hero image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 42
+        },
+        {
+          "id": "1c",
+          "label": "Reject (try another without accept)",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 51
+        },
+        {
+          "id": "1d",
+          "label": "Another hero image",
+          "status": "WARNING",
+          "reason": "Second image same as previous (pool may be limited)",
+          "durationMs": 48
+        },
+        {
+          "id": "1e",
+          "label": "Accept hero image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 4
+        },
+        {
+          "id": "1f",
+          "label": "Rewrite hero text",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 297
+        },
+        {
+          "id": "1g",
+          "label": "Accept hero text",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 5
+        },
+        {
+          "id": "1h",
+          "label": "Change logo (open material)",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 4
+        },
+        {
+          "id": "1i",
+          "label": "Undo",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 3
+        },
+        {
+          "id": "1j",
+          "label": "Redo",
+          "status": "WARNING",
+          "reason": "Nothing to redo (history stack shallow in test env)",
+          "durationMs": 0
+        },
+        {
+          "id": "1k",
+          "label": "Save",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        },
+        {
+          "id": "1l",
+          "label": "Reload and verify persistence",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 2
+        }
+      ],
+      "checks": [
+        {
+          "category": "Intent Resolution",
+          "name": "Resolves hero image intent",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 1,
+          "meta": null
+        },
+        {
+          "category": "Design Memory",
+          "name": "Records acceptance after keep",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Image Intelligence",
+          "name": "Image meta state exists",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Edit Session",
+          "name": "Accepted lock on hero image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Persistence",
+          "name": "localStorage roundtrip",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Preview",
+          "name": "DOM hero src matches state",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Pipeline",
+          "name": "Pipeline returns verified results",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 153,
+          "meta": null
+        },
+        {
+          "category": "Orchestrator",
+          "name": "Orchestrator participates",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 129,
+          "meta": null
+        }
+      ],
+      "durationMs": 747
+    },
+    {
+      "id": "scenario-2",
+      "name": "Generate → colors → about → gallery → CTA → reload → Design Memory",
+      "category": "",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "2a",
+          "label": "Generate website content",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        },
+        {
+          "id": "2b",
+          "label": "Change colors",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 5
+        },
+        {
+          "id": "2c",
+          "label": "Change about image",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 39
+        },
+        {
+          "id": "2d",
+          "label": "Change gallery",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 118
+        },
+        {
+          "id": "2e",
+          "label": "Change CTA",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 242
+        },
+        {
+          "id": "2f",
+          "label": "Reload",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 3
+        },
+        {
+          "id": "2g",
+          "label": "Verify Design Memory migration",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 13
+        }
+      ],
+      "checks": [
+        {
+          "category": "Text Intelligence",
+          "name": "Text meta or generated copy",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Design Memory",
+          "name": "Memory structure valid",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Consistency",
+          "name": "Color + hero coexist",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        }
+      ],
+      "durationMs": 423
+    },
+    {
+      "id": "scenario-3",
+      "name": "Premium refinement — hero, about, gallery, services consistency",
+      "category": "",
+      "status": "PASS",
+      "steps": [
+        {
+          "id": "3a",
+          "label": "Premium hero refinement",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 44
+        },
+        {
+          "id": "3b",
+          "label": "Premium about refinement",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 472
+        },
+        {
+          "id": "3c",
+          "label": "Gallery images",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 72
+        },
+        {
+          "id": "3d",
+          "label": "Services section text",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 276
+        },
+        {
+          "id": "3e",
+          "label": "Style consistency review",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0
+        }
+      ],
+      "checks": [
+        {
+          "category": "Orchestrator",
+          "name": "Premium plan executed",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 487,
+          "meta": null
+        },
+        {
+          "category": "Image Intelligence",
+          "name": "Premium picks differ from initial",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 39,
+          "meta": null
+        },
+        {
+          "category": "Text Intelligence",
+          "name": "Tone translation for premium",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 0,
+          "meta": null
+        },
+        {
+          "category": "Undo",
+          "name": "Undo restores baseline",
+          "status": "PASS",
+          "reason": "",
+          "durationMs": 223,
+          "meta": null
+        }
+      ],
+      "durationMs": 1614
+    }
+  ],
+  "engines": {
+    "Intent Resolution": [
+      {
+        "category": "Intent Resolution",
+        "name": "Resolves hero image intent",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 1,
+        "meta": null
+      },
+      {
+        "category": "Intent Resolution",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Design Memory": [
+      {
+        "category": "Design Memory",
+        "name": "Records acceptance after keep",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      },
+      {
+        "category": "Design Memory",
+        "name": "Memory structure valid",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      },
+      {
+        "category": "Design Memory",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Image Intelligence": [
+      {
+        "category": "Image Intelligence",
+        "name": "Image meta state exists",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      },
+      {
+        "category": "Image Intelligence",
+        "name": "Premium picks differ from initial",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 39,
+        "meta": null
+      },
+      {
+        "category": "Image Intelligence",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Edit Session": [
+      {
+        "category": "Edit Session",
+        "name": "Accepted lock on hero image",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      },
+      {
+        "category": "Edit Session",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Persistence": [
+      {
+        "category": "Persistence",
+        "name": "localStorage roundtrip",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Preview": [
+      {
+        "category": "Preview",
+        "name": "DOM hero src matches state",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Pipeline": [
+      {
+        "category": "Pipeline",
+        "name": "Pipeline returns verified results",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 153,
+        "meta": null
+      },
+      {
+        "category": "Pipeline",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Orchestrator": [
+      {
+        "category": "Orchestrator",
+        "name": "Orchestrator participates",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 129,
+        "meta": null
+      },
+      {
+        "category": "Orchestrator",
+        "name": "Premium plan executed",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 487,
+        "meta": null
+      },
+      {
+        "category": "Orchestrator",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Text Intelligence": [
+      {
+        "category": "Text Intelligence",
+        "name": "Text meta or generated copy",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      },
+      {
+        "category": "Text Intelligence",
+        "name": "Tone translation for premium",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      },
+      {
+        "category": "Text Intelligence",
+        "name": "Module loaded",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Consistency": [
+      {
+        "category": "Consistency",
+        "name": "Color + hero coexist",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 0,
+        "meta": null
+      }
+    ],
+    "Undo": [
+      {
+        "category": "Undo",
+        "name": "Undo restores baseline",
+        "status": "PASS",
+        "reason": "",
+        "durationMs": 223,
+        "meta": null
+      }
+    ],
+    "Node": [
+      {
+        "category": "Node",
+        "name": "syntax:js\\system-validation-engine.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\validation-harness.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\validation-assert.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\validation-scenario-library.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\validation-scenarios.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\project-isolation.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\generation-lifecycle.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\generation-integrity.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\intent-resolution-engine.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\design-memory-engine.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\image-intelligence-engine.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\text-intelligence-engine.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\ai-design-orchestrator.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\edit-command-pipeline.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:js\\edit-session.js",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "category": "Node",
+        "name": "syntax:ai.js",
+        "status": "PASS",
+        "reason": ""
+      }
+    ]
+  },
+  "coverage": {
+    "Intent Resolution": true,
+    "Design Memory": true,
+    "Image Intelligence": true,
+    "Edit Session": true,
+    "Persistence": true,
+    "Preview": true,
+    "Pipeline": true,
+    "Orchestrator": true,
+    "Text Intelligence": true,
+    "Consistency": true,
+    "Undo": true
+  },
+  "performance": {
+    "U-HI-001": 79,
+    "U-HI-002": 65,
+    "U-HI-003": 42,
+    "U-HI-004": 71,
+    "U-HI-005": 58,
+    "U-HI-006": 34,
+    "U-HI-007": 34,
+    "U-HI-008": 35,
+    "U-HI-009": 34,
+    "U-HI-010": 41,
+    "U-HI-011": 34,
+    "U-HI-012": 33,
+    "U-HI-013": 33,
+    "U-HI-014": 39,
+    "U-HI-015": 48,
+    "U-HI-016": 48,
+    "U-HI-017": 35,
+    "U-HI-018": 33,
+    "U-HI-019": 38,
+    "U-HI-020": 41,
+    "U-HI-021": 41,
+    "U-HI-022": 39,
+    "U-HI-023": 35,
+    "U-HI-024": 4,
+    "U-HI-025": 40,
+    "U-HT-001": 241,
+    "U-HT-002": 31,
+    "U-HT-003": 41,
+    "U-HT-004": 261,
+    "U-HT-005": 53,
+    "U-HT-006": 297,
+    "U-HT-007": 177,
+    "U-HT-008": 241,
+    "U-HT-009": 6,
+    "U-HT-010": 334,
+    "U-HT-011": 278,
+    "U-HT-012": 287,
+    "U-HT-013": 210,
+    "U-HT-014": 45,
+    "U-HT-015": 292,
+    "U-AB-001": 52,
+    "U-AB-002": 58,
+    "U-AB-003": 37,
+    "U-AB-004": 34,
+    "U-AB-005": 220,
+    "U-AB-006": 205,
+    "U-AB-007": 166,
+    "U-AB-008": 211,
+    "U-AB-009": 220,
+    "U-AB-010": 91,
+    "U-GL-001": 210,
+    "U-GL-002": 2,
+    "U-GL-003": 241,
+    "U-GL-004": 2,
+    "U-GL-005": 248,
+    "U-GL-006": 3,
+    "U-GL-007": 257,
+    "U-GL-008": 59,
+    "U-SV-001": 374,
+    "U-SV-002": 331,
+    "U-SV-003": 304,
+    "U-SV-004": 89,
+    "U-SV-005": 1,
+    "U-SV-006": 1,
+    "U-SV-007": 1,
+    "U-SV-008": 342,
+    "U-CL-001": 12,
+    "U-CL-002": 11,
+    "U-CL-003": 11,
+    "U-CL-004": 9,
+    "U-CL-005": 11,
+    "U-CL-006": 9,
+    "U-CL-007": 12,
+    "U-CL-008": 10,
+    "ire-hero-01": 0,
+    "ire-hero-02": 1,
+    "ire-hero-03": 1,
+    "ire-hero-04": 0,
+    "ire-hero-05": 0,
+    "ire-hero-06": 0,
+    "ire-hero-07": 0,
+    "ire-hero-08": 1,
+    "ire-hero-09": 0,
+    "ire-hero-10": 1,
+    "ire-hero-11": 0,
+    "ire-hero-12": 0,
+    "IRE-CL-001": 1,
+    "IRE-CL-002": 1,
+    "IRE-CL-003": 1,
+    "IRE-AN-001": 0,
+    "IRE-AN-002": 1,
+    "U-SS-006": 7,
+    "U-SS-001": 77,
+    "U-SS-002": 74,
+    "U-SS-003": 148,
+    "U-SS-004": 317,
+    "U-SS-005": 48,
+    "U-SS-007": 40,
+    "U-SS-008": 246,
+    "U-EN-001": 50,
+    "U-EN-002": 23,
+    "U-EN-003": 53,
+    "U-EN-004": 81,
+    "U-EN-011": 7,
+    "U-EN-005": 70,
+    "U-EN-006": 89,
+    "U-EN-007": 0,
+    "U-EN-008": 0,
+    "U-EN-009": 4,
+    "U-EN-010": 4,
+    "U-EN-012": 1,
+    "U-PE-001": 0,
+    "U-PE-002": 113,
+    "U-PE-003": 110,
+    "U-PE-004": 115,
+    "U-PE-005": 114,
+    "U-PR-001": 100,
+    "U-PR-002": 23,
+    "U-PR-003": 15,
+    "U-PR-004": 12,
+    "U-PR-005": 1,
+    "U-PR-006": 1,
+    "U-PR-007": 2,
+    "U-PR-008": 1,
+    "U-PR-009": 1,
+    "U-PR-010": 1,
+    "U-PR-011": 107,
+    "U-PR-012": 121,
+    "U-GN-001": 249,
+    "U-GN-002": 103,
+    "U-GN-003": 655,
+    "U-GN-004": 662,
+    "U-GN-005": 6,
+    "U-PV-001": 67,
+    "U-PV-002": 59,
+    "U-ISO-001": 58,
+    "U-ISO-002": 12,
+    "U-ISO-003": 4,
+    "U-ISO-004": 5,
+    "U-PV-003": 4,
+    "scenario-1": 747,
+    "scenario-2": 423,
+    "scenario-3": 1614
+  },
+  "exitCode": 0,
+  "coveragePercent": 100
+}

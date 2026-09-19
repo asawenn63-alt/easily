@@ -1,0 +1,67 @@
+{
+  "experimentId": "greenfield-variation-proof-001",
+  "status": "prepared-locked-awaiting-run-approval",
+  "lockedAt": "2026-08-26T13:19:57.8904670Z",
+  "creativeRunsStarted": 0,
+  "goldenProof": {
+    "runId": "quriasa-2026-08-26T03-14-52-155Z",
+    "manifest": "experiment/golden-quriasa.json"
+  },
+  "lockedConfiguration": {
+    "entrypoint": "generate.mjs",
+    "systemPromptSha256": "a53da9a2f469e394038a1649d57c26d259db9c24f6451fc25a810bc3eb218cd1",
+    "siteBundleSchemaSha256": "676e192598b57a2b7dbadf9714ed8fee5d2af9279f63f322dade0cb753e98981",
+    "safetyControlSha256": "4173f3e5ccda364ca244f9738fa675c3b67ef3b04f03c53ac663e5792bace56c",
+    "codeGenerationSha256": "daa840a7e6965d089a59f3fde56d058eb37032312589e773d1d8986ca660df66",
+    "imageSizeLogicSha256": "c859c1de711c841528d09cd8fe2f241f3ceee075358cf3fc4e3abda1d5025210",
+    "imageGenerationSha256": "4713b10b35629b331f45b1f1b607017d65a9e883a34f6e70f63464ad4e71c55b",
+    "textModel": "gpt-5.6-sol",
+    "textStore": false,
+    "maxOutputTokens": 40000,
+    "imageModel": "gpt-image-1-mini",
+    "imageQuality": "medium",
+    "imageFormat": "webp",
+    "imageCountRule": "AI-authored assetPlan, 4–6 images",
+    "pipeline": [
+      "locked five-question brief",
+      "one Responses API design-and-code generation",
+      "unchanged isolation control",
+      "parallel Images API asset generation",
+      "static HTML/CSS/JS output",
+      "sandboxed static preview"
+    ]
+  },
+  "lockedBriefs": [
+    {
+      "projectSlug": "snickare",
+      "path": "briefs/variation/snickare.json",
+      "sha256": "2e66d743b0b73a5f8dd1ee751b66e0f51049e16b0d66bb9519da4f7716ceb05d",
+      "outputPath": "output/snickare"
+    },
+    {
+      "projectSlug": "barnkladesbutik",
+      "path": "briefs/variation/barnkladesbutik.json",
+      "sha256": "49b8b4e02019f79f693bcc01556660742f4908ad8c618bfac62111031f0c2d37",
+      "outputPath": "output/barnkladesbutik"
+    },
+    {
+      "projectSlug": "cafe",
+      "path": "briefs/variation/cafe.json",
+      "sha256": "685d815219d0bf18a8d050e1aa679c873000b2da67ea9197c0e0a39756848bd6",
+      "outputPath": "output/cafe"
+    }
+  ],
+  "rules": {
+    "briefsLockedBeforeFirstRun": true,
+    "allowedCreativeRunsPerBrief": 1,
+    "creativeRetryAllowed": false,
+    "manualCorrectionAllowed": false,
+    "technicalRetryRequiresByteIdenticalInput": true,
+    "onlyBriefContentMayVary": true,
+    "quriasaMayBeRegenerated": false
+  },
+  "preparedSourceHashes": {
+    "generate.mjs": "f1e443cd5d3698c0f1ae7a10e11e944a3ed53ebd988b7deb015c7405381987bb",
+    "serve.mjs": "ebe5477f5541a37fb4803dc777550dc6683df7b6b166e1810e9756bc0c6ce203"
+  }
+}

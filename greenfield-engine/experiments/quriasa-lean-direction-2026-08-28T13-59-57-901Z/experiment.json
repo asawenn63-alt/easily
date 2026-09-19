@@ -1,0 +1,16 @@
+{
+  "runId": "quriasa-lean-direction-2026-08-28T13-59-57-901Z",
+  "baselineRun": "quriasa-opening-20260827-2026-08-27T19-49-44-772Z",
+  "model": "gpt-5.6-sol",
+  "engineSha256": "c1147b1dfdb58ffb5498c7d1b228ec866193076777b66f8386cdde338324550b",
+  "briefSha256": "775c65f3ea8829bdcda470caa42b66cf2b0ba4e9abb39f8b2529ed01f3431079",
+  "schemaSha256": "0f133e22b59791efa047249983e0b9bb42e6f29186432d1f2f1cdc12dd9d5aca",
+  "oldSystemPromptSha256": "98ef9f3e61f8609248e03f68188254d6893e3c91f6b585ec8b031e6700203b97",
+  "newSystemPromptSha256": "f04c0435a931ab132dd56715fc3f17240bfb8beb2ea6c7b80538229f88136623",
+  "changedRequestFields": [
+    "input[0].content"
+  ],
+  "maxCreativeCalls": 1,
+  "baselineRequestNote": "Reconstructed from saved prompt, matching brief and unchanged generateArtDirection function, not an archived wire request.",
+  "limitation": "One new design-only sample against a saved sample; not a causal proof or a rendered quality assessment."
+}

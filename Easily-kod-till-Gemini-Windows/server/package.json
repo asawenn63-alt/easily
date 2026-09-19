@@ -1,0 +1,15 @@
+{
+  "name": "ai-site-studio-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "validate": "node ../scripts/run-validation.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.4.0"
+  }
+}

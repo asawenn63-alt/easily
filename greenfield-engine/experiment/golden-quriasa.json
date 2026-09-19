@@ -1,0 +1,30 @@
+{
+  "status": "immutable-golden-proof",
+  "runId": "quriasa-2026-08-26T03-14-52-155Z",
+  "runPath": "runs/quriasa-2026-08-26T03-14-52-155Z",
+  "visibleOutputPath": "output/quriasa",
+  "verifiedAt": "2026-08-26",
+  "systemPromptSha256": "a53da9a2f469e394038a1649d57c26d259db9c24f6451fc25a810bc3eb218cd1",
+  "engineSourceBeforeParameterizationSha256": "278a34f9eaafc8c1c4376b5c84e9ca4a66e40fcb0a25c1618c61bc2226c258eb",
+  "files": {
+    "ai-bundle.json": "e6b5520e47c4beb44fd2722abb52e9c9644fbaad7b6240199b5ce6cfa67996ba",
+    "brief.json": "8749800b93d6396ad8799225035fdffd55a02ebb9969e8ef2f503d52f9810d92",
+    "site/assets/quria-ceramic-shelf.webp": "208b62bf72a87f8cb630232e587565d9a67ede279cda99ec4bcb86a85bd5e0c7",
+    "site/assets/quria-gift-table.webp": "6df29923a59e4f441fc9552a977e950e9dd108e897cdbaf8386b8483bf069e86",
+    "site/assets/quria-hero-window.webp": "ae520badcb1d6d95b0639753e0051a71a6bd8c93b5ff4feb4672715529dd055b",
+    "site/assets/quria-home-detail.webp": "350faa53616047316543dd86efee2809af3b6eeceb9dda05b191d24405f3cd4b",
+    "site/assets/quria-playful-objects.webp": "c88be2cb20dfa48137d79141cfb1fdc68f42f7605bb65afe2ff35a0e5610ddfb",
+    "site/assets/quria-shop-hands.webp": "69d4bcc794b9a2ce05942f2a88e96ee360e8a6ecc2a6cdd53073ce259a847441",
+    "site/generation.json": "a1cbd20e7b60cdef9af058d49c69c33202386bf059ea5c74e926690e76017e83",
+    "site/index.html": "61139fcce80057e1db93445135e956177f057cce3e6494212ccdf58c760ec69b",
+    "site/site.js": "67029a7aeb115155e209fe82f15a03c5ceab793213cc63bd909d317410cc3704",
+    "site/styles.css": "4e85fc9366cbf815e25e07b7b8e256e7cf4cb9a77d0578c4a2646d6f8c74a830"
+  },
+  "verification": {
+    "runMatchesVisibleOutput": true,
+    "mayRegenerate": false,
+    "mayOverwrite": false,
+    "mayMove": false,
+    "mayModify": false
+  }
+}

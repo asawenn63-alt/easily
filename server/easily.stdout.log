@@ -1,0 +1,12 @@
+
+  AI Site Studio — en server: landning + arbetsyta + sparade hemsidor.
+  Börja här: öppna landning i webbläsaren → ”Börja skapa” → redigeraren.
+  http://localhost:3847/
+  (Samma adress som F5 uppdaterar — byt inte port om allt ska sitta ihop.)
+
+  Teknik: statiska filer → C:\Users\asawe\Desktop\Alexandra\Svensk-Assistent\Svensk-Assistent\artifacts\ai-first-site-builder
+  Data (projekt): C:\Users\asawe\Desktop\Alexandra\Svensk-Assistent\Svensk-Assistent\artifacts\ai-first-site-builder\server\data\projects
+  Sidor: GET / (landning) | GET /studio.html | GET /create-v2 | GET /editor/:id | GET /preview/:id | GET /site/:slug | GET /s/:slug
+  API (JSON): /api/health, /api/projects, /api/projects/:id/save, /api/projects/:id/publish med mera
+  Redo: servern lyssnar. Inget mer skrivs här tills någon laddar en sida (inget som laddar klart i bakgrunden).
+

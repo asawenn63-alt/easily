@@ -1,0 +1,659 @@
+EASILY SYSTEM VALIDATION REPORT
+========================================
+Started:  2026-08-23T19:50:48.990Z
+Finished: 2026-08-23T19:51:05.987Z
+Duration: 16997 ms
+Summary:  PASS 24  WARNING 1  FAIL 0
+Library:  142 scenarios · success 95.8% (gate ≥ 95%) · FAIL 6
+Coverage: 100%
+
+Failed scenarios (bugs):
+  U-HI-024 [hero-image] User: hero foto annat — Pipeline ok=false: industry_unchanged
+  U-AB-003 [about-image] User: ändra bilden i om oss — State unchanged after: ändra bilden i om oss
+  U-AB-004 [about-image] User: ny bild om oss — State unchanged after: ny bild om oss
+  IRE-CL-001 [intent-resolution] IRE: clarify then confirm hero image — Step1 expected clarify, got execute (high_confidence_focus:baseline)
+  IRE-CL-003 [intent-resolution] IRE: clarify deny headline means hero image — Expected execute, got clarify
+  U-GN-004 [generate] Generate: hero is not raw user brief — Hero title is raw brief paste: Vi är ett litet företag som säljer ekologiska produkter online och vill nå fler kunder i hela Sverige
+
+Scenario: User: byt hero-bild [PASS] (79 ms)
+  Step run User: byt hero-bild: PASS
+
+Scenario: User: byt hero bild [PASS] (65 ms)
+  Step run User: byt hero bild: PASS
+
+Scenario: User: kan du byta hero-bilden [PASS] (42 ms)
+  Step run User: kan du byta hero-bilden: PASS
+
+Scenario: User: lägg in en hero-bild [PASS] (71 ms)
+  Step run User: lägg in en hero-bild: PASS
+
+Scenario: User: sätt en ny bild i hero [PASS] (58 ms)
+  Step run User: sätt en ny bild i hero: PASS
+
+Scenario: User: uppdatera hero-bilden [PASS] (34 ms)
+  Step run User: uppdatera hero-bilden: PASS
+
+Scenario: User: fixa hero-bilden [PASS] (34 ms)
+  Step run User: fixa hero-bilden: PASS
+
+Scenario: User: byt bakgrundsbild i hero [PASS] (35 ms)
+  Step run User: byt bakgrundsbild i hero: PASS
+
+Scenario: User: jag vill ha en annan hero-bild [PASS] (34 ms)
+  Step run User: jag vill ha en annan hero-bild: PASS
+
+Scenario: User: visa en till hero-bild [PASS] (41 ms)
+  Step run User: visa en till hero-bild: PASS
+
+Scenario: User: igen [PASS] (34 ms)
+  Step run User: igen: PASS
+
+Scenario: User: en till bild [PASS] (33 ms)
+  Step run User: en till bild: PASS
+
+Scenario: User: gör hero-bilden modernare [PASS] (33 ms)
+  Step run User: gör hero-bilden modernare: PASS
+
+Scenario: User: mer premium hero [PASS] (39 ms)
+  Step run User: mer premium hero: PASS
+
+Scenario: User: gör hero mer exklusiv [PASS] (48 ms)
+  Step run User: gör hero mer exklusiv: PASS
+
+Scenario: User: snickare hero bild med trä [PASS] (48 ms)
+  Step run User: snickare hero bild med trä: PASS
+
+Scenario: User: byt hero-bild till snickare med verktyg [PASS] (35 ms)
+  Step run User: byt hero-bild till snickare med verktyg: PASS
+
+Scenario: User: annan hero-bild [PASS] (33 ms)
+  Step run User: annan hero-bild: PASS
+
+Scenario: User: prova en annan bild på hero [PASS] (38 ms)
+  Step run User: prova en annan bild på hero: PASS
+
+Scenario: User: kan ni byta bilden högst upp [PASS] (41 ms)
+  Step run User: kan ni byta bilden högst upp: PASS
+
+Scenario: User: ändra bilden i första delen [PASS] (41 ms)
+  Step run User: ändra bilden i första delen: PASS
+
+Scenario: User: ny bild på startsidan [PASS] (39 ms)
+  Step run User: ny bild på startsidan: PASS
+
+Scenario: User: byt toppbilden [PASS] (35 ms)
+  Step run User: byt toppbilden: PASS
+
+Scenario: User: hero foto annat [FAIL] (4 ms)
+  Step run User: hero foto annat: FAIL — Pipeline ok=false: industry_unchanged
+
+Scenario: User: mer nordisk hero-bild [PASS] (40 ms)
+  Step run User: mer nordisk hero-bild: PASS
+
+Scenario: User: skriv om hero-rubriken [PASS] (241 ms)
+  Step run User: skriv om hero-rubriken: PASS
+
+Scenario: User: ändra rubriken i hero [PASS] (31 ms)
+  Step run User: ändra rubriken i hero: PASS
+
+Scenario: User: byt texten i hero [PASS] (41 ms)
+  Step run User: byt texten i hero: PASS
+
+Scenario: User: skriv om ingressen [PASS] (261 ms)
+  Step run User: skriv om ingressen: PASS
+
+Scenario: User: uppdatera hero-texten [PASS] (53 ms)
+  Step run User: uppdatera hero-texten: PASS
+
+Scenario: User: generera om hero [PASS] (297 ms)
+  Step run User: generera om hero: PASS
+
+Scenario: User: ny text på hero [PASS] (177 ms)
+  Step run User: ny text på hero: PASS
+
+Scenario: User: skriv om rubriken [PASS] (241 ms)
+  Step run User: skriv om rubriken: PASS
+
+Scenario: User: gör texten varmare [PASS] (6 ms)
+  Step run User: gör texten varmare: PASS
+
+Scenario: User: mer professionell hero-text [PASS] (334 ms)
+  Step run User: mer professionell hero-text: PASS
+
+Scenario: User: mindre sälj i hero [PASS] (278 ms)
+  Step run User: mindre sälj i hero: PASS
+
+Scenario: User: skriv om hero mer premium [PASS] (287 ms)
+  Step run User: skriv om hero mer premium: PASS
+
+Scenario: User: kortare rubrik [PASS] (210 ms)
+  Step run User: kortare rubrik: PASS
+
+Scenario: User: byt rubriken till Nordträ Snickeri [PASS] (45 ms)
+  Step run User: byt rubriken till Nordträ Snickeri: PASS
+
+Scenario: User: skriv om knappen i hero [PASS] (292 ms)
+  Step run User: skriv om knappen i hero: PASS
+
+Scenario: User: byt om oss-bild [PASS] (52 ms)
+  Step run User: byt om oss-bild: PASS
+
+Scenario: User: byt om oss bild [PASS] (58 ms)
+  Step run User: byt om oss bild: PASS
+
+Scenario: User: ändra bilden i om oss [FAIL] (37 ms)
+  Step run User: ändra bilden i om oss: FAIL — State unchanged after: ändra bilden i om oss
+
+Scenario: User: ny bild om oss [FAIL] (34 ms)
+  Step run User: ny bild om oss: FAIL — State unchanged after: ny bild om oss
+
+Scenario: User: skriv om om oss [PASS] (220 ms)
+  Step run User: skriv om om oss: PASS
+
+Scenario: User: uppdatera texten i om oss [PASS] (205 ms)
+  Step run User: uppdatera texten i om oss: PASS
+
+Scenario: User: generera om about [PASS] (166 ms)
+  Step run User: generera om about: PASS
+
+Scenario: User: skriv om om oss mer premium [PASS] (211 ms)
+  Step run User: skriv om om oss mer premium: PASS
+
+Scenario: User: gör om oss mer personlig [PASS] (220 ms)
+  Step run User: gör om oss mer personlig: PASS
+
+Scenario: User: byt om oss-bild igen [PASS] (91 ms)
+  Step run User: byt om oss-bild igen: PASS
+
+Scenario: User: byt galleribilder [PASS] (210 ms)
+  Step run User: byt galleribilder: PASS
+
+Scenario: User: ändra galleriet [PASS] (2 ms)
+  Step run User: ändra galleriet: PASS
+
+Scenario: User: nya galleribilder [PASS] (241 ms)
+  Step run User: nya galleribilder: PASS
+
+Scenario: User: slumpa galleri [PASS] (2 ms)
+  Step run User: slumpa galleri: PASS
+
+Scenario: User: byt bilder i galleriet [PASS] (248 ms)
+  Step run User: byt bilder i galleriet: PASS
+
+Scenario: User: kan du byta galleri [PASS] (3 ms)
+  Step run User: kan du byta galleri: PASS
+
+Scenario: User: uppdatera galleribilderna [PASS] (257 ms)
+  Step run User: uppdatera galleribilderna: PASS
+
+Scenario: User: fler bilder i galleriet [PASS] (59 ms)
+  Step run User: fler bilder i galleriet: PASS
+
+Scenario: User: skriv om tjänster [PASS] (374 ms)
+  Step run User: skriv om tjänster: PASS
+
+Scenario: User: uppdatera tjänstetexten [PASS] (331 ms)
+  Step run User: uppdatera tjänstetexten: PASS
+
+Scenario: User: generera om services [PASS] (304 ms)
+  Step run User: generera om services: PASS
+
+Scenario: User: byt tjänstebilder [PASS] (89 ms)
+  Step run User: byt tjänstebilder: PASS
+
+Scenario: User: ändra tjänstekorten [PASS] (1 ms)
+  Step run User: ändra tjänstekorten: PASS
+
+Scenario: User: skriv om tjänster mer premium [PASS] (1 ms)
+  Step run User: skriv om tjänster mer premium: PASS
+
+Scenario: User: ny text på tjänster [PASS] (1 ms)
+  Step run User: ny text på tjänster: PASS
+
+Scenario: User: uppdatera services-rubriken [PASS] (342 ms)
+  Step run User: uppdatera services-rubriken: PASS
+
+Scenario: User: byt färgtema [PASS] (12 ms)
+  Step run User: byt färgtema: PASS
+
+Scenario: User: ändra färgerna [PASS] (11 ms)
+  Step run User: ändra färgerna: PASS
+
+Scenario: User: prova andra färger [PASS] (11 ms)
+  Step run User: prova andra färger: PASS
+
+Scenario: User: ny färgpalett [PASS] (9 ms)
+  Step run User: ny färgpalett: PASS
+
+Scenario: User: gör färgerna mörkare [PASS] (11 ms)
+  Step run User: gör färgerna mörkare: PASS
+
+Scenario: User: ljusare färger [PASS] (9 ms)
+  Step run User: ljusare färger: PASS
+
+Scenario: User: byt designfärger [PASS] (12 ms)
+  Step run User: byt designfärger: PASS
+
+Scenario: User: uppdatera färgschemat [PASS] (10 ms)
+  Step run User: uppdatera färgschemat: PASS
+
+Scenario: IRE: byt hero-bild [PASS] (0 ms)
+  Step run IRE: byt hero-bild: PASS
+
+Scenario: IRE: byt hero bild [PASS] (1 ms)
+  Step run IRE: byt hero bild: PASS
+
+Scenario: IRE: visa en till [PASS] (1 ms)
+  Step run IRE: visa en till: PASS
+
+Scenario: IRE: gör den yngre [PASS] (0 ms)
+  Step run IRE: gör den yngre: PASS
+
+Scenario: IRE: mer premium [PASS] (0 ms)
+  Step run IRE: mer premium: PASS
+
+Scenario: IRE: byt om oss-bild [PASS] (0 ms)
+  Step run IRE: byt om oss-bild: PASS
+
+Scenario: IRE: byt galleribild [PASS] (0 ms)
+  Step run IRE: byt galleribild: PASS
+
+Scenario: IRE: skriv om hero-rubriken [PASS] (1 ms)
+  Step run IRE: skriv om hero-rubriken: PASS
+
+Scenario: IRE: byt färgtema [PASS] (0 ms)
+  Step run IRE: byt färgtema: PASS
+
+Scenario: IRE: uppdatera logotypen [PASS] (1 ms)
+  Step run IRE: uppdatera logotypen: PASS
+
+Scenario: IRE: kan du fixa hero-bilden [PASS] (0 ms)
+  Step run IRE: kan du fixa hero-bilden: PASS
+
+Scenario: IRE: snickare bild hero [PASS] (0 ms)
+  Step run IRE: snickare bild hero: PASS
+
+Scenario: IRE: clarify then confirm hero image [FAIL] (1 ms)
+  Step run IRE: clarify then confirm hero image: FAIL — Step1 expected clarify, got execute (high_confidence_focus:baseline)
+
+Scenario: IRE: clarify then pick rubriken explicitly [PASS] (1 ms)
+  Step run IRE: clarify then pick rubriken explicitly: PASS
+
+Scenario: IRE: clarify deny headline means hero image [FAIL] (1 ms)
+  Step run IRE: clarify deny headline means hero image: FAIL — Expected execute, got clarify
+
+Scenario: IRE: retry phrases produce another signal [PASS] (0 ms)
+  Step run IRE: retry phrases produce another signal: PASS
+
+Scenario: IRE: ändra en till on hero image focus → retry [PASS] (1 ms)
+  Step run IRE: ändra en till on hero image focus → retry: PASS
+
+Scenario: Session: byt hero-bild then ändra en till [PASS] (109 ms)
+  Step run Session: byt hero-bild then ändra en till: PASS
+
+Scenario: Session: keep after hero image [PASS] (77 ms)
+  Step run Session: keep after hero image: PASS
+
+Scenario: Session: undo after hero image [PASS] (74 ms)
+  Step run Session: undo after hero image: PASS
+
+Scenario: Session: another then keep [PASS] (148 ms)
+  Step run Session: another then keep: PASS
+
+Scenario: Session: text regen then keep [PASS] (317 ms)
+  Step run Session: text regen then keep: PASS
+
+Scenario: Session: pending verification set [PASS] (48 ms)
+  Step run Session: pending verification set: PASS
+
+Scenario: Session: reset clears retry [PASS] (7 ms)
+  Step run Session: reset clears retry: PASS
+
+Scenario: Session: __keep__ via pipeline [PASS] (40 ms)
+  Step run Session: __keep__ via pipeline: PASS
+
+Scenario: Session: __undo__ via pipeline [PASS] (246 ms)
+  Step run Session: __undo__ via pipeline: PASS
+
+Scenario: IIE: hero selectBest [PASS] (50 ms)
+  Step run IIE: hero selectBest: PASS
+
+Scenario: IIE: about selectBest [PASS] (23 ms)
+  Step run IIE: about selectBest: PASS
+
+Scenario: IIE: gallery selectBest [PASS] (53 ms)
+  Step run IIE: gallery selectBest: PASS
+
+Scenario: IIE: diversity on another [PASS] (81 ms)
+  Step run IIE: diversity on another: PASS
+
+Scenario: IIE: Jretur hero selects recycling image [PASS] (308 ms)
+  Step run IIE: Jretur hero selects recycling image: PASS
+
+Scenario: TIE: hero generate [PASS] (70 ms)
+  Step run TIE: hero generate: PASS
+
+Scenario: TIE: about generate [PASS] (89 ms)
+  Step run TIE: about generate: PASS
+
+Scenario: TIE: tone premium [PASS] (0 ms)
+  Step run TIE: tone premium: PASS
+
+Scenario: DM: getMemory [PASS] (0 ms)
+  Step run DM: getMemory: PASS
+
+Scenario: DM: validate image proposal [PASS] (4 ms)
+  Step run DM: validate image proposal: PASS
+
+Scenario: Orchestrator: build plan [PASS] (4 ms)
+  Step run Orchestrator: build plan: PASS
+
+Scenario: Orchestrator: consistency score [PASS] (7 ms)
+  Step run Orchestrator: consistency score: PASS
+
+Scenario: Pipeline: capture snapshot [PASS] (1 ms)
+  Step run Pipeline: capture snapshot: PASS
+
+Scenario: Persistence: save document [PASS] (0 ms)
+  Step run Persistence: save document: PASS
+
+Scenario: Persistence: reload roundtrip [PASS] (113 ms)
+  Step run Persistence: reload roundtrip: PASS
+
+Scenario: Persistence: hero survives reload [PASS] (110 ms)
+  Step run Persistence: hero survives reload: PASS
+
+Scenario: Persistence: design memory meta [PASS] (115 ms)
+  Step run Persistence: design memory meta: PASS
+
+Scenario: Persistence: image intelligence meta [PASS] (114 ms)
+  Step run Persistence: image intelligence meta: PASS
+
+Scenario: User: gör hero mer premium [PASS] (100 ms)
+  Step run User: gör hero mer premium: PASS
+
+Scenario: User: mer exklusiv känsla [PASS] (23 ms)
+  Step run User: mer exklusiv känsla: PASS
+
+Scenario: User: mer nordisk stil [PASS] (15 ms)
+  Step run User: mer nordisk stil: PASS
+
+Scenario: User: varmare ton i texterna [PASS] (12 ms)
+  Step run User: varmare ton i texterna: PASS
+
+Scenario: User: mer professionellt [PASS] (1 ms)
+  Step run User: mer professionellt: PASS
+
+Scenario: User: mer lekfull design [PASS] (1 ms)
+  Step run User: mer lekfull design: PASS
+
+Scenario: User: skandinavisk premium [PASS] (2 ms)
+  Step run User: skandinavisk premium: PASS
+
+Scenario: User: lyxigare hero [PASS] (1 ms)
+  Step run User: lyxigare hero: PASS
+
+Scenario: User: modernare om oss [PASS] (1 ms)
+  Step run User: modernare om oss: PASS
+
+Scenario: User: mer premium tjänster [PASS] (1 ms)
+  Step run User: mer premium tjänster: PASS
+
+Scenario: User: elegant hero-bild [PASS] (107 ms)
+  Step run User: elegant hero-bild: PASS
+
+Scenario: User: minimal nordisk hero [PASS] (121 ms)
+  Step run User: minimal nordisk hero: PASS
+
+Scenario: Generate: fillSection hero [PASS] (249 ms)
+  Step run Generate: fillSection hero: PASS
+
+Scenario: Generate: fillSection about [PASS] (103 ms)
+  Step run Generate: fillSection about: PASS
+
+Scenario: Generate: fillSection all [PASS] (655 ms)
+  Step run Generate: fillSection all: PASS
+
+Scenario: Generate: hero is not raw user brief [FAIL] (662 ms)
+  Step run Generate: hero is not raw user brief: FAIL — Hero title is raw brief paste: Vi är ett litet företag som säljer ekologiska produkter online och vill nå fler kunder i hela Sverige
+
+Scenario: Intent: image chat must not become hero title [PASS] (6 ms)
+  Step run Intent: image chat must not become hero title: PASS
+
+Scenario: Preview: DOM sync after hero [PASS] (67 ms)
+  Step run Preview: DOM sync after hero: PASS
+
+Scenario: Preview: verifyChange hero [PASS] (59 ms)
+  Step run Preview: verifyChange hero: PASS
+
+Scenario: Isolation: project B has no state from project A [PASS] (58 ms)
+  Step run Isolation: project B has no state from project A: PASS
+
+Scenario: Isolation: zero project A DOM during project B generation [PASS] (12 ms)
+  Step run Isolation: zero project A DOM during project B generation: PASS
+
+Scenario: Isolation: create phase routes to new generation not edit [PASS] (4 ms)
+  Step run Isolation: create phase routes to new generation not edit: PASS
+
+Scenario: Isolation: plain studio must not resume session project id [PASS] (5 ms)
+  Step run Isolation: plain studio must not resume session project id: PASS
+
+Scenario: Preview: forced remount renders DOM during fresh create [PASS] (4 ms)
+  Step run Preview: forced remount renders DOM during fresh create: PASS
+
+Scenario: Create → hero image → reject → another → accept → text → accept → logo → undo → redo → save → reload [WARNING] (747 ms)
+  Step 1a Create website: PASS
+  Step 1b Change hero image: PASS
+  Step 1c Reject (try another without accept): PASS
+  Step 1d Another hero image: WARNING — Second image same as previous (pool may be limited)
+  Step 1e Accept hero image: PASS
+  Step 1f Rewrite hero text: PASS
+  Step 1g Accept hero text: PASS
+  Step 1h Change logo (open material): PASS
+  Step 1i Undo: PASS
+  Step 1j Redo: WARNING — Nothing to redo (history stack shallow in test env)
+  Step 1k Save: PASS
+  Step 1l Reload and verify persistence: PASS
+  Check Resolves hero image intent: PASS
+  Check Records acceptance after keep: PASS
+  Check Image meta state exists: PASS
+  Check Accepted lock on hero image: PASS
+  Check localStorage roundtrip: PASS
+  Check DOM hero src matches state: PASS
+  Check Pipeline returns verified results: PASS
+  Check Orchestrator participates: PASS
+
+Scenario: Generate → colors → about → gallery → CTA → reload → Design Memory [PASS] (423 ms)
+  Step 2a Generate website content: PASS
+  Step 2b Change colors: PASS
+  Step 2c Change about image: PASS
+  Step 2d Change gallery: PASS
+  Step 2e Change CTA: PASS
+  Step 2f Reload: PASS
+  Step 2g Verify Design Memory migration: PASS
+  Check Text meta or generated copy: PASS
+  Check Memory structure valid: PASS
+  Check Color + hero coexist: PASS
+
+Scenario: Premium refinement — hero, about, gallery, services consistency [PASS] (1614 ms)
+  Step 3a Premium hero refinement: PASS
+  Step 3b Premium about refinement: PASS
+  Step 3c Gallery images: PASS
+  Step 3d Services section text: PASS
+  Step 3e Style consistency review: PASS
+  Check Premium plan executed: PASS
+  Check Premium picks differ from initial: PASS
+  Check Tone translation for premium: PASS
+  Check Undo restores baseline: PASS
+
+Engine audit
+----------------------------------------
+Intent Resolution / Resolves hero image intent: PASS
+Intent Resolution / Module loaded: PASS
+Design Memory / Records acceptance after keep: PASS
+Design Memory / Memory structure valid: PASS
+Design Memory / Module loaded: PASS
+Image Intelligence / Image meta state exists: PASS
+Image Intelligence / Premium picks differ from initial: PASS
+Image Intelligence / Module loaded: PASS
+Edit Session / Accepted lock on hero image: PASS
+Edit Session / Module loaded: PASS
+Persistence / localStorage roundtrip: PASS
+Preview / DOM hero src matches state: PASS
+Pipeline / Pipeline returns verified results: PASS
+Pipeline / Module loaded: PASS
+Orchestrator / Orchestrator participates: PASS
+Orchestrator / Premium plan executed: PASS
+Orchestrator / Module loaded: PASS
+Text Intelligence / Text meta or generated copy: PASS
+Text Intelligence / Tone translation for premium: PASS
+Text Intelligence / Module loaded: PASS
+Consistency / Color + hero coexist: PASS
+Undo / Undo restores baseline: PASS
+
+Performance
+  U-HI-001: 79 ms
+  U-HI-002: 65 ms
+  U-HI-003: 42 ms
+  U-HI-004: 71 ms
+  U-HI-005: 58 ms
+  U-HI-006: 34 ms
+  U-HI-007: 34 ms
+  U-HI-008: 35 ms
+  U-HI-009: 34 ms
+  U-HI-010: 41 ms
+  U-HI-011: 34 ms
+  U-HI-012: 33 ms
+  U-HI-013: 33 ms
+  U-HI-014: 39 ms
+  U-HI-015: 48 ms
+  U-HI-016: 48 ms
+  U-HI-017: 35 ms
+  U-HI-018: 33 ms
+  U-HI-019: 38 ms
+  U-HI-020: 41 ms
+  U-HI-021: 41 ms
+  U-HI-022: 39 ms
+  U-HI-023: 35 ms
+  U-HI-024: 4 ms
+  U-HI-025: 40 ms
+  U-HT-001: 241 ms
+  U-HT-002: 31 ms
+  U-HT-003: 41 ms
+  U-HT-004: 261 ms
+  U-HT-005: 53 ms
+  U-HT-006: 297 ms
+  U-HT-007: 177 ms
+  U-HT-008: 241 ms
+  U-HT-009: 6 ms
+  U-HT-010: 334 ms
+  U-HT-011: 278 ms
+  U-HT-012: 287 ms
+  U-HT-013: 210 ms
+  U-HT-014: 45 ms
+  U-HT-015: 292 ms
+  U-AB-001: 52 ms
+  U-AB-002: 58 ms
+  U-AB-003: 37 ms
+  U-AB-004: 34 ms
+  U-AB-005: 220 ms
+  U-AB-006: 205 ms
+  U-AB-007: 166 ms
+  U-AB-008: 211 ms
+  U-AB-009: 220 ms
+  U-AB-010: 91 ms
+  U-GL-001: 210 ms
+  U-GL-002: 2 ms
+  U-GL-003: 241 ms
+  U-GL-004: 2 ms
+  U-GL-005: 248 ms
+  U-GL-006: 3 ms
+  U-GL-007: 257 ms
+  U-GL-008: 59 ms
+  U-SV-001: 374 ms
+  U-SV-002: 331 ms
+  U-SV-003: 304 ms
+  U-SV-004: 89 ms
+  U-SV-005: 1 ms
+  U-SV-006: 1 ms
+  U-SV-007: 1 ms
+  U-SV-008: 342 ms
+  U-CL-001: 12 ms
+  U-CL-002: 11 ms
+  U-CL-003: 11 ms
+  U-CL-004: 9 ms
+  U-CL-005: 11 ms
+  U-CL-006: 9 ms
+  U-CL-007: 12 ms
+  U-CL-008: 10 ms
+  ire-hero-01: 0 ms
+  ire-hero-02: 1 ms
+  ire-hero-03: 1 ms
+  ire-hero-04: 0 ms
+  ire-hero-05: 0 ms
+  ire-hero-06: 0 ms
+  ire-hero-07: 0 ms
+  ire-hero-08: 1 ms
+  ire-hero-09: 0 ms
+  ire-hero-10: 1 ms
+  ire-hero-11: 0 ms
+  ire-hero-12: 0 ms
+  IRE-CL-001: 1 ms
+  IRE-CL-002: 1 ms
+  IRE-CL-003: 1 ms
+  IRE-AN-001: 0 ms
+  IRE-AN-002: 1 ms
+  U-SS-006: 7 ms
+  U-SS-001: 77 ms
+  U-SS-002: 74 ms
+  U-SS-003: 148 ms
+  U-SS-004: 317 ms
+  U-SS-005: 48 ms
+  U-SS-007: 40 ms
+  U-SS-008: 246 ms
+  U-EN-001: 50 ms
+  U-EN-002: 23 ms
+  U-EN-003: 53 ms
+  U-EN-004: 81 ms
+  U-EN-011: 7 ms
+  U-EN-005: 70 ms
+  U-EN-006: 89 ms
+  U-EN-007: 0 ms
+  U-EN-008: 0 ms
+  U-EN-009: 4 ms
+  U-EN-010: 4 ms
+  U-EN-012: 1 ms
+  U-PE-001: 0 ms
+  U-PE-002: 113 ms
+  U-PE-003: 110 ms
+  U-PE-004: 115 ms
+  U-PE-005: 114 ms
+  U-PR-001: 100 ms
+  U-PR-002: 23 ms
+  U-PR-003: 15 ms
+  U-PR-004: 12 ms
+  U-PR-005: 1 ms
+  U-PR-006: 1 ms
+  U-PR-007: 2 ms
+  U-PR-008: 1 ms
+  U-PR-009: 1 ms
+  U-PR-010: 1 ms
+  U-PR-011: 107 ms
+  U-PR-012: 121 ms
+  U-GN-001: 249 ms
+  U-GN-002: 103 ms
+  U-GN-003: 655 ms
+  U-GN-004: 662 ms
+  U-GN-005: 6 ms
+  U-PV-001: 67 ms
+  U-PV-002: 59 ms
+  U-ISO-001: 58 ms
+  U-ISO-002: 12 ms
+  U-ISO-003: 4 ms
+  U-ISO-004: 5 ms
+  U-PV-003: 4 ms
+  scenario-1: 747 ms
+  scenario-2: 423 ms
+  scenario-3: 1614 ms
+
+Exit code: 0

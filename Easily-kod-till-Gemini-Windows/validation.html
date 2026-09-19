@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <title>Easily — System Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 0;
+        padding: 1.5rem;
+        background: #0f1419;
+        color: #e7ecf1;
+      }
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      pre {
+        background: #1a222c;
+        padding: 1rem;
+        border-radius: 8px;
+        overflow: auto;
+        font-size: 12px;
+        line-height: 1.45;
+        white-space: pre-wrap;
+      }
+      .status-pass {
+        color: #3dd68c;
+      }
+      .status-warn {
+        color: #f0c040;
+      }
+      .status-fail {
+        color: #f07178;
+      }
+      #runBtn {
+        margin-bottom: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 6px;
+        background: #3d8bfd;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      #summary {
+        margin: 1rem 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body data-industry="verksamhet" data-template="editorial" data-theme="minimal-white">
+    <h1>Easily System Validation</h1>
+    <p id="summary">Loading engines…</p>
+    <button type="button" id="runBtn" hidden>Run validation</button>
+    <pre id="report" aria-live="polite"></pre>
+
+    <script src="js/site-bootstrap.js?v=20260803v"></script>
+    <script src="js/site-api.js"></script>
+    <script src="js/registry.js"></script>
+    <script src="js/image-catalog.js?v=20260806c"></script>
+    <script src="js/image-selection-engine.js?v=20260806c"></script>
+    <script src="js/image-apply.js?v=20260801b"></script>
+    <script src="js/visual-stock.js?v=20260806c"></script>
+    <script src="js/app-document.js"></script>
+    <script src="js/design-families.js?v=20260802a"></script>
+    <script src="js/state.js?v=20260803v"></script>
+    <script src="js/hero-image-url.js?v=20260801b"></script>
+    <script src="ai.js?v=20260803s"></script>
+    <script src="js/edit-session.js?v=20260803g"></script>
+    <script src="js/design-memory-engine.js?v=20260803j"></script>
+    <script src="js/image-intelligence-engine.js?v=20260807a"></script>
+    <script src="js/text-intelligence-engine.js?v=20260803s"></script>
+    <script src="js/intent-resolution-engine.js?v=20260806a"></script>
+    <script src="js/ai-design-orchestrator.js?v=20260804a"></script>
+    <script src="js/edit-command-pipeline.js?v=20260804a"></script>
+    <script src="js/generation-lifecycle.js?v=20260803t"></script>
+    <script src="js/generation-integrity.js?v=20260803u"></script>
+    <script src="js/project-isolation.js?v=20260803v"></script>
+    <script src="js/material-system.js?v=20260805a"></script>
+    <script src="js/text-chat-commands.js?v=20260804a"></script>
+    <script src="js/validation-harness.js?v=20260803t"></script>
+    <script src="js/validation-assert.js?v=20260803r"></script>
+    <script src="js/system-validation-engine.js?v=20260803r"></script>
+    <script src="js/validation-scenario-library.js?v=20260803v"></script>
+    <script src="js/validation-scenarios.js?v=20260803r"></script>
+    <script>
+      (function () {
+        "use strict";
+
+        const reportEl = document.getElementById("report");
+        const summaryEl = document.getElementById("summary");
+        const runBtn = document.getElementById("runBtn");
+
+        async function runValidation() {
+          summaryEl.textContent = "Running validation scenarios…";
+          reportEl.textContent = "";
+          runBtn.disabled = true;
+
+          const SV = window.EasilySystemValidation;
+          if (!SV || !SV.runAll) {
+            summaryEl.textContent = "Validation engine not loaded.";
+            runBtn.disabled = false;
+            return;
+          }
+
+          try {
+            window.__AI_GENERATION_FAST__ = true;
+            const report = await SV.runAll();
+            window.__AI_GENERATION_FAST__ = false;
+            window.__VALIDATION_REPORT__ = report;
+            window.__VALIDATION_DONE__ = true;
+
+            const text = SV.formatTextReport(report);
+            reportEl.textContent = text;
+            const lib = report.library || {};
+            const libPct = lib.total ? Math.round((lib.successRate || 0) * 1000) / 10 : 0;
+            summaryEl.innerHTML =
+              'Library: <span class="status-pass">' +
+              (lib.total || 0) +
+              " scenarios</span> · success " +
+              libPct +
+              "% (gate ≥ 95%) · " +
+              '<span class="status-fail">FAIL ' +
+              (lib.fail || 0) +
+              "</span> · " +
+              report.durationMs +
+              " ms";
+
+            if (report.exitCode !== 0) {
+              summaryEl.innerHTML += ' · <span class="status-fail">VALIDATION FAILED</span>';
+            } else {
+              summaryEl.innerHTML += ' · <span class="status-pass">ALL GATES PASSED</span>';
+            }
+
+            document.body.setAttribute("data-validation-exit", String(report.exitCode));
+          } catch (e) {
+            summaryEl.textContent = "Validation error: " + (e && e.message ? e.message : e);
+            window.__VALIDATION_DONE__ = true;
+            window.__VALIDATION_REPORT__ = { exitCode: 1, error: String(e) };
+            document.body.setAttribute("data-validation-exit", "1");
+          }
+
+          runBtn.disabled = false;
+        }
+
+        runBtn.addEventListener("click", runValidation);
+        runBtn.hidden = false;
+
+        summaryEl.textContent = "Ready. Validation runs automatically when ?run=1 is set.";
+        if (new URLSearchParams(location.search).get("run") === "1") {
+          runValidation();
+        }
+      })();
+    </script>
+  </body>
+</html>

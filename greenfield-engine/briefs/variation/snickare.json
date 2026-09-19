@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "source": "Easilys fem frågor – låst variationsbrief",
+  "answers": [
+    {
+      "question": "Vilken typ av webbplats vill du skapa?",
+      "answer": "Företag / Tjänster"
+    },
+    {
+      "question": "Företagsinformation",
+      "answer": {
+        "companyName": "Sundbergs Finsnickeri",
+        "location": "Östersund",
+        "description": "Snickeri som bygger måttanpassad förvaring, kök och inredning i trä för privatpersoner och mindre företag."
+      }
+    },
+    {
+      "question": "Vilken stil ska sidan ha?",
+      "answer": "Modern & professionell"
+    },
+    {
+      "question": "Vilka sektioner ska webbplatsen innehålla?",
+      "answer": ["Om oss", "Tjänster", "Galleri", "Kontakt"]
+    },
+    {
+      "question": "Har du redan en webbplats?",
+      "answer": "Nej, skapa allt från grunden."
+    }
+  ],
+  "constraints": {
+    "language": "sv",
+    "factsPolicy": "Använd endast svaren ovan som företagsfakta. Hitta inte på adress, öppettider, priser, produktlager, telefonnummer eller e-postadress.",
+    "creativeFreedom": "AI:n får själv skapa art direction, sidberättelse, komposition, typografi, bildvärld, interaktion och relevant rörelse."
+  }
+}

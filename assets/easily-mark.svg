@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Easily">
+  <defs>
+    <linearGradient id="easily-mark-bg" x1="10" y1="58" x2="54" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f6a4d"/>
+      <stop offset="45%" stop-color="#6d8f6b"/>
+      <stop offset="100%" stop-color="#8aa888"/>
+    </linearGradient>
+    <linearGradient id="easily-mark-shine" x1="16" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Soft app-icon tile -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#easily-mark-bg)"/>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#easily-mark-shine)"/>
+  <!-- Negative-space E (warm white cutout bars) -->
+  <g fill="#f7f6f2">
+    <rect x="19" y="19" width="9" height="26" rx="4.5"/>
+    <rect x="19" y="19" width="27" height="9" rx="4.5"/>
+    <rect x="19" y="29.5" width="21" height="8" rx="4"/>
+    <rect x="19" y="38" width="27" height="9" rx="4.5"/>
+  </g>
+</svg>

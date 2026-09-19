@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "source": "Easilys fem frågor",
+  "answers": [
+    {
+      "question": "Vilken typ av webbplats vill du skapa?",
+      "answer": "webbutik"
+    },
+    {
+      "question": "Företagsinformation",
+      "answer": {
+        "companyName": "chamelia",
+        "location": "",
+        "description": "Tarotkort, kristaller, rökelser, läggningar"
+      }
+    },
+    {
+      "question": "Vilken stil ska sidan ha?",
+      "answer": "Varm & välkomnande"
+    },
+    {
+      "question": "Vilka sektioner ska webbplatsen innehålla?",
+      "answer": [
+        "about",
+        "services",
+        "gallery",
+        "contact"
+      ]
+    },
+    {
+      "question": "Har du redan en webbplats?",
+      "answer": "Nej, skapa allt från grunden."
+    }
+  ],
+  "constraints": {
+    "language": "sv",
+    "factsPolicy": "Använd endast svaren ovan som företagsfakta. Hitta inte på adress, öppettider, priser, produktlager, telefonnummer eller e-postadress.",
+    "creativeFreedom": "AI:n får själv skapa art direction, sidberättelse, komposition, typografi, bildvärld, interaktion och relevant rörelse."
+  }
+}

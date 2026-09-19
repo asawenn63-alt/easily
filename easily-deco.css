@@ -1,0 +1,98 @@
+/**
+ * Easily — diskret blad- & organisk dekoration (stämning, inte huvudmotiv).
+ * Justera styrka: --easily-deco-strength och --landing-leaf-opacity
+ */
+
+:root {
+  --easily-deco-strength: 1;
+  --easily-deco-sage: #8fa58e;
+  --easily-deco-sage-muted: #a8b5a4;
+  --landing-leaf-opacity: 1;
+}
+
+body.studio-shell {
+  background-color: #f5f4f0;
+  background-image:
+    radial-gradient(ellipse 90% 70% at 0% 0%, color-mix(in srgb, var(--easily-deco-sage) 14%, transparent) 0%, transparent 58%),
+    radial-gradient(ellipse 75% 55% at 100% 100%, color-mix(in srgb, var(--easily-deco-sage-muted) 11%, transparent) 0%, transparent 52%),
+    radial-gradient(ellipse 50% 40% at 85% 8%, color-mix(in srgb, #e8e4dc 45%, transparent) 0%, transparent 70%),
+    linear-gradient(180deg, #faf9f6 0%, #f3f2ed 48%, #efece6 100%);
+}
+
+body.landing-page {
+  background-color: #f4f3ef;
+  background-image:
+    radial-gradient(ellipse 110% 85% at -5% -5%, color-mix(in srgb, var(--easily-deco-sage) 22%, transparent) 0%, transparent 55%),
+    radial-gradient(ellipse 80% 60% at 100% 0%, color-mix(in srgb, var(--easily-deco-sage-muted) 16%, transparent) 0%, transparent 48%),
+    radial-gradient(ellipse 65% 50% at 8% 85%, color-mix(in srgb, var(--easily-deco-sage) 14%, transparent) 0%, transparent 52%),
+    radial-gradient(ellipse 55% 45% at 92% 72%, color-mix(in srgb, #d8ddd4 40%, transparent) 0%, transparent 65%),
+    linear-gradient(180deg, #faf9f6 0%, #f5f4ef 42%, #efece5 100%);
+}
+
+/* Dekor ovanpå sidan i hörnen — pointer-events: none, under nav (z-index 100) */
+.easily-deco {
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.easily-deco__leaf {
+  position: absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  opacity: calc(0.52 * var(--easily-deco-strength));
+  filter: drop-shadow(0 20px 40px color-mix(in srgb, var(--easily-deco-sage) 12%, transparent));
+}
+
+.easily-deco__leaf--tl {
+  top: clamp(-4rem, -9vw, -2rem);
+  left: clamp(-6rem, -11vw, -3.5rem);
+  width: clamp(14rem, 26vw, 24rem);
+  transform: rotate(-20deg);
+}
+
+.easily-deco__leaf--br {
+  right: clamp(-3rem, -5vw, -1rem);
+  bottom: clamp(-1rem, -2vw, 1.5rem);
+  width: clamp(9rem, 16vw, 14rem);
+  transform: rotate(22deg);
+  opacity: calc(0.42 * var(--easily-deco-strength));
+}
+
+.easily-deco__leaf--tr {
+  top: clamp(4.5rem, 13vh, 8.5rem);
+  right: clamp(-0.5rem, 3vw, 2rem);
+  width: clamp(5rem, 9vw, 7.5rem);
+  transform: rotate(32deg);
+  opacity: calc(0.36 * var(--easily-deco-strength));
+}
+
+body.landing-page .landing-nav {
+  z-index: 100;
+}
+
+@media (max-width: 720px) {
+  .easily-deco__leaf--tl {
+    width: clamp(11rem, 42vw, 15rem);
+    left: clamp(-4rem, -12vw, -2rem);
+    opacity: calc(0.44 * var(--easily-deco-strength));
+  }
+
+  .easily-deco__leaf--tr {
+    width: clamp(4rem, 14vw, 5.5rem);
+    opacity: calc(0.28 * var(--easily-deco-strength));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .easily-deco__leaf {
+    filter: drop-shadow(0 8px 16px color-mix(in srgb, var(--easily-deco-sage) 8%, transparent));
+  }
+}

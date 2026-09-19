@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": "Easilys sex frågor",
+  "answers": [
+    {
+      "question": "Vilken typ av webbplats vill du skapa?",
+      "answer": "webbutik"
+    },
+    {
+      "question": "Företagsinformation",
+      "answer": {
+        "companyName": "QuriAsadesign",
+        "location": "Hudiksvall",
+        "description": "En fysisk butik som ligger mitt i centrala HUdiksvall. Vi har 5 anställda och funnit som fysisk butik i 10 år nu startar vi vår digitala butik."
+      }
+    },
+    {
+      "question": "Vilken stil ska sidan ha?",
+      "answer": "Mörk & exklusiv"
+    },
+    {
+      "question": "Har du önskemål om färger?",
+      "answer": "Ja: vinrött, beige och sagegrön"
+    },
+    {
+      "question": "Vilka sektioner ska webbplatsen innehålla?",
+      "answer": [
+        "about",
+        "services",
+        "gallery",
+        "contact"
+      ]
+    },
+    {
+      "question": "Har du redan en webbplats?",
+      "answer": "Nej, skapa allt från grunden."
+    }
+  ],
+  "constraints": {
+    "language": "sv",
+    "factsPolicy": "Använd endast svaren ovan som företagsfakta. Hitta inte på adress, öppettider, priser, produktlager, telefonnummer eller e-postadress.",
+    "creativeFreedom": "AI:n får själv skapa art direction, sidberättelse, komposition, typografi, bildvärld, interaktion och relevant rörelse."
+  }
+}

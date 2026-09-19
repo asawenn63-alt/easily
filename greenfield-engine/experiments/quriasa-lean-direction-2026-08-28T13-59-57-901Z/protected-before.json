@@ -1,0 +1,1074 @@
+[
+  {
+    "path": "briefs\\quriasa-romantic-clarified-20260827.json",
+    "sha256": "775c65f3ea8829bdcda470caa42b66cf2b0ba4e9abb39f8b2529ed01f3431079"
+  },
+  {
+    "path": "briefs\\quriasa.json",
+    "sha256": "6053defc027310643e47305b9a77071dad197a29fcc69117f85d8b91dadcdf54"
+  },
+  {
+    "path": "briefs\\variation\\barnkladesbutik.json",
+    "sha256": "49b8b4e02019f79f693bcc01556660742f4908ad8c618bfac62111031f0c2d37"
+  },
+  {
+    "path": "briefs\\variation\\cafe.json",
+    "sha256": "685d815219d0bf18a8d050e1aa679c873000b2da67ea9197c0e0a39756848bd6"
+  },
+  {
+    "path": "briefs\\variation\\snickare.json",
+    "sha256": "2e66d743b0b73a5f8dd1ee751b66e0f51049e16b0d66bb9519da4f7716ceb05d"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\ai-bundle.json",
+    "sha256": "f22e2ab4a8f95cb78c971d15cc015e04d66ff86cc15a87192bbed3896270bbe3"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\brief.json",
+    "sha256": "92cd23a81e8202d34ec8cbebf315e8bc63c4b99e596022332507368c68568fb5"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\assets\\kalas-snurr-portratt.webp",
+    "sha256": "88cb250bee2717e6f6554b4342a6b0cb13e8581ae9ddaf40638fe100269054be"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\assets\\lek-pa-golvet.webp",
+    "sha256": "77bc6784bdab7c0bfb17bcece997aad515ec80d087dc8d1ead6ba10f67bcb44b"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\assets\\lilla-myran-hero-lek.webp",
+    "sha256": "f494f653a10fb00999a7dd7771e3ab684207fd6feea0f0838c66847b3f3f1a51"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\assets\\mjuka-material-detalj.webp",
+    "sha256": "5663ed45c64f236273e3fa2ac2e6f472150064d6b36b305e7786860302e45498"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\assets\\vardagslager-portratt.webp",
+    "sha256": "76fc8ce763fac5f8f5bc3b68da96303b3defcdf4d53984f272be32bba3685b13"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\generation.json",
+    "sha256": "bfd8ba3420cdc36705d5cb2077c7d3a27d6ad983b56aba46ac850f067733e1ad"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\index.html",
+    "sha256": "c55a0c4b5d7a41ea080bf75f215ff5df3660cbcb379e5ef93416c15fdd467320"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\site.js",
+    "sha256": "9ba527c84527fe2d8d3af203bea6077a54cdaff28a9a34501948914491f2113e"
+  },
+  {
+    "path": "runs\\barnkladesbutik-2026-08-26T15-22-49-083Z\\site\\styles.css",
+    "sha256": "35144738a493b84bdbf7125d34fb75c86ff9df3a3321a476d2416515afd85808"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\ai-bundle.json",
+    "sha256": "931d07e55838cb9ae718a8b369c4cf9bbe0676cfc6544c816e17f32af0386a26"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\brief.json",
+    "sha256": "8715567b4c4958189c35c7311ea06621ba1402507276005c1ebab9ce9f013c07"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\assets\\korn-kanna-frukost.webp",
+    "sha256": "f570ed9fd37d2298353eb6aa6ea5ea25e4693d72ce52cf6c40a5f99d915d30d5"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\assets\\korn-kanna-hembakat.webp",
+    "sha256": "9adba1202c7c42a6323d4c4912a9f8a18f59a0aee6706bcf2711f4f54e99919e"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\assets\\korn-kanna-morgon.webp",
+    "sha256": "e9be6478f6422b9c5e6cc779eec88ebcb2af33f215eb6279cf48253823cb8661"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\assets\\korn-kanna-rosteri.webp",
+    "sha256": "f94b8ed746b4a457da46ea53d515a2accb48cfcaaf1d18d4480d04ac537c623f"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\assets\\korn-kanna-rum.webp",
+    "sha256": "6ef3cb08c818220494913b3eb4a32b6df9d2749d288a8d469b082a96b9735079"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\generation.json",
+    "sha256": "b9408122e37b940511d9b21b143d35d785e400373571f722becedd731581f0d0"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\index.html",
+    "sha256": "d6893b226bd59b06f9e3b722441676697a3861db78101c8f90be484b04098348"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\site.js",
+    "sha256": "9dcd98b49d16e6b7b2975c4127f764ac682b43ad44d4fcc3e57149b2704f497f"
+  },
+  {
+    "path": "runs\\cafe-2026-08-26T15-29-31-611Z\\site\\styles.css",
+    "sha256": "9229e8ca55ad67528cc90a0c1c498d6b8b47672dcdc379ee283e6b8e28d407f2"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\ai-bundle.json",
+    "sha256": "d1af880a4574cf56cc0916c66ee08d5975bcfb8ecf35dfc244272d795c0f6178"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\brief.json",
+    "sha256": "4cbb99fb9c47b310b52fb0ba431d7ae2260d263490f32a194a86f5df022ef785"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\assets\\quriasa-hero-still-life.webp",
+    "sha256": "9cfae74a49d30ce7dfd87c33e2b0e1c2763ae33f1987a8ffeaa97f830828f450"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\assets\\shabby-home-detail.webp",
+    "sha256": "e522dc79a539fc5a353555d538dd5b6a52d2659663898e5c8262f26df70ae86f"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\assets\\small-wonders-shelf.webp",
+    "sha256": "02e6333b5cfa3d3af87e3c52f02b29b56c15c798df5a73398356ec31b11dc66e"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\assets\\vintage-gifts-table.webp",
+    "sha256": "e181760f88f2e590f7e5c002e44c22296f2aaae84e2984fdfab4c6afe12ef692"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\assets\\wrapped-present-linen.webp",
+    "sha256": "efbe199205d08741cf0616c76f5e0fb27e2966e31d6857468d3e8629b8b79b45"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\generation.json",
+    "sha256": "beecc3d1e890638e24e0ca0f7c098c7cbd05991f951775fe9d252270c4d20323"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\index.html",
+    "sha256": "ca75675fe1ecfbffef70d6ba75a1f2e58ecdef6f7cb938acfbbf32d5ffaf2409"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\site.js",
+    "sha256": "d6b17ae58b426bee6588b0fb42ee2fa98dbb6ae36a9f2d9225b54c25e0cddb1b"
+  },
+  {
+    "path": "runs\\easily-2064e582-aabc-4f1b-9034-84dca092b95c-2026-08-27T05-22-57-230Z\\site\\styles.css",
+    "sha256": "2e0dede216b3d678780600ba0627d4b0f4c3045dd2eb17fede3236686d2aaa2f"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\ai-bundle.json",
+    "sha256": "2e069fdf9991845b7bace7a7b1a4440674dc76314cf8e39a38cca1ea7d3113c3"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\art-direction.json",
+    "sha256": "7ed3b794be786e3bd1886049f53c9e1b19474982233e9ebcd7fa9b321aba427e"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\brief.json",
+    "sha256": "94a92c0adb162a02400822ea07c86e607d8665e0845c258b95bee97c175feb24"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\assets\\dekorationer.webp",
+    "sha256": "7aeac74505a34e018b0565e9ac0a305204b1ae467494ad5424a2af374a1658aa"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\assets\\galleri-stilleben.webp",
+    "sha256": "1037df3e1974b918a33310e7b408c579a94a54a1e7416b4d8f20d52b11bc4e59"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\assets\\hero-presentbord.webp",
+    "sha256": "e7d11fec7cd9747a053cb9f8ba08cd68ca3c11d05c9ce8c0053e7635f4e180c6"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\assets\\porslin.webp",
+    "sha256": "8b9d0885d7b05d2b874952f414a55a2bd21fc8aacb087a909b0b59971c6cb351"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\assets\\smamobler.webp",
+    "sha256": "31145229337a79774db2b5e6945327aa8ae28f9d0a729304dc7bbc3876f87b2c"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\assets\\textilier.webp",
+    "sha256": "ef574d4ed41e795f3ff80c8fbe1e305c7fd7d6ffcc3f3cf47abe5e817832dfc8"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\generation.json",
+    "sha256": "57b3d9182f2c3e579e9c22e7b91b95070711bd4f93c89a2165e240b8186b3a82"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\index.html",
+    "sha256": "5b2372db05f4c8a62c6110e47a360eabbd4264cbc4d86c47ab95a2a4f9fd6c4a"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\site.js",
+    "sha256": "ded99a8bbe7b08218b364dab1ed6e140e0361f1ef060bdcf2be728af44a34279"
+  },
+  {
+    "path": "runs\\easily-614fe330-80e3-4b48-861f-6baeeda711c5-2026-08-27T15-20-30-725Z\\site\\styles.css",
+    "sha256": "120d2fe7b036f935f5f8c91dd99fa855bc3239406cfbdfaa7d1f387ca611e0b7"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\ai-bundle.json",
+    "sha256": "6225e5f1cbbc08e6f1aec552f892dd13ee62cfaef38aedad2b3179f7461c2b9c"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\art-direction.json",
+    "sha256": "058f41995d3af010cee879cf8158c31ced4f3425155c5c3a2b70a0185197cef4"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\brief.json",
+    "sha256": "eb5a5d452f760effd3d6c9ed4af7a98abe3d49e4200c0dfb4fbbb622a1c3cca4"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\assets\\galleri-detaljer.webp",
+    "sha256": "4a99ebe59f8ca1907bae195da1023285179d332ef049be815c835301ca6f8d56"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\assets\\galleri-varmt-rum.webp",
+    "sha256": "0808027e9c220fc07859722c0348c57e7fe95f0a1542dbf41b7b8e565a5bf2e6"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\assets\\mobler-patinerat-tra.webp",
+    "sha256": "21c6748cded9909baad7271c770e9615a1bb9c2858b5ebf0b3a21beac5d4de45"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\assets\\presentartiklar-stilleben.webp",
+    "sha256": "c300ae557a3678e5580a62188b1e9f742b1f2a29ee461216ce117e82608a174f"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\assets\\quriasa-upptackarhem.webp",
+    "sha256": "4e3dccfe133bd7460cd8e0ab0c05d25938752e4a1f95bd74b2fb8706560c0ec5"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\assets\\textilier-lager-pa-lager.webp",
+    "sha256": "1db2fbf652ef715dfad8919738ae56da194a9c8fdc457741fb85cf58ce53613f"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\generation.json",
+    "sha256": "2223b01b206c33ffdcc3f230fc404b02fc4ec64a8093de437e97ba67e2fa8738"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\index.html",
+    "sha256": "48965c1d6340eee944d7bca83015e36deba59816bd51dd91dd11ff440e0df305"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\site.js",
+    "sha256": "c935170ac8e076ca848ce31416cb709658b9ccc88b9fbe0c23ee6825a514fb7b"
+  },
+  {
+    "path": "runs\\easily-9eedc247-9c67-4698-998d-66976287700e-2026-08-27T05-46-44-378Z\\site\\styles.css",
+    "sha256": "de672e6632a6814072c5b0f53ce7c8fdea26952dce2d844d3b625c61f6917e94"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\ai-bundle.json",
+    "sha256": "3280959dce360550686a6e92cc18bec67812528169c9d5ebf51e7407d70a7eef"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\brief.json",
+    "sha256": "36c74b0c56daaf6af1c361423461e728d360addd889c0e6ea007b10899d1abfc"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\assets\\chamelia-angel-deck.webp",
+    "sha256": "957f69a380b4cf57a3f0ccd8131b7c93c576a9acc8cbcf27a47b3b5ed616f7f1"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\assets\\chamelia-cards-detail.webp",
+    "sha256": "9eebdde32d0405c3203cba090d7bbf6f07ae944bf2b078c8d9197d8f61601bc2"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\assets\\chamelia-crystal-study.webp",
+    "sha256": "0949f872f64eb9fa6b064d6a8b7497f41e8b19a625629063afacc2d3f6f4403b"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\assets\\chamelia-hero-altar.webp",
+    "sha256": "adc13f09db2a2f0c1bafce34f737cb2975b5e9e3440a6a4579e7c48f47d289cf"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\assets\\chamelia-moon-table.webp",
+    "sha256": "1bca898e3a467b455179e3df841bb5c3d02bc6aaf08afe69470db5a5b53af92a"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\assets\\chamelia-tarot-hands.webp",
+    "sha256": "66a6e281b9fff3ae2550ef1aaf7eaa201488a8e7bf8ece1c143f4e2b567dbf8f"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\generation.json",
+    "sha256": "77e1762cb44e0b820634ffd9023af7f5de2a1ad36096453e1a546d88db9cacf9"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\index.html",
+    "sha256": "70263f45a4f6188a3881f53763d6393c3030d4bdecdb03d95649a1c4d8c7b767"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\site.js",
+    "sha256": "771f9691a953416fa8ab9575e4433d956c709591b64f13a378bab9e70ec17a2b"
+  },
+  {
+    "path": "runs\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0-2026-08-26T20-07-41-727Z\\site\\styles.css",
+    "sha256": "dd4886e3e8693b9f2f834d583429bdb452d39f05f122abfd6b32343683640924"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-25T19-54-06-180Z\\brief.json",
+    "sha256": "8749800b93d6396ad8799225035fdffd55a02ebb9969e8ef2f503d52f9810d92"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-09-55-995Z\\brief.json",
+    "sha256": "8749800b93d6396ad8799225035fdffd55a02ebb9969e8ef2f503d52f9810d92"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\ai-bundle.json",
+    "sha256": "e6b5520e47c4beb44fd2722abb52e9c9644fbaad7b6240199b5ce6cfa67996ba"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\brief.json",
+    "sha256": "8749800b93d6396ad8799225035fdffd55a02ebb9969e8ef2f503d52f9810d92"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\assets\\quria-ceramic-shelf.webp",
+    "sha256": "208b62bf72a87f8cb630232e587565d9a67ede279cda99ec4bcb86a85bd5e0c7"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\assets\\quria-gift-table.webp",
+    "sha256": "6df29923a59e4f441fc9552a977e950e9dd108e897cdbaf8386b8483bf069e86"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\assets\\quria-hero-window.webp",
+    "sha256": "ae520badcb1d6d95b0639753e0051a71a6bd8c93b5ff4feb4672715529dd055b"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\assets\\quria-home-detail.webp",
+    "sha256": "350faa53616047316543dd86efee2809af3b6eeceb9dda05b191d24405f3cd4b"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\assets\\quria-playful-objects.webp",
+    "sha256": "c88be2cb20dfa48137d79141cfb1fdc68f42f7605bb65afe2ff35a0e5610ddfb"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\assets\\quria-shop-hands.webp",
+    "sha256": "69d4bcc794b9a2ce05942f2a88e96ee360e8a6ecc2a6cdd53073ce259a847441"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\generation.json",
+    "sha256": "a1cbd20e7b60cdef9af058d49c69c33202386bf059ea5c74e926690e76017e83"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\index.html",
+    "sha256": "61139fcce80057e1db93445135e956177f057cce3e6494212ccdf58c760ec69b"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\site.js",
+    "sha256": "67029a7aeb115155e209fe82f15a03c5ceab793213cc63bd909d317410cc3704"
+  },
+  {
+    "path": "runs\\quriasa-2026-08-26T03-14-52-155Z\\site\\styles.css",
+    "sha256": "4e85fc9366cbf815e25e07b7b8e256e7cf4cb9a77d0578c4a2646d6f8c74a830"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-47-53-139Z\\brief.json",
+    "sha256": "a69416fd128907a8172489d1e587f64c82933c79bcbbe73ccda3c4a41e0b16b8"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\ai-bundle.json",
+    "sha256": "29f935349256de49bc32815d1106d6ff5f75ad3641d4c5a912235e5330765c6e"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\art-direction.json",
+    "sha256": "ce64fbb0989790437b5e1896e23e1e4e1928c583c4a7f78fd17ca8901aabdb7a"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\brief.json",
+    "sha256": "a69416fd128907a8172489d1e587f64c82933c79bcbbe73ccda3c4a41e0b16b8"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\assets\\patinerad-smamobel.webp",
+    "sha256": "71abc7e9de15da14dd6a64b2445e172dcaba5aa4979606386f8db23bc147b952"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\assets\\presentbord-oversikt.webp",
+    "sha256": "618e5e0993235017d4223c3da4b88e9595b452101b41dbb73d46f7e16f58e7bf"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\assets\\romantisk-dekoration.webp",
+    "sha256": "d0c75cdb1c138da9330864f5b077bfa1e2f0e3a9095fb5e1b8d6a394d523d8f3"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\assets\\spets-och-textil.webp",
+    "sha256": "f4f622f062f1f548a4768f40f5992556c4de443b9a69533570a99ea0633d5cd2"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\assets\\vitt-porslin.webp",
+    "sha256": "7333662904d56206e2b015c48940874e5c241d4d803fad2e7fbd7adb27c4cb50"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\generation.json",
+    "sha256": "6f32ec4a8b733de60a3ea04141ead1403109b15e3383c449cb1b27815ef8cec3"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\index.html",
+    "sha256": "24b9751f99b4218f4119a38b9b6005b22e5f2cbcfdb221339de8c3a4b0cc0fa1"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\site.js",
+    "sha256": "d566949e95f865f51fba50f1a22a9fe1117d237cc603be60c573874ca80627db"
+  },
+  {
+    "path": "runs\\quriasa-opening-20260827-2026-08-27T19-49-44-772Z\\site\\styles.css",
+    "sha256": "c9134a8de2de8295e10f80b5d300252168756a7309ce9fd7ac7a42fb8e903fa0"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-04-50-416Z\\brief.json",
+    "sha256": "a69416fd128907a8172489d1e587f64c82933c79bcbbe73ccda3c4a41e0b16b8"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\ai-bundle.json",
+    "sha256": "5ea947b2bd8857c6e18fd20f10b998c05aa80d07b555ceca98337ffc9904074d"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\art-direction.json",
+    "sha256": "fe38244b93eb4ef955e342c7053c293839509ff08ee214f20d7ccf962354fa2e"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\brief.json",
+    "sha256": "a69416fd128907a8172489d1e587f64c82933c79bcbbe73ccda3c4a41e0b16b8"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\assets\\galleri-detalj.webp",
+    "sha256": "3790b880de97a012a854f655bc9a355a93e3f15ff8c8139bcdd0cbff4d09dab8"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\assets\\hero-butiksskap.webp",
+    "sha256": "5eed0593594b50a8a50e35a5735957c195cf5dcba0267667de9fca9f6325ed15"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\assets\\kategori-dekorationer.webp",
+    "sha256": "78d92c1149856e263276f481c38d7b5a7f7f44839e29a1b71433f3d1d9bd527c"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\assets\\kategori-porslin.webp",
+    "sha256": "65784639b0bd0f7053cb4f91724e715e10743f3b1843db076f00094693c3d5b4"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\assets\\kategori-smamobler.webp",
+    "sha256": "067975c4e6afef790af1d60f2cf1a3b5b9ff6de6c1b3bf0e5183b5981381c429"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\assets\\kategori-textilier.webp",
+    "sha256": "c10eb50bf364a7166133516ebd0f1b69af5651e50784448cfdfde5a4cdd9a378"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\generation.json",
+    "sha256": "d206f4aa30a12117c3a173882b598387c96aeb4603750735028dff45c8dd9c36"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\index.html",
+    "sha256": "39481bd244f227bc8cdb2abe144ad5694ca07c7bdbbfe77dbb0f92fca68e1f19"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\site.js",
+    "sha256": "cc29e80a021fd4ecd10e0c7149082cda9b73c493d10daa753954a825ad00845c"
+  },
+  {
+    "path": "runs\\quriasa-romantic-clarified-20260827-2026-08-27T17-06-23-946Z\\site\\styles.css",
+    "sha256": "452468a0b8f7f31cf2aa3aecb12559f2095eee8e3fb4e82684af7deef6bf1d38"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\ai-bundle.json",
+    "sha256": "74cdcde6a10b12d0a1391da45f25c4dae28c2cd52927b640df233967acfd25da"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\art-direction.json",
+    "sha256": "5e53c042a0a30ee326c8b665bfcc34a30eb03e10fe32ac71f1029ff23ac8b371"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\brief.json",
+    "sha256": "94a92c0adb162a02400822ea07c86e607d8665e0845c258b95bee97c175feb24"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\assets\\quriasadesign-dekorationer.webp",
+    "sha256": "35c1579d4ea89501660d56a6dd8b7f8cd8b7e83a6e2e1a32e84f0fd5b7f86d04"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\assets\\quriasadesign-porslin.webp",
+    "sha256": "adfe449f171ec4ffa6f9a280e44f0167a016d93a579b67d3fe382fca0c5c14d0"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\assets\\quriasadesign-rumsvinjett.webp",
+    "sha256": "199bba656c565ca2c9e9325205270ec31e949a38e32fc6f84e239093d7f404ae"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\assets\\quriasadesign-smamobler.webp",
+    "sha256": "720c88ab53ae8828cd68ff24ca006ae1750f7755032c834055cd2c0cec31c085"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\assets\\quriasadesign-textilier.webp",
+    "sha256": "be6c563e3e612d7359118e9933ebe21ee4c75f820877addd5ca78e8540fd59a3"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\generation.json",
+    "sha256": "ea42d96cdb98d04c8a34ab8eb0d2e35e95a5101f615b683c471b2a38e8e6949d"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\index.html",
+    "sha256": "c62951a804e8ceed1292b4f447e443dfc4104433c75f4e5895932db4b97f0a92"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\site.js",
+    "sha256": "e9a963a288495b2b7a813f5a245d0bb59bfd6ee69f725c0a5b682e2ae33facc3"
+  },
+  {
+    "path": "runs\\quriasa-style-followthrough-20260827-2026-08-27T15-54-39-348Z\\site\\styles.css",
+    "sha256": "e88600d7f22af4c9380d71a5ac9321d016ed2846fd5a78c5fc1328382da3d012"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-04-32-335Z\\brief.json",
+    "sha256": "a69416fd128907a8172489d1e587f64c82933c79bcbbe73ccda3c4a41e0b16b8"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\ai-bundle.json",
+    "sha256": "0e5e1d5c218ea7a719b19639e684801eb1f6dfd3ea8fac32c12091b9e68fb4f2"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\art-direction.json",
+    "sha256": "59a8d0f8981c57b49cfc6c5c346f8e6401d3d4138e8db89c730695bca91cd411"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\brief.json",
+    "sha256": "a69416fd128907a8172489d1e587f64c82933c79bcbbe73ccda3c4a41e0b16b8"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\assets\\dekorationer-grupp.webp",
+    "sha256": "f572079a3a2c0be8d5a849184ac121a4bf4b014a27c272feccfe1d1fa476d9fd"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\assets\\porslin-stilleben.webp",
+    "sha256": "d13d27059158116c49488307766a896e383819809e4b3fb8cae49cc41a596d74"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\assets\\salong-smamobler.webp",
+    "sha256": "aa4388077bbe1e1170e9fb6f9a821861ba10ef38ce8e63643300ad89c120f80b"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\assets\\textilier-linne.webp",
+    "sha256": "e66b3ff58b480b0049a229f79fb05326c0252b15f48bb96718870e39b26c08c0"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\generation.json",
+    "sha256": "da85990cd1ab2d4a22bccaf98c396445dbfb13ef6f109879dcf22cf9457011eb"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\index.html",
+    "sha256": "39d6690f782a37cbfbf69f8ed22af46cd57dcfac67a64c97a2c797335f895cf3"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\site.js",
+    "sha256": "a0a2daf02cf6d4d3b28f47e03fac04d8148af778f3cd1c88706634145207f2e4"
+  },
+  {
+    "path": "runs\\quriasa-type-decisions-20260827-2026-08-27T18-08-05-856Z\\site\\styles.css",
+    "sha256": "7a7ce0b8a8514ecfa18e0211468962b2d33d5855a0fab707d50048105ee77ce1"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\ai-bundle.json",
+    "sha256": "954489926010479fd5253d0eef8fadce802c382de374c58bbb55023ffcdc5209"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\brief.json",
+    "sha256": "b3b3b09a9c9f15b33286ef0dd2881e095b6244eb3810ac536f5501d43cafc265"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\assets\\hero-verkstad.webp",
+    "sha256": "c94a1b299e0d133dad6d0f47a25c8c7e87a9a1aa82d794104ed81387c05f329c"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\assets\\inredning-arbetsrum.webp",
+    "sha256": "7189c70a2842c90f000f8bfbe14ae4b318830a3d097f15345560fe6f9286c04d"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\assets\\kok-i-ljust-tra.webp",
+    "sha256": "5b475273c76ddf53c40d2467a51f769d62cdc031ed04d05171a69e374f7f0289"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\assets\\material-stilleben.webp",
+    "sha256": "7473a74e21b83695115883da37ccd8333d77c7b1d49389306201d73bfe2bb7bd"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\assets\\platsbyggd-forvaring.webp",
+    "sha256": "eee84d40fe4554e9224ad3bfa8c724a3bfc12954cea7d7e415f8a58ace6d2d5c"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\assets\\snickeridetalj.webp",
+    "sha256": "d3f3489ce40ff25bb2d6ab296c4023a4784be6a4070915f1fd53b34c39514d1c"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\generation.json",
+    "sha256": "227b93fcbd138eb2c0d27e1a4450c0563e80fca3c93d92d6a55260074648fd01"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\index.html",
+    "sha256": "9893bedbbb4e69549a7cdaf9392db1b16ce670d3e80cba0244aa16a259e74926"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\site.js",
+    "sha256": "da48888074b146f5342c9587044fc252396cd8990d85b8bc680dd6c512a61304"
+  },
+  {
+    "path": "runs\\snickare-2026-08-26T15-15-37-464Z\\site\\styles.css",
+    "sha256": "79145d987a791fdead9c4d8912744b4e20c2a89cc510689d37de859d1dd51ce6"
+  },
+  {
+    "path": "output\\barnkladesbutik\\assets\\kalas-snurr-portratt.webp",
+    "sha256": "88cb250bee2717e6f6554b4342a6b0cb13e8581ae9ddaf40638fe100269054be"
+  },
+  {
+    "path": "output\\barnkladesbutik\\assets\\lek-pa-golvet.webp",
+    "sha256": "77bc6784bdab7c0bfb17bcece997aad515ec80d087dc8d1ead6ba10f67bcb44b"
+  },
+  {
+    "path": "output\\barnkladesbutik\\assets\\lilla-myran-hero-lek.webp",
+    "sha256": "f494f653a10fb00999a7dd7771e3ab684207fd6feea0f0838c66847b3f3f1a51"
+  },
+  {
+    "path": "output\\barnkladesbutik\\assets\\mjuka-material-detalj.webp",
+    "sha256": "5663ed45c64f236273e3fa2ac2e6f472150064d6b36b305e7786860302e45498"
+  },
+  {
+    "path": "output\\barnkladesbutik\\assets\\vardagslager-portratt.webp",
+    "sha256": "76fc8ce763fac5f8f5bc3b68da96303b3defcdf4d53984f272be32bba3685b13"
+  },
+  {
+    "path": "output\\barnkladesbutik\\generation.json",
+    "sha256": "bfd8ba3420cdc36705d5cb2077c7d3a27d6ad983b56aba46ac850f067733e1ad"
+  },
+  {
+    "path": "output\\barnkladesbutik\\index.html",
+    "sha256": "c55a0c4b5d7a41ea080bf75f215ff5df3660cbcb379e5ef93416c15fdd467320"
+  },
+  {
+    "path": "output\\barnkladesbutik\\site.js",
+    "sha256": "9ba527c84527fe2d8d3af203bea6077a54cdaff28a9a34501948914491f2113e"
+  },
+  {
+    "path": "output\\barnkladesbutik\\styles.css",
+    "sha256": "35144738a493b84bdbf7125d34fb75c86ff9df3a3321a476d2416515afd85808"
+  },
+  {
+    "path": "output\\cafe\\assets\\korn-kanna-frukost.webp",
+    "sha256": "f570ed9fd37d2298353eb6aa6ea5ea25e4693d72ce52cf6c40a5f99d915d30d5"
+  },
+  {
+    "path": "output\\cafe\\assets\\korn-kanna-hembakat.webp",
+    "sha256": "9adba1202c7c42a6323d4c4912a9f8a18f59a0aee6706bcf2711f4f54e99919e"
+  },
+  {
+    "path": "output\\cafe\\assets\\korn-kanna-morgon.webp",
+    "sha256": "e9be6478f6422b9c5e6cc779eec88ebcb2af33f215eb6279cf48253823cb8661"
+  },
+  {
+    "path": "output\\cafe\\assets\\korn-kanna-rosteri.webp",
+    "sha256": "f94b8ed746b4a457da46ea53d515a2accb48cfcaaf1d18d4480d04ac537c623f"
+  },
+  {
+    "path": "output\\cafe\\assets\\korn-kanna-rum.webp",
+    "sha256": "6ef3cb08c818220494913b3eb4a32b6df9d2749d288a8d469b082a96b9735079"
+  },
+  {
+    "path": "output\\cafe\\generation.json",
+    "sha256": "b9408122e37b940511d9b21b143d35d785e400373571f722becedd731581f0d0"
+  },
+  {
+    "path": "output\\cafe\\index.html",
+    "sha256": "d6893b226bd59b06f9e3b722441676697a3861db78101c8f90be484b04098348"
+  },
+  {
+    "path": "output\\cafe\\site.js",
+    "sha256": "9dcd98b49d16e6b7b2975c4127f764ac682b43ad44d4fcc3e57149b2704f497f"
+  },
+  {
+    "path": "output\\cafe\\styles.css",
+    "sha256": "9229e8ca55ad67528cc90a0c1c498d6b8b47672dcdc379ee283e6b8e28d407f2"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\assets\\quriasa-hero-still-life.webp",
+    "sha256": "9cfae74a49d30ce7dfd87c33e2b0e1c2763ae33f1987a8ffeaa97f830828f450"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\assets\\shabby-home-detail.webp",
+    "sha256": "e522dc79a539fc5a353555d538dd5b6a52d2659663898e5c8262f26df70ae86f"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\assets\\small-wonders-shelf.webp",
+    "sha256": "02e6333b5cfa3d3af87e3c52f02b29b56c15c798df5a73398356ec31b11dc66e"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\assets\\vintage-gifts-table.webp",
+    "sha256": "e181760f88f2e590f7e5c002e44c22296f2aaae84e2984fdfab4c6afe12ef692"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\assets\\wrapped-present-linen.webp",
+    "sha256": "efbe199205d08741cf0616c76f5e0fb27e2966e31d6857468d3e8629b8b79b45"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\generation.json",
+    "sha256": "beecc3d1e890638e24e0ca0f7c098c7cbd05991f951775fe9d252270c4d20323"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\index.html",
+    "sha256": "ca75675fe1ecfbffef70d6ba75a1f2e58ecdef6f7cb938acfbbf32d5ffaf2409"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\site.js",
+    "sha256": "d6b17ae58b426bee6588b0fb42ee2fa98dbb6ae36a9f2d9225b54c25e0cddb1b"
+  },
+  {
+    "path": "output\\easily-2064e582-aabc-4f1b-9034-84dca092b95c\\styles.css",
+    "sha256": "2e0dede216b3d678780600ba0627d4b0f4c3045dd2eb17fede3236686d2aaa2f"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\assets\\dekorationer.webp",
+    "sha256": "7aeac74505a34e018b0565e9ac0a305204b1ae467494ad5424a2af374a1658aa"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\assets\\galleri-stilleben.webp",
+    "sha256": "1037df3e1974b918a33310e7b408c579a94a54a1e7416b4d8f20d52b11bc4e59"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\assets\\hero-presentbord.webp",
+    "sha256": "e7d11fec7cd9747a053cb9f8ba08cd68ca3c11d05c9ce8c0053e7635f4e180c6"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\assets\\porslin.webp",
+    "sha256": "8b9d0885d7b05d2b874952f414a55a2bd21fc8aacb087a909b0b59971c6cb351"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\assets\\smamobler.webp",
+    "sha256": "31145229337a79774db2b5e6945327aa8ae28f9d0a729304dc7bbc3876f87b2c"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\assets\\textilier.webp",
+    "sha256": "ef574d4ed41e795f3ff80c8fbe1e305c7fd7d6ffcc3f3cf47abe5e817832dfc8"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\generation.json",
+    "sha256": "57b3d9182f2c3e579e9c22e7b91b95070711bd4f93c89a2165e240b8186b3a82"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\index.html",
+    "sha256": "5b2372db05f4c8a62c6110e47a360eabbd4264cbc4d86c47ab95a2a4f9fd6c4a"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\site.js",
+    "sha256": "ded99a8bbe7b08218b364dab1ed6e140e0361f1ef060bdcf2be728af44a34279"
+  },
+  {
+    "path": "output\\easily-614fe330-80e3-4b48-861f-6baeeda711c5\\styles.css",
+    "sha256": "120d2fe7b036f935f5f8c91dd99fa855bc3239406cfbdfaa7d1f387ca611e0b7"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\assets\\galleri-detaljer.webp",
+    "sha256": "4a99ebe59f8ca1907bae195da1023285179d332ef049be815c835301ca6f8d56"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\assets\\galleri-varmt-rum.webp",
+    "sha256": "0808027e9c220fc07859722c0348c57e7fe95f0a1542dbf41b7b8e565a5bf2e6"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\assets\\mobler-patinerat-tra.webp",
+    "sha256": "21c6748cded9909baad7271c770e9615a1bb9c2858b5ebf0b3a21beac5d4de45"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\assets\\presentartiklar-stilleben.webp",
+    "sha256": "c300ae557a3678e5580a62188b1e9f742b1f2a29ee461216ce117e82608a174f"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\assets\\quriasa-upptackarhem.webp",
+    "sha256": "4e3dccfe133bd7460cd8e0ab0c05d25938752e4a1f95bd74b2fb8706560c0ec5"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\assets\\textilier-lager-pa-lager.webp",
+    "sha256": "1db2fbf652ef715dfad8919738ae56da194a9c8fdc457741fb85cf58ce53613f"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\generation.json",
+    "sha256": "2223b01b206c33ffdcc3f230fc404b02fc4ec64a8093de437e97ba67e2fa8738"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\index.html",
+    "sha256": "48965c1d6340eee944d7bca83015e36deba59816bd51dd91dd11ff440e0df305"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\site.js",
+    "sha256": "c935170ac8e076ca848ce31416cb709658b9ccc88b9fbe0c23ee6825a514fb7b"
+  },
+  {
+    "path": "output\\easily-9eedc247-9c67-4698-998d-66976287700e\\styles.css",
+    "sha256": "de672e6632a6814072c5b0f53ce7c8fdea26952dce2d844d3b625c61f6917e94"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\assets\\chamelia-angel-deck.webp",
+    "sha256": "957f69a380b4cf57a3f0ccd8131b7c93c576a9acc8cbcf27a47b3b5ed616f7f1"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\assets\\chamelia-cards-detail.webp",
+    "sha256": "9eebdde32d0405c3203cba090d7bbf6f07ae944bf2b078c8d9197d8f61601bc2"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\assets\\chamelia-crystal-study.webp",
+    "sha256": "0949f872f64eb9fa6b064d6a8b7497f41e8b19a625629063afacc2d3f6f4403b"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\assets\\chamelia-hero-altar.webp",
+    "sha256": "adc13f09db2a2f0c1bafce34f737cb2975b5e9e3440a6a4579e7c48f47d289cf"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\assets\\chamelia-moon-table.webp",
+    "sha256": "1bca898e3a467b455179e3df841bb5c3d02bc6aaf08afe69470db5a5b53af92a"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\assets\\chamelia-tarot-hands.webp",
+    "sha256": "66a6e281b9fff3ae2550ef1aaf7eaa201488a8e7bf8ece1c143f4e2b567dbf8f"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\generation.json",
+    "sha256": "77e1762cb44e0b820634ffd9023af7f5de2a1ad36096453e1a546d88db9cacf9"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\index.html",
+    "sha256": "70263f45a4f6188a3881f53763d6393c3030d4bdecdb03d95649a1c4d8c7b767"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\site.js",
+    "sha256": "771f9691a953416fa8ab9575e4433d956c709591b64f13a378bab9e70ec17a2b"
+  },
+  {
+    "path": "output\\easily-c9522421-91a0-4abb-a90e-f4ae709b30d0\\styles.css",
+    "sha256": "dd4886e3e8693b9f2f834d583429bdb452d39f05f122abfd6b32343683640924"
+  },
+  {
+    "path": "output\\quriasa\\assets\\quria-ceramic-shelf.webp",
+    "sha256": "208b62bf72a87f8cb630232e587565d9a67ede279cda99ec4bcb86a85bd5e0c7"
+  },
+  {
+    "path": "output\\quriasa\\assets\\quria-gift-table.webp",
+    "sha256": "6df29923a59e4f441fc9552a977e950e9dd108e897cdbaf8386b8483bf069e86"
+  },
+  {
+    "path": "output\\quriasa\\assets\\quria-hero-window.webp",
+    "sha256": "ae520badcb1d6d95b0639753e0051a71a6bd8c93b5ff4feb4672715529dd055b"
+  },
+  {
+    "path": "output\\quriasa\\assets\\quria-home-detail.webp",
+    "sha256": "350faa53616047316543dd86efee2809af3b6eeceb9dda05b191d24405f3cd4b"
+  },
+  {
+    "path": "output\\quriasa\\assets\\quria-playful-objects.webp",
+    "sha256": "c88be2cb20dfa48137d79141cfb1fdc68f42f7605bb65afe2ff35a0e5610ddfb"
+  },
+  {
+    "path": "output\\quriasa\\assets\\quria-shop-hands.webp",
+    "sha256": "69d4bcc794b9a2ce05942f2a88e96ee360e8a6ecc2a6cdd53073ce259a847441"
+  },
+  {
+    "path": "output\\quriasa\\generation.json",
+    "sha256": "a1cbd20e7b60cdef9af058d49c69c33202386bf059ea5c74e926690e76017e83"
+  },
+  {
+    "path": "output\\quriasa\\index.html",
+    "sha256": "61139fcce80057e1db93445135e956177f057cce3e6494212ccdf58c760ec69b"
+  },
+  {
+    "path": "output\\quriasa\\site.js",
+    "sha256": "67029a7aeb115155e209fe82f15a03c5ceab793213cc63bd909d317410cc3704"
+  },
+  {
+    "path": "output\\quriasa\\styles.css",
+    "sha256": "4e85fc9366cbf815e25e07b7b8e256e7cf4cb9a77d0578c4a2646d6f8c74a830"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\assets\\patinerad-smamobel.webp",
+    "sha256": "71abc7e9de15da14dd6a64b2445e172dcaba5aa4979606386f8db23bc147b952"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\assets\\presentbord-oversikt.webp",
+    "sha256": "618e5e0993235017d4223c3da4b88e9595b452101b41dbb73d46f7e16f58e7bf"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\assets\\romantisk-dekoration.webp",
+    "sha256": "d0c75cdb1c138da9330864f5b077bfa1e2f0e3a9095fb5e1b8d6a394d523d8f3"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\assets\\spets-och-textil.webp",
+    "sha256": "f4f622f062f1f548a4768f40f5992556c4de443b9a69533570a99ea0633d5cd2"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\assets\\vitt-porslin.webp",
+    "sha256": "7333662904d56206e2b015c48940874e5c241d4d803fad2e7fbd7adb27c4cb50"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\generation.json",
+    "sha256": "6f32ec4a8b733de60a3ea04141ead1403109b15e3383c449cb1b27815ef8cec3"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\index.html",
+    "sha256": "24b9751f99b4218f4119a38b9b6005b22e5f2cbcfdb221339de8c3a4b0cc0fa1"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\site.js",
+    "sha256": "d566949e95f865f51fba50f1a22a9fe1117d237cc603be60c573874ca80627db"
+  },
+  {
+    "path": "output\\quriasa-opening-20260827\\styles.css",
+    "sha256": "c9134a8de2de8295e10f80b5d300252168756a7309ce9fd7ac7a42fb8e903fa0"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\assets\\galleri-detalj.webp",
+    "sha256": "3790b880de97a012a854f655bc9a355a93e3f15ff8c8139bcdd0cbff4d09dab8"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\assets\\hero-butiksskap.webp",
+    "sha256": "5eed0593594b50a8a50e35a5735957c195cf5dcba0267667de9fca9f6325ed15"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\assets\\kategori-dekorationer.webp",
+    "sha256": "78d92c1149856e263276f481c38d7b5a7f7f44839e29a1b71433f3d1d9bd527c"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\assets\\kategori-porslin.webp",
+    "sha256": "65784639b0bd0f7053cb4f91724e715e10743f3b1843db076f00094693c3d5b4"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\assets\\kategori-smamobler.webp",
+    "sha256": "067975c4e6afef790af1d60f2cf1a3b5b9ff6de6c1b3bf0e5183b5981381c429"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\assets\\kategori-textilier.webp",
+    "sha256": "c10eb50bf364a7166133516ebd0f1b69af5651e50784448cfdfde5a4cdd9a378"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\generation.json",
+    "sha256": "d206f4aa30a12117c3a173882b598387c96aeb4603750735028dff45c8dd9c36"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\index.html",
+    "sha256": "39481bd244f227bc8cdb2abe144ad5694ca07c7bdbbfe77dbb0f92fca68e1f19"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\site.js",
+    "sha256": "cc29e80a021fd4ecd10e0c7149082cda9b73c493d10daa753954a825ad00845c"
+  },
+  {
+    "path": "output\\quriasa-romantic-clarified-20260827\\styles.css",
+    "sha256": "452468a0b8f7f31cf2aa3aecb12559f2095eee8e3fb4e82684af7deef6bf1d38"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\assets\\quriasadesign-dekorationer.webp",
+    "sha256": "35c1579d4ea89501660d56a6dd8b7f8cd8b7e83a6e2e1a32e84f0fd5b7f86d04"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\assets\\quriasadesign-porslin.webp",
+    "sha256": "adfe449f171ec4ffa6f9a280e44f0167a016d93a579b67d3fe382fca0c5c14d0"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\assets\\quriasadesign-rumsvinjett.webp",
+    "sha256": "199bba656c565ca2c9e9325205270ec31e949a38e32fc6f84e239093d7f404ae"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\assets\\quriasadesign-smamobler.webp",
+    "sha256": "720c88ab53ae8828cd68ff24ca006ae1750f7755032c834055cd2c0cec31c085"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\assets\\quriasadesign-textilier.webp",
+    "sha256": "be6c563e3e612d7359118e9933ebe21ee4c75f820877addd5ca78e8540fd59a3"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\generation.json",
+    "sha256": "ea42d96cdb98d04c8a34ab8eb0d2e35e95a5101f615b683c471b2a38e8e6949d"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\index.html",
+    "sha256": "c62951a804e8ceed1292b4f447e443dfc4104433c75f4e5895932db4b97f0a92"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\site.js",
+    "sha256": "e9a963a288495b2b7a813f5a245d0bb59bfd6ee69f725c0a5b682e2ae33facc3"
+  },
+  {
+    "path": "output\\quriasa-style-followthrough-20260827\\styles.css",
+    "sha256": "e88600d7f22af4c9380d71a5ac9321d016ed2846fd5a78c5fc1328382da3d012"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\assets\\dekorationer-grupp.webp",
+    "sha256": "f572079a3a2c0be8d5a849184ac121a4bf4b014a27c272feccfe1d1fa476d9fd"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\assets\\porslin-stilleben.webp",
+    "sha256": "d13d27059158116c49488307766a896e383819809e4b3fb8cae49cc41a596d74"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\assets\\salong-smamobler.webp",
+    "sha256": "aa4388077bbe1e1170e9fb6f9a821861ba10ef38ce8e63643300ad89c120f80b"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\assets\\textilier-linne.webp",
+    "sha256": "e66b3ff58b480b0049a229f79fb05326c0252b15f48bb96718870e39b26c08c0"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\generation.json",
+    "sha256": "da85990cd1ab2d4a22bccaf98c396445dbfb13ef6f109879dcf22cf9457011eb"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\index.html",
+    "sha256": "39d6690f782a37cbfbf69f8ed22af46cd57dcfac67a64c97a2c797335f895cf3"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\site.js",
+    "sha256": "a0a2daf02cf6d4d3b28f47e03fac04d8148af778f3cd1c88706634145207f2e4"
+  },
+  {
+    "path": "output\\quriasa-type-decisions-20260827\\styles.css",
+    "sha256": "7a7ce0b8a8514ecfa18e0211468962b2d33d5855a0fab707d50048105ee77ce1"
+  },
+  {
+    "path": "output\\snickare\\assets\\hero-verkstad.webp",
+    "sha256": "c94a1b299e0d133dad6d0f47a25c8c7e87a9a1aa82d794104ed81387c05f329c"
+  },
+  {
+    "path": "output\\snickare\\assets\\inredning-arbetsrum.webp",
+    "sha256": "7189c70a2842c90f000f8bfbe14ae4b318830a3d097f15345560fe6f9286c04d"
+  },
+  {
+    "path": "output\\snickare\\assets\\kok-i-ljust-tra.webp",
+    "sha256": "5b475273c76ddf53c40d2467a51f769d62cdc031ed04d05171a69e374f7f0289"
+  },
+  {
+    "path": "output\\snickare\\assets\\material-stilleben.webp",
+    "sha256": "7473a74e21b83695115883da37ccd8333d77c7b1d49389306201d73bfe2bb7bd"
+  },
+  {
+    "path": "output\\snickare\\assets\\platsbyggd-forvaring.webp",
+    "sha256": "eee84d40fe4554e9224ad3bfa8c724a3bfc12954cea7d7e415f8a58ace6d2d5c"
+  },
+  {
+    "path": "output\\snickare\\assets\\snickeridetalj.webp",
+    "sha256": "d3f3489ce40ff25bb2d6ab296c4023a4784be6a4070915f1fd53b34c39514d1c"
+  },
+  {
+    "path": "output\\snickare\\generation.json",
+    "sha256": "227b93fcbd138eb2c0d27e1a4450c0563e80fca3c93d92d6a55260074648fd01"
+  },
+  {
+    "path": "output\\snickare\\index.html",
+    "sha256": "9893bedbbb4e69549a7cdaf9392db1b16ce670d3e80cba0244aa16a259e74926"
+  },
+  {
+    "path": "output\\snickare\\site.js",
+    "sha256": "da48888074b146f5342c9587044fc252396cd8990d85b8bc680dd6c512a61304"
+  },
+  {
+    "path": "output\\snickare\\styles.css",
+    "sha256": "79145d987a791fdead9c4d8912744b4e20c2a89cc510689d37de859d1dd51ce6"
+  },
+  {
+    "path": "generate.mjs",
+    "sha256": "c1147b1dfdb58ffb5498c7d1b228ec866193076777b66f8386cdde338324550b"
+  },
+  {
+    "path": "serve.mjs",
+    "sha256": "ebe5477f5541a37fb4803dc777550dc6683df7b6b166e1810e9756bc0c6ce203"
+  }
+]

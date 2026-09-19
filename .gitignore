@@ -1,0 +1,7 @@
+**/node_modules/
+assets/generated/
+server/data/projects/
+server/data/website-documents/
+greenfield-engine/runs/
+greenfield-engine/output/
+*.zip

@@ -1,0 +1,42 @@
+{
+  "answers": [
+    {
+      "answer": "Webbutik",
+      "question": "Webbplatstyp"
+    },
+    {
+      "answer": {
+        "description": "Present- och inredningsbutik för alla åldrar",
+        "companyName": "QuriÅsa Design"
+      },
+      "question": "Företag"
+    },
+    {
+      "answer": "Varm och välkomnande",
+      "question": "Stil"
+    },
+    {
+      "answer": "Varm sammanhållen färgskala",
+      "question": "Färger"
+    },
+    {
+      "answer": [
+        "Hero",
+        "Om oss",
+        "Kontakt"
+      ],
+      "question": "Sektioner"
+    },
+    {
+      "answer": "Skapa från grunden",
+      "question": "Utgångsläge"
+    }
+  ],
+  "source": "Easily",
+  "schemaVersion": 1,
+  "constraints": {
+    "creativeFreedom": "Skapa en ren och lättredigerad sida. Ingen produktkatalog, varukorg eller experimentsektion.",
+    "factsPolicy": "Hitta inte på företagsuppgifter, produkter, priser eller kontaktuppgifter.",
+    "language": "sv"
+  }
+}

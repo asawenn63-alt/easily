@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "source": "Easilys fem frågor",
+  "answers": [
+    {
+      "question": "Vilken typ av webbplats vill du skapa?",
+      "answer": "webbutik"
+    },
+    {
+      "question": "Företagsinformation",
+      "answer": {
+        "companyName": "QuriAsadesign",
+        "location": "Hudiksvall",
+        "description": "En butik i shabby chic stil. fullt med småmöbler, textilier, porslin och fina dekorationer attge bort i present."
+      }
+    },
+    {
+      "question": "Vilken stil ska sidan ha?",
+      "answer": "Varm & välkomnande. Min precisering av shabby chic: mycket vitt, spets, vintage och romantik."
+    },
+    {
+      "question": "Vilka sektioner ska webbplatsen innehålla?",
+      "answer": ["about", "services", "gallery", "contact"]
+    },
+    {
+      "question": "Har du redan en webbplats?",
+      "answer": "Nej, skapa allt från grunden."
+    }
+  ],
+  "constraints": {
+    "language": "sv",
+    "factsPolicy": "Använd endast svaren ovan som företagsfakta. Hitta inte på adress, öppettider, priser, produktlager, telefonnummer eller e-postadress.",
+    "creativeFreedom": "AI:n får själv skapa art direction, sidberättelse, komposition, typografi, bildvärld, interaktion och relevant rörelse."
+  }
+}

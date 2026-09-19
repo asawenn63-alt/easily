@@ -1,0 +1,139 @@
+{
+  "model": "gpt-5.6-sol",
+  "store": false,
+  "input": [
+    {
+      "role": "system",
+      "content": "Du formger webbplatser utifrån användarens verksamhet och önskade uttryck.\n\nSkapa exakt tre genomförbara Art Directions och välj den som bäst motsvarar de fem svaren. Användarens konkreta stilbeskrivning och preciseringar väger tyngre än breda känsloord. Skilj uttryckliga önskemål från din egen tolkning. Alternativen ska erbjuda olika sätt att uppleva innehållet, inte olika färger på samma sida; de ska alla bevara användarens stilönskemål.\n\nBörja varje riktning med besökarens första möte med verksamheten, innan du väljer rubrikbehandling eller dekor. I hierarchy: ange vad besökaren först ska förstå, därefter upptäcka och kunna göra. I composition: beskriv vilket konkret innehåll som bär öppningen, hur dess delar hör ihop och hur uppmärksamheten fördelas på desktop och mobil. Låt dessa relationer bestämma rubrikens roll och storlek, inte tvärtom. De tre öppningarna ska ge olika vägar in i samma innehåll; samma text-bild-upplägg med nya ornament räknas inte som olika idéer. Hero betyder en introduktion, inte ett bestämt komponentpaket.\n\nI rationale: koppla riktningen till de faktiska svaren och ange dess synliga kännetecken. Precisera typografins bokstavskaraktär, skala, versalisering och betoning; färgernas roller och dominans; innehållets hierarki, komposition, material och eventuell dekor. Låt imageRole ange om och hur fotografi, illustration, textur eller ornament behövs, och vilka synliga egenskaper de ska ha. Bestäm copyton, navigation och relevant rörelse som delar av samma upplevelse. Skriv fullständiga, konkreta beslut inom fältens längdgränser.\n\nI typography: ange en konkret lokalt tillgänglig font-stack och storleksrelationer för huvudrubrik, sektionsrubrik och brödtext samt hur betoning fungerar i den valda öppningen. Undvik att återanvända paketet liten spärrad etikett, jättestor serifrubrik, kursivt färgat nyckelord och dominant foto som standard för olika briefs. Enskilda grepp är tillåtna; de måste stödja innehållets relationer, inte utgöra idén i sig. Etiketter och numrering ska tillföra information; uppfinn inte statistik. Eventuell dekor ska uttrycka något konkret i användarens stilönskemål, inte automatiskt bestå av tunna kvistar, cirklar eller omloppsbanor. Frånvaro av dekor är också ett fullständigt beslut. Bestäm även footerns innehållsgruppering och ytans relation till resten av sidan i composition och colorLogic. Behåll samma typografiska logik inom varje riktning och välj efter stilträffsäkerhet, inte maximal olikhet.\n\nDet finns ingen föreskriven palett, typografisk tradition, bilddominans eller branschlayout. En typografisk eller illustrerad komposition är lika tillåten som en fotografisk. Stilträffsäkerhet är viktigare än att göra uttrycket mer återhållsamt, exklusivt eller trendigt. avoids får vara tom; ange endast bortval som stöds av användarens önskemål eller en konkret motsägelse mot briefen.\n\nReturnera endast JSON enligt kontraktet."
+    },
+    {
+      "role": "user",
+      "content": "Skapa tre olika, stiltrogna Art Directions och välj den mest verksamhetsspecifika för denna brief:\n{\n  \"schemaVersion\": 1,\n  \"source\": \"Easilys fem frågor\",\n  \"answers\": [\n    {\n      \"question\": \"Vilken typ av webbplats vill du skapa?\",\n      \"answer\": \"webbutik\"\n    },\n    {\n      \"question\": \"Företagsinformation\",\n      \"answer\": {\n        \"companyName\": \"QuriAsadesign\",\n        \"location\": \"Hudiksvall\",\n        \"description\": \"En butik i shabby chic stil. fullt med småmöbler, textilier, porslin och fina dekorationer attge bort i present.\"\n      }\n    },\n    {\n      \"question\": \"Vilken stil ska sidan ha?\",\n      \"answer\": \"Varm & välkomnande. Min precisering av shabby chic: mycket vitt, spets, vintage och romantik.\"\n    },\n    {\n      \"question\": \"Vilka sektioner ska webbplatsen innehålla?\",\n      \"answer\": [\n        \"about\",\n        \"services\",\n        \"gallery\",\n        \"contact\"\n      ]\n    },\n    {\n      \"question\": \"Har du redan en webbplats?\",\n      \"answer\": \"Nej, skapa allt från grunden.\"\n    }\n  ],\n  \"constraints\": {\n    \"language\": \"sv\",\n    \"factsPolicy\": \"Använd endast svaren ovan som företagsfakta. Hitta inte på adress, öppettider, priser, produktlager, telefonnummer eller e-postadress.\",\n    \"creativeFreedom\": \"AI:n får själv skapa art direction, sidberättelse, komposition, typografi, bildvärld, interaktion och relevant rörelse.\"\n  }\n}"
+    }
+  ],
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "greenfield_art_direction",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidates",
+          "selectedId",
+          "selectionReason"
+        ],
+        "properties": {
+          "candidates": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "name",
+                "rationale",
+                "hierarchy",
+                "typography",
+                "colorLogic",
+                "composition",
+                "imageRole",
+                "copyVoice",
+                "navigation",
+                "motion",
+                "avoids"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "enum": [
+                    "direction-a",
+                    "direction-b",
+                    "direction-c"
+                  ]
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 80
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 40,
+                  "maxLength": 500
+                },
+                "hierarchy": {
+                  "type": "string",
+                  "minLength": 30,
+                  "maxLength": 400
+                },
+                "typography": {
+                  "type": "string",
+                  "minLength": 30,
+                  "maxLength": 400
+                },
+                "colorLogic": {
+                  "type": "string",
+                  "minLength": 30,
+                  "maxLength": 400
+                },
+                "composition": {
+                  "type": "string",
+                  "minLength": 30,
+                  "maxLength": 500
+                },
+                "imageRole": {
+                  "type": "string",
+                  "minLength": 30,
+                  "maxLength": 400
+                },
+                "copyVoice": {
+                  "type": "string",
+                  "minLength": 30,
+                  "maxLength": 400
+                },
+                "navigation": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 300
+                },
+                "motion": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 300
+                },
+                "avoids": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 10,
+                  "items": {
+                    "type": "string",
+                    "minLength": 3,
+                    "maxLength": 120
+                  }
+                }
+              }
+            }
+          },
+          "selectedId": {
+            "type": "string",
+            "enum": [
+              "direction-a",
+              "direction-b",
+              "direction-c"
+            ]
+          },
+          "selectionReason": {
+            "type": "string",
+            "minLength": 50,
+            "maxLength": 600
+          }
+        }
+      }
+    }
+  },
+  "max_output_tokens": 7000
+}

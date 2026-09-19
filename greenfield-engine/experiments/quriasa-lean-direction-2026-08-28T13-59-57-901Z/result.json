@@ -1,0 +1,26 @@
+{
+  "runId": "quriasa-lean-direction-2026-08-28T13-59-57-901Z",
+  "calls": 1,
+  "error": null,
+  "response": {
+    "responseId": "resp_0d2e1c47b232b5b9016a91946093a487d29452abc710d10e3c",
+    "status": "completed",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "input_tokens": 715,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3241,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 3956
+    }
+  },
+  "protectedCount": 268,
+  "changedProtectedFiles": [],
+  "websiteGenerated": false,
+  "imagesGenerated": false
+}

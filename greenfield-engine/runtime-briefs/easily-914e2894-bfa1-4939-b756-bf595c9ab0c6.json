@@ -1,0 +1,38 @@
+{
+  "source": "Easily – fritt AI-skapande",
+  "answers": [
+    {
+      "answer": "Webbutik",
+      "question": "Vilken typ av webbplats vill du skapa?"
+    },
+    {
+      "answer": {
+        "companyName": "QuriÅsa Design",
+        "description": "Present- och inredningsbutik för alla åldrar"
+      },
+      "question": "Företagsinformation"
+    },
+    {
+      "answer": "Låt AI bestämma fritt utifrån verksamheten",
+      "question": "Vilken stil ska sidan ha?"
+    },
+    {
+      "answer": "Låt AI bestämma",
+      "question": "Har du önskemål om färger?"
+    },
+    {
+      "answer": "Låt AI välja fritt vilka vanliga webbplatssektioner som ger den bästa första sidan",
+      "question": "Vilka sektioner ska webbplatsen innehålla?"
+    },
+    {
+      "answer": "Nej, skapa allt från grunden",
+      "question": "Har du redan en webbplats?"
+    }
+  ],
+  "schemaVersion": 1,
+  "constraints": {
+    "factsPolicy": "Använd endast företagsinformationen ovan som fakta. Hitta inte på adress, öppettider, priser, produkter, lager, telefonnummer eller e-postadress.",
+    "language": "sv",
+    "creativeFreedom": "AI har full frihet att skapa sidans visuella idé, struktur, berättelse, komposition, typografi, färger, bildvärld, vanliga webbplatssektioner och rörelse. Montera inte Easilys separata tilläggsmoduler eller platshållarkort; sådana väljer användaren senare via Lägg till."
+  }
+}
