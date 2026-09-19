@@ -21,13 +21,13 @@ REM Installera beroenden om de saknas (server + v2)
 if not exist "server\node_modules" (
   echo  Installerar server-beroenden (forsta gangen kan ta en stund)...
   cd /d "%~dp0server"
-  call npm install --production
+  call npm install
   cd /d "%~dp0"
 )
 if not exist "v2\node_modules" (
   echo  Installerar v2-beroenden...
   cd /d "%~dp0v2"
-  call npm install --production
+  call npm install
   cd /d "%~dp0"
 )
 
