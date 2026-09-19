@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" fill="none" aria-hidden="true">
-  <defs>
-    <linearGradient id="leafGrad3" x1="0" y1="0" x2="120" y2="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#9db09c" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#c5d1c4" stop-opacity="0.05"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#leafGrad3)" d="M60 8C28 32 12 68 18 102c4 24 18 44 42 58 24-14 38-34 42-58 6-34-10-70-42-94z"/>
-</svg>
