@@ -40,8 +40,8 @@ if "%OPENAI_API_KEY%"=="" (
   echo.
 )
 
-REM Oppna webblasaren automatiskt nar servern ar igang
-start "" powershell -NoProfile -WindowStyle Hidden -Command "1..60 | ForEach-Object { if ((Test-NetConnection 127.0.0.1 -Port 3847 -WarningAction SilentlyContinue).TcpTestSucceeded) { Start-Process 'http://localhost:3847/'; Start-Sleep -Seconds 2; Start-Process 'http://localhost:3847/studio.html?new=1^&questionEngine=1'; exit 0 }; Start-Sleep -Seconds 1 }"
+REM Oppna studion automatiskt nar servern svarar
+start "" powershell -NoProfile -WindowStyle Hidden -Command "$url = 'http://localhost:3847/studio.html?new=1' + [char]38 + 'questionEngine=1'; 1..60 | ForEach-Object { try { $ok = (Test-NetConnection 127.0.0.1 -Port 3847 -WarningAction SilentlyContinue).TcpTestSucceeded } catch { $ok = $false }; if ($ok) { Start-Process $url; exit 0 }; Start-Sleep -Seconds 1 }"
 
 cd /d "%~dp0server"
 node index.mjs
