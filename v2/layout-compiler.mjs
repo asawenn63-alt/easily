@@ -303,7 +303,8 @@ function renderNode(node, resolvedNode, maps, parents) {
   }
   if (node.kind === "media" || node.kind === "icon") {
     const asset = maps.assets.get(node.assetRef);
-    return `<img ${attrs.join(" ")} src="${esc(asset?.source?.uri || "")}" alt="${esc(assetAlt(asset, node, maps))}" />`;
+    const loadingAttr = node.semanticRole === "hero" ? "eager" : "lazy";
+    return `<img ${attrs.join(" ")} src="${esc(asset?.source?.uri || "")}" alt="${esc(assetAlt(asset, node, maps))}" loading="${loadingAttr}" />`;
   }
   if (node.kind === "action") {
     const value = contentValue(node, maps);
@@ -375,6 +376,8 @@ function nodeCss(node, resolvedNode, sceneBounds, maps, cropRelations) {
   if (crop) {
     declarations.push(`object-fit:${crop.fit === "scaleDown" ? "scale-down" : crop.fit}`);
     if (crop.focalPoint) declarations.push(`object-position:${crop.focalPoint.x * 100}% ${crop.focalPoint.y * 100}%`);
+  } else if (node.kind === "media" || node.kind === "icon") {
+    declarations.push("object-fit:cover");
   }
   return `[data-node-id="${cssString(node.id)}"]{${declarations.join(";")}}`;
 }
@@ -384,10 +387,14 @@ function renderArtifacts(sceneGraph, resolvedSceneGraph) {
   const authoredScenes = new Map(sceneGraph.scenes.map((scene) => [scene.id, scene]));
   const htmlScenes = [];
   const cssRules = [
-    ".easily-v2-site{position:relative;margin:0;padding:0;overflow-x:clip}",
+    ".easily-v2-site{position:relative;margin:0;padding:0;overflow-x:clip;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}",
     ".easily-v2-scene{position:relative;margin:0;padding:0}",
     ".easily-v2-node{position:absolute;box-sizing:border-box;margin:0}",
+    ".easily-v2-node--text{overflow-wrap:break-word;word-break:break-word}",
+    ".easily-v2-node--action{display:flex;align-items:center;justify-content:center;overflow-wrap:break-word;word-break:break-word;text-align:center}",
+    ".easily-v2-node--input{padding:0 0.5em}",
     ".easily-v2-node--media,.easily-v2-node--icon{display:block}",
+    ".easily-v2-node--media img,.easily-v2-node--icon img{width:100%;height:100%}",
   ];
 
   for (const resolvedScene of resolvedSceneGraph.scenes) {
