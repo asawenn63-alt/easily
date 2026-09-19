@@ -440,12 +440,25 @@ function assetAltText(graph, asset) {
 function generatedAssetPrompt(graph, asset, selectedVision) {
   const authoredIntent = compactPromptPart(asset?.creativeIntent, 700);
   if (authoredIntent) return authoredIntent;
+  const imageWorld = compactPromptPart(selectedVision?.imageWorld, 280);
+  const altText = assetAltText(graph, asset);
+  const sceneCtx = assetSceneContext(graph, asset?.id);
+  const spatialRole = compactPromptPart(asset?.spatialRole || asset?.compositionRole, 200);
+  const photoStyle = compactPromptPart(selectedVision?.photographicStyle, 200);
+  const lighting = compactPromptPart(selectedVision?.lighting, 160);
+  const colorTreatment = compactPromptPart(selectedVision?.colorTreatment, 160);
   const parts = [
-    compactPromptPart(selectedVision?.imageWorld, 280),
-    assetAltText(graph, asset),
-    assetSceneContext(graph, asset?.id),
+    imageWorld,
+    photoStyle,
+    lighting,
+    colorTreatment,
+    spatialRole,
+    altText,
+    sceneCtx,
   ].filter(Boolean);
-  return parts.join(". ") || `Webbplatsbild för det visuella objektet ${String(asset?.id || "utan namn")}.`;
+  if (parts.length) return parts.join(". ");
+  const fallbackWorld = imageWorld || "Fotografisk webbplatsbild i vald designvärld";
+  return `${fallbackWorld}. Bilden ska vara fotorealistisk, utan text och utan logotyper, och passa det visuella objektet ${String(asset?.id || "utan namn")}.`;
 }
 
 function conservativeContentProvenance() {
@@ -751,7 +764,7 @@ async function generateImage(apiKey, prompt, fetchImpl, size = "1536x1024") {
           model: "gpt-image-1-mini",
           prompt,
           size,
-          quality: "low",
+          quality: "medium",
           output_format: "webp",
         }),
       });
@@ -788,6 +801,7 @@ async function mapWithConcurrency(items, limit, worker) {
 
 async function materializeImages(sceneGraph, options) {
   const graph = structuredClone(sceneGraph);
+  const selectedVision = options.selectedVision;
   const pending = graph.assetManifest.assets.filter((asset) => asset.kind === "image" && String(asset.source?.uri || "").startsWith("pending://"));
   if (!pending.length) return { ok: true, sceneGraph: graph };
   if (!options.imageOutputDir || !options.imagePublicBase) {
@@ -805,12 +819,16 @@ async function materializeImages(sceneGraph, options) {
       }
     }
   }
+  const visionWorld = compactPromptPart(selectedVision?.imageWorld, 200);
+  const visionSuffix = visionWorld
+    ? ` Fotorealistisk bild i ${visionWorld}. Ingen text, inga logotyper.`
+    : " Fotorealistisk webbplatsbild. Ingen text, inga logotyper.";
   const generated = await mapWithConcurrency(pending, 2, async (asset) => {
     const prompt = String(asset.provenance?.rationale || "").trim();
     return prompt
       ? generateImage(
           options.apiKey,
-          prompt + " Fotorealistiskt webbplatsfoto utan text och utan logotyper.",
+          prompt + visionSuffix,
           options.fetchImpl,
           portraitAssetIds.has(asset.id) ? "1024x1536" : "1536x1024",
         )
@@ -1780,7 +1798,7 @@ export async function generateFreeSceneSite(creativeBrief, options = {}) {
   }
   if (!graphValidation?.valid) return fail("free-scene-contract", { error: "free-scene-contract", errors: graphValidation?.errors || [] });
 
-  const images = await materializeImages(sceneGraph, { ...options, apiKey, fetchImpl });
+  const images = await materializeImages(sceneGraph, { ...options, apiKey, fetchImpl, selectedVision });
   if (!images.ok) return fail("image-materialization", images);
   sceneGraph = images.sceneGraph;
   graphValidation = validateGeneratedSceneGraph(sceneGraph, validationOptions);
