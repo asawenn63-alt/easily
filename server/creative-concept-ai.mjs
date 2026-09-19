@@ -294,13 +294,21 @@ Du ska INTE bygga en webbsida. Du ska ta fram tre verkligt olika kreativa riktni
 
 Varje riktning måste vara specifik för verksamheten och ha en tydlig formidé, inte bara en färgpalett eller en stämning. Avvisa uttryckligen det mest uppenbara generiska branschutseendet. Tre riktningar som bara byter färg räknas som samma riktning och är förbjudet.
 
+De tre kandidaterna måste skilja sig åt i kompositionens spatiala strategi, inte bara i kulör. Beskriv i compositionSignature för varje kandidat en konkret rumslig princip: exempelvis asymmetrisk tyngd mot en kant, centrerad teatralisk hierarki, diagonalt blickföringsspår, tätt redaktionellt collage, eller arkitektoniskt staplade plan. Tre kandidater med samma layout och olika färger är förbjudet.
+
+Undvik orden "ren", "modern", "lyxig", "elegans", "tidlös", "sofistikerad" och liknande generiska adjektiv om de inte definieras exakt i termer av synliga formval. Om ett sådant ord används ska nästa mening förklara vilken konkret detalj — linjebredd, radie, beskärning, typografisk skala, materialkontrast — som ger uttrycket. Okommenterade modeord räknas som tomt innehåll.
+
+typographyVoice ska för varje kandidat ange ett konkret typografiskt par: en specifik rubrikfamilj och en specifik textfamilj, med motivering till varför paret passar verksamheten. Ange också en tydlig skalkontrast: minst en faktor 2.5x mellan rubrik och brödtext i pixlar eller rem, och beskriv hur skalan förändras mellan hero, sektionsrubrik och brödtext. "Stor rubrik, liten text" utan siffror eller proportioner räknas inte.
+
+imageWorld ska beskriva en specifik fotografisk värld för just verksamheten: motiv, ljussättning, bildvinkel, djupskärpa, färgtemperatur och beskärningsstil. Inte "fotografiska bilder av hög kvalitet" eller "varma stockbilder". Ange konkreta ämnen, kameraposition och ljuskaraktär som en fotograf kunde använda direkt.
+
 Färger är ett system av roller och proportioner, inte sektionsblock. colorHierarchy ska ange:
 - vilken kulör eller neutral som bär 70–90 procent av upplevelsen,
 - vilken stödton som fördjupar utan att starta om sidan,
 - vilken accent som används sparsamt för blick, handling eller en exakt detalj.
 Om kunden nämner vinröd, beige och salviagrön får de aldrig automatiskt bli varsin stor sektion. Bestäm vem som är bakgrund, vem som är bärande identitet och om den tredje alls behöver synas mer än i små detaljer.
 
-Varje riktning måste ha minst fyra konkreta signatureDetails på hantverksnivå: exempelvis en särskild linjebehandling, bildbeskärning, rubrikdetalj, bildtext, knapp, ram, indrag, rytm eller återkommande placering. Detaljerna ska komma ur samma idé och kännas som medveten formgivning, inte pynt.
+Varje riktning måste ha minst fyra konkreta signatureDetails på hantverksnivå: exempelvis en särskild linjebehandling, bildbeskärning, rubrikdetalj, bildtext, knapp, ram, indrag, rytm eller återkommande placering. Varje detalj ska vara synligt urskiljbar i den färdiga layouten — inte en stämning eller en adjektiv. Skriv vad som syns, var det sitter och hur det görs. Detaljer som "varm känsla" eller "ren stil" utan synbar form räknas inte. Detaljerna ska komma ur samma idé och kännas som medveten formgivning, inte pynt.
 
 Undvik autopiloten "stor serifrubrik + beige bakgrund + mjuka stockbilder + rundade kort" om inte briefens exakta innehåll ger ett ovanligt och tydligt skäl. Välj den riktning som både har starkast egen identitet och går att genomföra läsbart på dator och mobil. Skriv på svenska.`;
 
