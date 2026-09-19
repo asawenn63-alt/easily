@@ -263,13 +263,46 @@ Arbeta endast med grafens visuella primitiv: group, text, media, shape, action, 
 
 Den fria scenen är den enda auktoriteten för designen. Beskriv varje visuellt beslut, inklusive responsiva beslut, i grafen. Den första webbplatsen ska vara exakt EN sammanhängande, sidlång visuell scen. Mellan Hero och Footer får du skapa valfritt många visuella grupper, kapitel, band, bildfält, pauser, collage, övergångar och berättande områden. De är fria kompositionsbeslut och får inte hämtas från ett sektionsbibliotek, en mall eller ett färdigt layoutrecept. Entré, berättelse, erbjudande, bildmaterial och avslut ska vävas ihop i samma komposition och dela ett medvetet visuellt system.
 
-Utgå från den valda riktningens dominantGesture, spatialChoreography och riskCommitments. Låt kompositionens grupperingar, rytm, pauser och övergångar följa verksamhetens berättelse och den valda designvärlden. Använd endast variation som har ett tydligt visuellt eller berättande syfte.
+KOMPOSITIONSPRINCIPER — följ dessa aktivt:
+- Skala: Använd dramatiska storleksskillnader. Minst ett element i scenen ska vara 3–5× större än omgivande brödtext för att skapa en tydlig visuell hierarki.
+- Densitet: Växla mellan informationsrika kluster och glesa, andningsytiga områden. En sida med enhetlig densitet överallt är en platt sida.
+- Rytm: Variera avståndet mellan grupperna meningsfullt — vissa täta kluster, vissa stora luckor — så att sidan får rytm istället för ett monotont avstånd.
+- Asymmetri: Undvik att centrera allt. Förskjut nyckelelement för att skapa visuell spänning och rörelse i kompositionen.
+- Breddanvändning: Använd hela viewportbredden selektivt. Vissa grupper fullblek, vissa infällda med generösa marginaler, vissa asymmetriskt förskjutna. Enhetlig fullbredd i varje grupp ger en tråkig stapel.
+- Rummelig lagring: Använd overlap- och layer-relationer för att skapa djup. Bild kan överlappa text, en shape kan ligga bakom en grupp, ett element kan bryta in i en annans zon.
+- Blickföring: Skapa en tydlig focalSequence genom 3–5 brännpunkter. Ögat ska röra sig genom sidan, inte svepa en enhetlig stapel.
+
+TYPOGRAFIHIERARKI:
+- Använd minst två distinkta typografiska roller med en skala på minst 2.5:1 mellan rubrik och brödtext.
+- Använd typografipareringen från den valda riktningen. Låt display-/rubrikfamiljen och brödtextfamiljen arbeta tillsammans med tydlig viktkontrast.
+- Använd line-height som ett rytmverktyg: täta rader i rubriker, avslappnad radavstånd i brödtext.
+- Undvik en enda typsnittsfamilj utan skala- eller viktkontrast. Undvik autopilot-stereotypen "letter-spaced uppercase eyebrow + oversized serif headline + italic accent word" som enda typografiska grepp.
+
+BILDSTRATEGI:
+- Variera bildernas skala och rumsliga roll: minst en dominerande bild och minst en mindre detalj- eller stödbild.
+- Använd fullblek, överlappande, beskuren och infälld bildbehandling. Undvik mönstret "en hero-bild sedan enbart textgrupper".
+- Låt bildernas placering följa kompositionens spatiala arketypp, inte en enhetlig vertikal stapel.
+- Beskriv varje bilds fotografiska stil och ljussättning i creativeIntent så att bildgenereringen får stark visuell riktning.
+
+FÄRGHIERARKI:
+- Tilldela en dominant färg (minst 50 % täckning), en accentfärg (högst 15 % täckning) och tydliga förgrunds-/bakgrundsroller i designLanguage.
+- Paletten ska vara intentionell och engagerad, inte en trygg neutral fallback. Beige, sagegrön eller ofärgad neutral som standard när briefen inte kräver det är ett misslyckande, inte en säkerhet.
+
+UNDVIK Dessa AUTOPILATMMÖNSTER:
+- Alla grupper centrerade och fullbredda, staplade vertikalt.
+- Enhetligt padding mellan alla grupper.
+- En hero-bild, sedan enbart textsektioner.
+- En enda typsnittsfamilj utan skala- eller viktkontrast.
+- Beige/sagegrön/neutral palett som standard när ingen färg specificerats.
+- "Letter-spaced uppercase eyebrow + oversized serif headline + italic accent word" som enda typografiska grepp.
+
+Utgå från den valda riktningens dominantGesture, spatialChoreography och riskCommitments. Låt kompositionens grupperingar, rytm, pauser och övergångar följa verksamhetens berättelse och den valda designvärlden. Använd rik variation i skala, densitet, rytm och bildbehandling för att skapa en visuell hierarki. Varje variation ska ha ett kompositionellt syfte.
 
 Hero och footer ska alltid finnas som tydliga grupper i den enda sidlånga kompositionen. Sätt gruppernas semanticRole till exakt "hero" respektive "footer" så att kravet kan valideras. De är inte fristående sektioner eller mallar.
 
 Om Creative Brief innehåller customerFacts.requestedContent anger valda id vilket innehåll webbplatsen behöver, inte hur sidan ska delas upp: about betyder Om oss, services betyder Tjänster, gallery betyder Galleri och contact betyder Kontakt. Innehållet får kombineras, delas, återkomma eller fördelas mellan flera visuella kapitel när det stärker berättelsen. Varje valt innehåll ska gestaltas meningsfullt och får inte reduceras till en ensam etikett endast för att markera att det finns. En visuell grupp är inte legacy på grund av sitt innehåll eller namn. Välj eller återskapa aldrig färdiga sektionstyper, sektionsvarianter, komponentmallar, legacy-ID:n eller en förutbestämd ordning som Hero, Om oss, Tjänster, Galleri, Kontakt. Varje nod får ha exakt en visuell förälder. Saknat faktaunderlag får inte ersättas med påhittade uppgifter.
 
-Den valda designvärlden måste synas i komposition, skala, typografi, rytm, densitet, bildvärld, former, kontrast och signaturdetaljer. Färger ensamma får aldrig bära riktningen. Varje synlig text- eller action-atom du skapar måste placeras i scenen. I varje relation måste subjects och target vara id:n för noder som finns i scenens nodes. Ett scene-id får aldrig användas som relationstarget; använd scenens root group-nod när något ska förankras mot hela scenytan. Skapa aldrig dekorativa ordningsnummer, katalognummer eller stegnummer. Skapa endast innehåll som kan härledas ur briefen; okända affärsfakta ska utelämnas. Håll tekniska rationaler korta, högst 18 ord, så att hela scenen alltid ryms i svaret.
+Den valda designvärlden måste synas i komposition, skala, typografi, rytm, densitet, bildvärld, former, kontrast och signaturdetaljer. Färger ensamma får aldrig bära riktningen. Varje synlig text- eller action-atom du skapar måste placeras i scenen. I varje relation måste subjects och target vara id:n för noder som finns i scenens nodes. Ett scene-id får aldrig användas som relationstarget; använd scenens root group-nod när något ska förankras mot hela scenytan. Skapa aldrig dekorativa ordningsnummer, katalognummer eller stegnummer. Skapa endast innehåll som kan härledas ur briefen; okända affärsfakta ska utelämnas. Håll tekniska rationaler korta, högst 40 ord, så att hela scenen alltid ryms i svaret.
 
 Gör en slutkontroll före svaret: varje contentAtom med kind text eller action måste förekomma som contentRef i minst en synlig nod. Om en sådan atom inte hör till kompositionen ska den inte finnas i contentAtoms.
 
